@@ -1,17 +1,12 @@
-# MkLorum
+# Introduction
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Welcome to the System Configuration department. Choose a sub-department below.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+     Test test test
 
-## Project layout
+## Departments:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. [**Training Center Designer**](training_center_designer.md)
+1. [**Content Administrator**](content_admin.md)
+1. [**System Architect**](system_architect.md)
