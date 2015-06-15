@@ -2,38 +2,58 @@
     "docs": [
         {
             "location": "/",
-            "text": "Introduction\n\n\nWelcome to the System Configuration department. Choose a sub-department below.\n\n\n Test test test\n\n\n\nDepartments:\n\n\n\n\n[\nTraining Center Designer\n]\n\n\nContent Administrator\n\n\nSystem Architect",
+            "text": "Introduction\n\n\nWelcome to the System Configuration department. Choose a sub-department below.\n\n\nDepartments\n\n\n\n\nTraining Center Designer\n\n\nContent Administrator\n\n\nSystem Architect",
             "title": "System Configuration - Home"
         },
         {
             "location": "/#introduction",
-            "text": "Welcome to the System Configuration department. Choose a sub-department below.   Test test test",
+            "text": "Welcome to the System Configuration department. Choose a sub-department below.",
             "title": "Introduction"
         },
         {
             "location": "/#departments",
-            "text": "[ Training Center Designer ]  Content Administrator  System Architect",
-            "title": "Departments:"
+            "text": "Training Center Designer  Content Administrator  System Architect",
+            "title": "Departments"
         },
         {
             "location": "/training_center_designer/overview/",
-            "text": "Overview\n\n\nThe Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)\n\n\nCreating A Theme\n\n\n\n\n\n\nTheme Group Id\n\nThe group id is a value generated in the system once a group has been created. If you intend on publishing your theme you'll need to have this value ready before continuing. For the purposes of this tutorial you can type \ndemo\n followed by the enter key.\n\n\n\n\n\n\nTheme Name\n\nThe theme name can be whatever you'd like, typically it will be the name of the group that the theme belongs to. Please use initial-caps and spaces.  \n\n\n\n\n\n\nMain Job Responsibilities\n\n\n\n\n\n\nInitial Build and Artwork Design\n\n\n\nDesign all of the artwork for Topics, Cats can Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.\n\n\n\n\n\n\n\nContent Containers\n\n\n\nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.\n\n\n\n\n\n\n\nAdmin Activation\n\n\n\nTurn on all content at the ADMIN Location so it is viewable.\n\n\n\n\n\n\n\nAdditional Design\n\n\n\nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \u201cSystem Architect\u201d",
+            "text": "Overview\n\n\nThe Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)\n\n\nMain Responsibilities\n\n\n\n\n\n\nInitial Build and Artwork Design\n\nDesign all of the artwork for Topics, Cats and Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.\n\n\n\n\n\n\nContent Containers\n\nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.\n\n\n\n\n\n\nAdmin Activation\n\nTurn on all content at the ADMIN Location so it is viewable.\n\n\n\n\n\n\nAdditional Design\n\nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \"System Architect\"",
             "title": "Overview"
         },
         {
             "location": "/training_center_designer/overview/#overview",
-            "text": "The Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)  Creating A Theme    Theme Group Id \nThe group id is a value generated in the system once a group has been created. If you intend on publishing your theme you'll need to have this value ready before continuing. For the purposes of this tutorial you can type  demo  followed by the enter key.    Theme Name \nThe theme name can be whatever you'd like, typically it will be the name of the group that the theme belongs to. Please use initial-caps and spaces.      Main Job Responsibilities    Initial Build and Artwork Design  \nDesign all of the artwork for Topics, Cats can Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.    Content Containers  \nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.    Admin Activation  \nTurn on all content at the ADMIN Location so it is viewable.    Additional Design  \nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \u201cSystem Architect\u201d",
+            "text": "The Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)  Main Responsibilities    Initial Build and Artwork Design \nDesign all of the artwork for Topics, Cats and Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.    Content Containers \nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.    Admin Activation \nTurn on all content at the ADMIN Location so it is viewable.    Additional Design \nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \"System Architect\"",
             "title": "Overview"
         },
         {
             "location": "/training_center_designer/build_and_artwork_design/",
-            "text": "Brian Rocks\n\n\n\n\nThis\n\n\nis\n\n\na\n\n\nlist\n\n\n\n\nCool Stuff",
+            "text": "Initial Build and Artwork Design\n\n\nThis section will cover each step in the process of creating a Topic, Category, Course, Chapter, and Test question.\n\n\n\n    \n\n        Note\n    \n\n    \n\nEven though the Topics menu is first in line, we're going to start with Categories. We'll explain more on that later.\n    \n\n\n\n\n\n1. Categories Overview\n\n\nTo get started, navigate to Manage Content under the Super User Dashboard, \n400 - Application Administration\n, and then \n402 - Content Management.\n You will see a screen that looks like this:\n\n\n\n\n\n\nCreate new Category\n\n\nFrom this screen you can either \nSearch\n for an existing category, or \nCreate a new category\n. We're going to click on \nCreate a new category.\n\n\nOn this screen we can modify the following fields:\n\n\n\n\n\n\nName\n\n\nEnter the name of the category here.\n\n\n\n\n\n\nCopied From\n\n\nThis field will be populated automatically if you created this category using the \"Copy\" feature. If you did not, you can leave this blank for now.\n\n\n\n\n\n\nDescription\n\n\nEnter the description of the category. If there was none provided, enter something as a temporary placeholder.\n\n\n\n\n\n\nInternal Description\n\n\nEnter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a course belongs to, or adding other important details, such as recent changes.\n\n\n\n\n\n\nThumb Nail Image Path\n\n\nEnter the path to the category image (we cover this later \nhere\n.)\n\n\n\n\n\n\nRank\n\n\nThe Rank is the order in which this category will display in the training center. The lower the rank (1, 2, 3, etc.) the \nhigher\n the category will be listed. Rank 1 = the very first category. Rank 999 = the very last category.\n\n\n\n\n\n\nActive Yes/No\n\n\nSelect whether this category should be active or not. (It is perfectly safe to always select \"Yes\" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that \nhere\n.)\n\n\n\n\n\n\nRollover Image URL\n\n\nEnter the path to the category rollover image (we cover this later \nhere\n.)\n\n\n\n\n\n\nPre-composed Yes/No\n\n\nThe default setting here is usually \"No\". The \"No\" setting will automatically add a highlight/rollover effect to the category tile. If you set this to \"Yes\", it will remove that effect.\n\n\n\n\n\n\n\n\nExample:\n\n\nPre-Composed: No\nPre-Composed: Yes\n\n\n\n\n\n2. Courses Overview\n\n\n...\n\n\nCreate new Course\n\n\n...\n\n\n3. Chapters Overview\n\n\n...\n\n\nCreate new Chapter\n\n\n...\n\n\nAdd your Defaults\n\n\nCreate new test question\n\n\nAdd your Defaults\n\n\nNow we're ready for...\n\n\nTopics\n\n\n\n\nOn the Super User Dashboard, \n400 - Application Administration\n, click on \n408 - Use Topics\n\n\nCreate a topic XML - \n\n\n\n\n    Test",
             "title": "Initial Build and Artwork Design"
         },
         {
-            "location": "/training_center_designer/build_and_artwork_design/#brian-rocks",
-            "text": "This  is  a  list   Cool Stuff",
-            "title": "Brian Rocks"
+            "location": "/training_center_designer/build_and_artwork_design/#initial-build-and-artwork-design",
+            "text": "This section will cover each step in the process of creating a Topic, Category, Course, Chapter, and Test question.  \n     \n        Note\n     \n     \nEven though the Topics menu is first in line, we're going to start with Categories. We'll explain more on that later.",
+            "title": "Initial Build and Artwork Design"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/#1-categories-overview",
+            "text": "To get started, navigate to Manage Content under the Super User Dashboard,  400 - Application Administration , and then  402 - Content Management.  You will see a screen that looks like this:    Create new Category  From this screen you can either  Search  for an existing category, or  Create a new category . We're going to click on  Create a new category.  On this screen we can modify the following fields:    Name  Enter the name of the category here.    Copied From  This field will be populated automatically if you created this category using the \"Copy\" feature. If you did not, you can leave this blank for now.    Description  Enter the description of the category. If there was none provided, enter something as a temporary placeholder.    Internal Description  Enter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a course belongs to, or adding other important details, such as recent changes.    Thumb Nail Image Path  Enter the path to the category image (we cover this later  here .)    Rank  The Rank is the order in which this category will display in the training center. The lower the rank (1, 2, 3, etc.) the  higher  the category will be listed. Rank 1 = the very first category. Rank 999 = the very last category.    Active Yes/No  Select whether this category should be active or not. (It is perfectly safe to always select \"Yes\" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that  here .)    Rollover Image URL  Enter the path to the category rollover image (we cover this later  here .)    Pre-composed Yes/No  The default setting here is usually \"No\". The \"No\" setting will automatically add a highlight/rollover effect to the category tile. If you set this to \"Yes\", it will remove that effect.     Example:  Pre-Composed: No\nPre-Composed: Yes",
+            "title": "1. Categories Overview"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/#2-courses-overview",
+            "text": "...  Create new Course  ...",
+            "title": "2. Courses Overview"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/#3-chapters-overview",
+            "text": "...  Create new Chapter  ...  Add your Defaults",
+            "title": "3. Chapters Overview"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/#create-new-test-question",
+            "text": "Add your Defaults  Now we're ready for...  Topics   On the Super User Dashboard,  400 - Application Administration , click on  408 - Use Topics  Create a topic XML -        Test",
+            "title": "Create new test question"
         },
         {
             "location": "/training_center_designer/content_container/",
