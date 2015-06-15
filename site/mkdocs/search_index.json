@@ -1,0 +1,109 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Introduction\n\n\nWelcome to the System Configuration department. Choose a sub-department below.\n\n\n Test test test\n\n\n\nDepartments:\n\n\n\n\n[\nTraining Center Designer\n]\n\n\nContent Administrator\n\n\nSystem Architect",
+            "title": "System Configuration - Home"
+        },
+        {
+            "location": "/#introduction",
+            "text": "Welcome to the System Configuration department. Choose a sub-department below.   Test test test",
+            "title": "Introduction"
+        },
+        {
+            "location": "/#departments",
+            "text": "[ Training Center Designer ]  Content Administrator  System Architect",
+            "title": "Departments:"
+        },
+        {
+            "location": "/training_center_designer/overview/",
+            "text": "Overview\n\n\nThe Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)\n\n\nCreating A Theme\n\n\n\n\n\n\nTheme Group Id\n\nThe group id is a value generated in the system once a group has been created. If you intend on publishing your theme you'll need to have this value ready before continuing. For the purposes of this tutorial you can type \ndemo\n followed by the enter key.\n\n\n\n\n\n\nTheme Name\n\nThe theme name can be whatever you'd like, typically it will be the name of the group that the theme belongs to. Please use initial-caps and spaces.  \n\n\n\n\n\n\nMain Job Responsibilities\n\n\n\n\n\n\nInitial Build and Artwork Design\n\n\n\nDesign all of the artwork for Topics, Cats can Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.\n\n\n\n\n\n\n\nContent Containers\n\n\n\nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.\n\n\n\n\n\n\n\nAdmin Activation\n\n\n\nTurn on all content at the ADMIN Location so it is viewable.\n\n\n\n\n\n\n\nAdditional Design\n\n\n\nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \u201cSystem Architect\u201d",
+            "title": "Overview"
+        },
+        {
+            "location": "/training_center_designer/overview/#overview",
+            "text": "The Training Center Designer is responsible for designinga ll of the imagery for the Training Center and populating all of the content in the Training Center for initial view. This is also known as a \"Look and Feel Real\" (LaFR for short)  Creating A Theme    Theme Group Id \nThe group id is a value generated in the system once a group has been created. If you intend on publishing your theme you'll need to have this value ready before continuing. For the purposes of this tutorial you can type  demo  followed by the enter key.    Theme Name \nThe theme name can be whatever you'd like, typically it will be the name of the group that the theme belongs to. Please use initial-caps and spaces.      Main Job Responsibilities    Initial Build and Artwork Design  \nDesign all of the artwork for Topics, Cats can Courses, based on the Training Center Outline inserting the \"Coming Soon\" videos on all chapters, and any needed default quiz questions.    Content Containers  \nCreate Content Container and \"Client Admin \u2013 Everything\" Role - and add ALL courses to it.    Admin Activation  \nTurn on all content at the ADMIN Location so it is viewable.    Additional Design  \nAdditional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the \u201cSystem Architect\u201d",
+            "title": "Overview"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/",
+            "text": "Brian Rocks\n\n\n\n\nThis\n\n\nis\n\n\na\n\n\nlist\n\n\n\n\nCool Stuff",
+            "title": "Initial Build and Artwork Design"
+        },
+        {
+            "location": "/training_center_designer/build_and_artwork_design/#brian-rocks",
+            "text": "This  is  a  list   Cool Stuff",
+            "title": "Brian Rocks"
+        },
+        {
+            "location": "/training_center_designer/content_container/",
+            "text": "Brian Rocks\n\n\n\n\nThis\n\n\nis\n\n\na\n\n\nlist\n\n\n\n\nCool Stuff",
+            "title": "Content Containers"
+        },
+        {
+            "location": "/training_center_designer/content_container/#brian-rocks",
+            "text": "This  is  a  list   Cool Stuff",
+            "title": "Brian Rocks"
+        },
+        {
+            "location": "/training_center_designer/admin_activation/",
+            "text": "Brian Rocks\n\n\n\n\nThis\n\n\nis\n\n\na\n\n\nlist\n\n\n\n\nCool Stuff",
+            "title": "Admin Activation"
+        },
+        {
+            "location": "/training_center_designer/admin_activation/#brian-rocks",
+            "text": "This  is  a  list   Cool Stuff",
+            "title": "Brian Rocks"
+        },
+        {
+            "location": "/training_center_designer/additional_design/",
+            "text": "Brian Rocks\n\n\n\n\nThis\n\n\nis\n\n\na\n\n\nlist\n\n\n\n\nCool Stuff",
+            "title": "Additional Design"
+        },
+        {
+            "location": "/training_center_designer/additional_design/#brian-rocks",
+            "text": "This  is  a  list   Cool Stuff",
+            "title": "Brian Rocks"
+        },
+        {
+            "location": "/content_admin/",
+            "text": "System Configuration\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Content Administrator"
+        },
+        {
+            "location": "/content_admin/#system-configuration",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "System Configuration"
+        },
+        {
+            "location": "/content_admin/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/content_admin/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/system_architect/",
+            "text": "System Configuration\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "System Architect"
+        },
+        {
+            "location": "/system_architect/#system-configuration",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "System Configuration"
+        },
+        {
+            "location": "/system_architect/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/system_architect/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        }
+    ]
+}
