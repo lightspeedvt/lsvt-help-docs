@@ -1,18 +1,19 @@
-#Initial Build and Artwork Design
-This section will cover each step in the process of creating a Topic, Category, Course, Chapter, and Test question.
+#Initial Build (Look and Feel Real)
+
+This section will cover the initial build steps of creating a Topic, Category, Course, Chapter, and Test question for a Look and Feel Real system. More advanced Configuration steps are covered in the [Content Administrator](/content_admin/) section.
 
 <div class="admonition note">
     <p class="first admonition-title">
         Note
     </p>
     <p class="last">
-Even though in the LightSpeed heirarchy the Topics menu comes first, we're going to start with Categories. We'll explain more on this later.
+Even though in the LightSpeed heirarchy the Topics menu comes first, it is an optional componant, so we're going to start with Categories. This is explained in more detail in the Topics section.
     </p>
 </div>
 
 ##1. Categories Overview
 
-A category is made up of courses, a category description (in text), a category thumbnail (picture or image representing the Course) and if applicable, a rollover thumbnail.
+A category is made up of courses, a description (in text), an image tile (picture or image representing the content) and if applicable, a rollover image tile.
 
 To get started, navigate to Manage Content under the Super User Dashboard, **400 - Application Administration**, and then **402 - Content Management.** You will see a screen that looks like this:
 		
@@ -22,22 +23,24 @@ To get started, navigate to Manage Content under the Super User Dashboard, **400
 
 ###Create new Category
 
-From this screen you can either **Search** for an existing category, or **Create a new category**. To get started, click on **Create a new category.**
+From this screen you can either **Search** for an existing category, or **Create a new category**. For this lesson, click on **Create a new category.**
 
 On the **Create New Category** menu, we see the following fields (click on the image to open it in a new window):
 
-<a href="/img/create_new_cat1.png" target="_blank"><img src="/img/create_new_cat1.png"/ alt="Click to open this in a new tab"></a>
+<a href="/img/create_new_cat1.png" target="_blank"><img src="/img/create_new_cat1.png"/></a>
+
+Create your category by filling out these fields:
 
 1. **Name**
 	- Enter the name of the category here.
-2. **Copied From**
+2. **Copied From** - _Leave blank for now._
 	- This field will be populated automatically if you created this category using the "Copy" feature. If you did not, you can leave this blank for now.
 3. **Description**
 	- Enter the description of the category. If there was none provided, enter something as a temporary placeholder.
 4. **Internal Description**
 	- Enter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a category belongs to, or adding other important details, such as recent changes.
 5. **Thumb Nail Image Path**
-	- Enter the path to the category image (we cover this later _here_.)
+	- Enter the path to the category image (we cover this later in the Artwork Design section.)
 6. **Rank**
 	- The Rank is the order in which this category will display in the training center. The lower the rank (1, 2, 3, etc.) the _higher_ the category will be listed. Rank 1 = the very first category. Rank 999 = the very last category.
 7. **Active Yes/No**
@@ -203,12 +206,13 @@ Once you have filled out each field, hit **Save**, and there will be some additi
 	- Selecting this button will show the optional Caption fields.
 2. **Video Path, Mobile Path, Asset Path**
 	- **Video Path**: This is the path to the chapter part media (MP4, PDF, etc.)
+		- For a default video for a "LaFR" we use: http://videos.lightspeedvt.com/video_files/coming_soon.mp4
 	- **Mobile Path**: This is the path to the mobile encoded version of the above video path.
-	- **Asset Path**: This is a legacy field, it is for content that still utilizes flash side assets that lay on top of the video parts, before they were edited into the video itself.
+	- **Asset Path**: This is a legacy field, it is for content that still utilizes flash side assets that lay on top of the video parts, before they were edited into the video itself. Most of the time this can remain empty.
 3. **Rehash/Recap - Video Path**
 	- A recap HTML file is linked here by default. If the user fails the test then the user will be prompted to take a _recap_ before taking the test again. This HTML file will let the user know they have 1 more chance to pass the test or else they'll have to watch the chapter part over again.
 4. **Add Question**
-	- This is where you can add test questions to this chapter.
+	- This is where you can add test questions to this chapter. We'll cover that in the next section.
 
 <div class="admonition note">
     <p class="first admonition-title">
@@ -221,11 +225,41 @@ Be sure to hit "Save" before you hit "Add Question" - as you will lose any modif
 Once all of the chapter information has been added, you're ready to move on to the next section - adding test questions.
 
 
-##4. Test Questions
+##4. Test Questions (Quick) Overview
+
+There are 4 main testing mechanisms, we'll cover all 4 of those in this sectoin:
+
+1.	Multiple Choice
+2.	Drag and Drop / Order
+3.	Matching (Match a Term to a Definition)
+4.	Fill in the Blank
 
 ###Create new Test Question
 
-Add your Defaults
+<a href="/img/create-test-question.png" target="_blank"><img src="/img/create-test-question.png"></a>
+
+
+1. **Question**
+	- Selecting this button will show the optional Caption fields.
+2. **SWF File Path (Not Required)**
+	- **Video Path**: This is the path to the chapter part media (MP4, PDF, etc.)
+		- For a default video for a "LaFR" we use: http://videos.lightspeedvt.com/video_files/coming_soon.mp4
+	- **Mobile Path**: This is the path to the mobile encoded version of the above video path.
+	- **Asset Path**: This is a legacy field, it is for content that still utilizes flash side assets that lay on top of the video parts, before they were edited into the video itself. Most of the time this can remain empty.
+3. **Rehash/Recap - Video Path**
+	- A recap HTML file is linked here by default. If the user fails the test then the user will be prompted to take a _recap_ before taking the test again. This HTML file will let the user know they have 1 more chance to pass the test or else they'll have to watch the chapter part over again.
+4. **Add Question**
+	- This is where you can add test questions to this chapter. We'll cover that in the next section.
+
+
+
+
+
+Test Timer - we default to 60 seconds, if you wish a higher or lower time please indicate it on the chapter or test question. (you can have different times per question in each chapter)
+
+
+
+
 
 Now we're ready for...
 

@@ -3,7 +3,8 @@ pages:
 - System Configuration - Home: index.md
 - Training Center Designer:
       - Overview: training_center_designer/overview.md
-      - Initial Build and Artwork Design: training_center_designer/build_and_artwork_design.md
+      - Initial Build (Look and Feel Real): training_center_designer/initial_build.md
+      - Artwork Design: training_center_designer/artwork_design.md
       - Content Containers: training_center_designer/content_container.md
       - Admin Activation: training_center_designer/admin_activation.md
       - Additional Design: training_center_designer/additional_design.md
