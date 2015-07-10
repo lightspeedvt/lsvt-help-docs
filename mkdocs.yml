@@ -6,8 +6,33 @@ pages:
       - Initial Build (Look and Feel Real): training_center_designer/initial_build.md
       - Artwork Design: training_center_designer/artwork_design.md
       - Content Containers: training_center_designer/content_container.md
-      - Admin Activation: training_center_designer/admin_activation.md
       - Additional Design: training_center_designer/additional_design.md
-- Content Administrator: content_admin.md
-- System Architect: system_architect.md
+- Content Administrator: 
+      - Overview: content_admin/overview.md
+      - Encoding: content_admin/encoding.md
+      - Content Management: content_admin/content_management.md
+      - System Data: content_admin/system_data.md
+      - JSON Interactive: content_admin/json.md
+      - VT2GO: content_admin/vt2go.md
+      - Localization: content_admin/localization.md
+      - QC: content_admin/qc.md
+      - Documentation: content_admin/documentation.md
+- System Architect:
+      - Overview: system_architect/overview.md
+      - Access Levels: system_architect/overview.md
+      - Group Settings: system_architect/overview.md
+      - Main Menu: system_architect/overview.md
+      - Sign in Box: system_architect/overview.md
+      - Product Pages: system_architect/overview.md
+      - APBs: system_architect/overview.md
+      - Certifications: system_architect/overview.md
+      - Roll Up Report: system_architect/overview.md
+      - API Integration: system_architect/overview.md
+      - Webhooks / Triggers: system_architect/overview.md
+      - Registration Forms: system_architect/overview.md
+      - Premium Content Roles: system_architect/overview.md
+      - Template Locations: system_architect/overview.md
+      - Demo Locations: system_architect/overview.md
+      - ESPs: system_architect/overview.md
+      - Chargify: system_architect/overview.md
 theme: readthedocs

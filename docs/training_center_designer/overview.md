@@ -5,16 +5,16 @@ The Training Center Designer is responsible for designinga ll of the imagery for
 
 ###Main Responsibilities
 
-* **Initial Build and Artwork Design**  
-Design all of the artwork for Topics, Cats and Courses, based on the Training Center Outline inserting the "Coming Soon" videos on all chapters, and any needed default quiz questions.
+* **[Initial Build (Look and Feel Real)](../training_center_designer/initial_build.md)**  
+Do the initial build of the Training Center based on the Training Center Outline, inserting the "Coming Soon" videos on all chapters, and any needed default quiz questions.
 
-* **Content Containers**  
-Create Content Container and "Client Admin – Everything" Role - and add ALL courses to it.
+* **[Artwork Design](../training_center_designer/artwork_design.md)**  
+Designing all of the artwork for Topics, Cats and Courses, based on the Training Center Outline.
 
-* **Admin Activation**  
-Turn on all content at the ADMIN Location so it is viewable.
+* **[Content Containers & Activation](../training_center_designer/content_container.md)**  
+Create the initial Content Container and the "Client Admin – Everything" Role - and add ALL courses to it, and then turn on all content at the ADMIN location.
 
-* **Additional Design**  
-Additional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the "System Architect"
+* **[Additional Design](../training_center_designer/artwork_design.md)**  
+Any Additional Design work needed - design for any non-video chapter types, design any MAIN MENU tiles that are needed by the "System Architect"
 
 

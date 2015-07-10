@@ -402,28 +402,11 @@ Let's add your new topic using the new Themer. Navigate to the Super User Dashbo
 	![Image](/img/t-1000-5.png)<br /><br />
 
 
-Now your theme is updated, but there is still one last step before checking your work... [Admin Activation!](/admin_activation.md)
+Now your theme is updated, let's move on to the next section... [Artwork Design!](training_center_designer/artwork_design.md)
 
 
 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
