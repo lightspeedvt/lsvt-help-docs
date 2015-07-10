@@ -16,7 +16,7 @@ Even though in the LightSpeed heirarchy the Topics menu comes first, it is an op
 A category is made up of courses, a description (in text), an image tile (picture or image representing the content) and if applicable, a rollover image tile.
 
 To get started, navigate to Manage Content under the Super User Dashboard, **400 - Application Administration**, and then **402 - Content Management.** You will see a screen that looks like this:
-		
+
 <img src="/img/content_mgmt.png"/>
 
 ----
@@ -41,20 +41,20 @@ Create your category by filling out these fields:
 	- Enter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a category belongs to, or adding other important details, such as recent changes.
 5. **Thumb Nail Image Path**
 	- Enter the image path to the category image. This will be the web URL to where the image is hosted on our cloud server. Because we did not build the image yet, put in a generic path as a placeholder: <span style="color:red">_http://videos.lightspeedvt.com/video_files/client_name/tiles/category_name.jpg_</span>
-	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](/artwork_design.md) section. 
+	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](../training_center_designer/artwork_design.md) section.
 6. **Rank**
 	- The Rank is the order in which this category will display in the training center. The lower the rank (1, 2, 3, etc.) the _higher_ the category will be listed. Rank 1 = the very first category. Rank 999 = the very last category.
 7. **Active Yes/No**
-	- Select whether this category should be active or not. (It is perfectly safe to always select "Yes" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that in the [Admin Activation](/admin_activation.md) section.)
+	- Select whether this category should be active or not. (It is perfectly safe to always select "Yes" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that in the [Content Containers / Activation](../training_center_designer/content_container.md) section.)
 8. **Rollover Image URL** - <span style="color:red">_Leave blank for now._</span>
-	- Enter the path to the category rollover image - this is similar to the Thumb Nail Image Path above, where you can enter a generic path for now. 
-	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](/artwork_design.md) section. 
+	- Enter the path to the category rollover image - this is similar to the Thumb Nail Image Path above, where you can enter a generic path for now.
+	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](../training_center_designer/artwork_design.md) section.
 9. **Pre-composed Yes/No**
 	- The default setting here is usually "No". The "No" setting will automatically add rounded edges and a highlight effect to the rollover. If you set this to "Yes", it will assume you are adding the rollover and rounded corners through other means (css, flash, etc.)
 
 Example:
 
-Pre-composed = No | Pre-composed = Yes 
+Pre-composed = No | Pre-composed = Yes
 ----------------- | ------------------
 <img src="/img/pre-composed-no.png"> | <img src="/img/pre-composed-yes.png">
 
@@ -73,7 +73,7 @@ You may ignore the "VT2GO" section here for now, we'll cover that in a later top
 
 ##2. Courses Overview
 
-A Course is made up of a series of Chapters, a description (in text), an image tile (picture or image representing the content) and a Course Preview Trailer (video). 
+A Course is made up of a series of Chapters, a description (in text), an image tile (picture or image representing the content) and a Course Preview Trailer (video).
 
 ###Create new Course
 
@@ -94,7 +94,7 @@ Create your course by filling out these fields:
 4. **Internal Description**
 	- Enter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a course belongs to, or adding other important details, such as recent changes.
 5. **Active Yes/No** - <span style="color:red">_Default: Yes_</span>
-	- Select whether this course should be active or not. (It is perfectly safe to always select "Yes" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that in the [Admin Activation](/admin_activation.md) section.)
+	- Select whether this course should be active or not. (It is perfectly safe to always select "Yes" here - the content will not be on display for anyone until you complete your very last step of this process. We cover that in the [Content Containers / Activation](../training_center_designer/content_container.md) section.)
 6. **Hide Course - Reports** - <span style="color:red">_Default: No_</span>
 	- This will show/hide the course in reporting sections.
 7. **Hide Course - Search** - <span style="color:red">_Default: No_</span>
@@ -106,10 +106,10 @@ Create your course by filling out these fields:
 10. **Duration** - <span style="color:red">_Leave blank for now._</span>
 	- This field is for the duration, in minutes, of the course. (This feature is currently not in use.)
 11. **Complete Chapters in Order** - <span style="color:red">_Default: No_</span>
-	- Setting this toggle to "Yes" will force the user to complete the chapters in order.  
+	- Setting this toggle to "Yes" will force the user to complete the chapters in order.
 12. **Thumb Nail Image Path**
 	- Enter the path to the course image. This will be the web URL to where the image is hosted on our cloud server. Because we did not build the image yet, put in a generic path as a placeholder: <span style="color:red">_http://videos.lightspeedvt.com/video_files/client_name/tiles/course_name.jpg_</span>
-	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](/artwork_design.md) section.
+	- Note: We will cover the image creation and uploading/pathing it to the server later in the [Artwork Design](../training_center_designer/artwork_design.md) section.
 13. **Preview Path**
 	- Enter the path to the course video preview (If this is your initial build, you likely do not have this video yet, so you can leave this path blank for the Content Admin to populate.)
 14. **Author**
@@ -141,9 +141,9 @@ You may ignore the "VT2GO" section here for now, we'll cover that in a later top
 
 ##3. Chapter Overview
 
-Once a user clicks into a Course, they may select a Chapter of their choice, unless you changed the toggle to require them to take the chapters in order.  
+Once a user clicks into a Course, they may select a Chapter of their choice, unless you changed the toggle to require them to take the chapters in order.
 
-A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part may consist of any number of different media types: video, Flash SWF, PDF document, HTML, etc.. 
+A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part may consist of any number of different media types: video, Flash SWF, PDF document, HTML, etc..
 
 * **A Chapter may consist of:**
 	* Training parts and a Chapter test.
@@ -152,7 +152,7 @@ A Course may have as many Chapters as needed. Each Chapter may consist of multip
 
 By default, a test is followed by a "Recap" Chapter part if the user fails to pass the test. (this is optional)
 
-Chapter creation is unique from Categories and Courses in which you can only **"Create New Chapter"** from an existing **_course_**. So you'll see after you save your course from the previous section that there is now a **"Create New Chapter"** button at the top. 
+Chapter creation is unique from Categories and Courses in which you can only **"Create New Chapter"** from an existing **_course_**. So you'll see after you save your course from the previous section that there is now a **"Create New Chapter"** button at the top.
 
 Click on that when you're ready to create your chapter.
 
@@ -176,7 +176,7 @@ Create your chapter by filling out these fields:
 	- Enter the number of test questions that will be pulled for this chapter. If you enter a number here smaller than the total number of test questions active, then it will randomly select that number from that **"pool"** of available questions. For example - if there are 10 active test questions for this chapter, and the number of test questions is set to 5, each time a user takes the test it will randomly serve up 5 of the 10 total questions.
 	- Note: You will not be able to activate this chapter until this number matches the number of test questions added.
 5. **Test Pass Percentage** - <span style="color:red">_Default: 100_</span>
-	- Enter the minimum test percentage a user must receive in order to pass the test and move on to the next chapter. 
+	- Enter the minimum test percentage a user must receive in order to pass the test and move on to the next chapter.
 6. **Test Instructions / Setup (Seen before test)**
 	- Enter the test instruction text the user will see before starting the test. The default language we use here is: <span style="color:red">This chapter test is a quick check of your knowledge so far. As you select your answers, each question is timed and all results are recorded on your “Report Card.” Click START below when you are ready.</span>
 7. **Test Summary (Passed Test) (Seen upon test completion)**
@@ -264,7 +264,7 @@ After your chapter has been saved, click on **"Add Question"** and follow the st
 12. **Question Timer** - <span style="color:red">_Default: 60_</span>
 	- Here you can set, in miliseconds, how long the question timer should be. We default to 60 seconds.
 
-Once all of the fields are complete, hit **"Save"** and then click on the chapter name at the top of the screen to return to the chapter menu. From there you can now activate the chapter. 
+Once all of the fields are complete, hit **"Save"** and then click on the chapter name at the top of the screen to return to the chapter menu. From there you can now activate the chapter.
 
 ###Next Steps
 
@@ -325,7 +325,7 @@ Now you're ready to create a topic XML. <span style="color:red">Download a Sampl
 >> - **Rollover** - The web URL path to the tile to be displayed as the rollover image (typically a transparent PNG file)
 >> - **Url** - <span style="color:red">(Optional)</span> - If the topic should link to anywhere other than the categories list you can add a URL path of where that topic should link to. (please this between the "label" and the "description" values)
 >> - **UrlTarget** - <span style="color:red">(Optional)</span>  - Include this after the URL value to indicate opening a new window (blank), same window (self), etc.
->> - **Label** - This is the Topic name (displayed below the topic on the topic screen, as well as the cookie crumb once selected) 
+>> - **Label** - This is the Topic name (displayed below the topic on the topic screen, as well as the cookie crumb once selected)
 >> - **Description** - <span style="color:red">(Optional)</span>  - Topic description (displayed on the categories screen once a topic is selected)
 >> - **Categories** - Comma delimited list of category ids for this topic
 
@@ -402,11 +402,11 @@ Let's add your new topic using the new Themer. Navigate to the Super User Dashbo
 	![Image](/img/t-1000-5.png)<br /><br />
 
 
-Now your theme is updated, let's move on to the next section... [Artwork Design!](training_center_designer/artwork_design.md)
+Now your theme is updated, let's move on to the next section... [Artwork Design!](../training_center_designer/artwork_design.md)
 
 
 
-	
+
 
 
 
