@@ -17,7 +17,7 @@ A category is made up of courses, a description (in text), an image tile (pictur
 
 To get started, navigate to Manage Content under the Super User Dashboard, **400 - Application Administration**, and then **402 - Content Management.** You will see a screen that looks like this:
 
-<img src="/img/content_mgmt.png"/>
+<a href="../../img/content_mgmt.png" target="_blank"><img src="../../img/content_mgmt.png"/></a>
 
 ----
 
@@ -27,7 +27,7 @@ From this screen you can either **Search** for an existing category, or **Create
 
 On the **Create New Category** menu, we see the following fields (click on the image to open it in a new window):
 
-<a href="/img/create_new_cat1.png" target="_blank"><img src="/img/create_new_cat1.png"/></a>
+<a href="../../img/create_new_cat1.png" target="_blank"><img src="../../img/create_new_cat1.png"/></a>
 
 Create your category by filling out these fields:
 
@@ -56,7 +56,7 @@ Example:
 
 Pre-composed = No | Pre-composed = Yes
 ----------------- | ------------------
-<img src="/img/pre-composed-no.png"> | <img src="/img/pre-composed-yes.png">
+<img src="../../img/pre-composed-no.png"> | <img src="../../img/pre-composed-yes.png">
 
 When you have entered all of your information, click **"Save"**, and move on to the next section.
 
@@ -81,7 +81,7 @@ Now that your category is created, you can click on the **"Courses"** tab at the
 
 On the **Create New Course** menu, we see the following fields (click on the image to open it in a new window):
 
-<a href="/img/create_new_course1.png" target="_blank"><img src="/img/create_new_course1.png"/></a>
+<a href="../../img/create_new_course1.png" target="_blank"><img src="../../img/create_new_course1.png"/></a>
 
 Create your course by filling out these fields:
 
@@ -156,13 +156,13 @@ Chapter creation is unique from Categories and Courses in which you can only **"
 
 Click on that when you're ready to create your chapter.
 
-<img src="/img/create-new-chapter1.png">
+<a href="../../img/create-new-chapter1.png" target="_blank"><img src="../../img/create-new-chapter1.png"></a>
 
 ###Create New Chapter - Part 1
 
 On the **Create New Chapter** menu, we see the following fields (click on the image to open it in a new window):
 
-<a href="/img/create-chapter-1.png" target="_blank"><img src="/img/create-chapter-1.png"></a>
+<a href="../../img/create-chapter-1.png" target="_blank"><img src="../../img/create-chapter-1.png"></a>
 
 Create your chapter by filling out these fields:
 
@@ -206,7 +206,7 @@ Once you have filled out each field, hit **Save**. After the course is created t
 
 ###Create New Chapter - Part 2
 
-<a href="/img/create-chapter-2.png" target="_blank"><img src="/img/create-chapter-2.png"></a>
+<a href="../../img/create-chapter-2.png" target="_blank"><img src="../../img/create-chapter-2.png"></a>
 
 1. **Show Captions** - <span style="color:red">_Leave blank for now._</span>
 	- Selecting this button will show the optional Caption fields.
@@ -234,7 +234,7 @@ There are 4 main testing mechanisms, we'll only cover #1 in this section. More o
 
 ###Create new Test Question
 
-<a href="/img/create-test-question.png" target="_blank"><img src="/img/create-test-question.png"></a>
+<a href="../../img/create-test-question.png" target="_blank"><img src="../../img/create-test-question.png"></a>
 
 After your chapter has been saved, click on **"Add Question"** and follow the steps below.
 
@@ -284,7 +284,7 @@ First, we want to add the topic information to the database, and then we'll crea
 
 To get started let's add the topic to the database. We do this from the Super User Dashboard, **400 - Application Administration**, and then click on **408 - Use Topics**
 
-<a href="/img/use_topics.png" target="_blank"><img src="/img/use_topics.png"></a>
+<a href="../../img/use_topics.png" target="_blank"><img src="../../img/use_topics.png"></a>
 
 On this screen there are only 2 fields to worry about:
 

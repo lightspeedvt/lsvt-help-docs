@@ -10,7 +10,7 @@ Configure access levels
 * **[Group Settings](../training_center_designer/content_container.md)**  
 Configure all group settings (Note: full doc on google drive - update)
 
-* **[Main Menu](../training_center_designer/artwork_design.md)**  
+* **[Main Menu](../system_architect/main_menu.md)**  
 Do any modifications to the MAIN MENU based on any non-default settings - ie. inser the MM welcome videos, the Top Nav, the footer links, etc.
 
 * **[Sign in Box](../training_center_designer/artwork_design.md)**  
