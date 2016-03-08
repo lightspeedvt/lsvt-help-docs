@@ -1,0 +1,38 @@
+site_name: System Configuration
+pages:
+- System Configuration - Home: index.md
+- Training Center Designer:
+      - Overview: training_center_designer/overview.md
+      - Initial Build (Look and Feel Real): training_center_designer/initial_build.md
+      - Artwork Design: training_center_designer/artwork_design.md
+      - Content Containers (coming soon): training_center_designer/content_container.md
+      - Additional Design (coming soon): training_center_designer/additional_design.md
+- Content Administrator (coming soon):
+      - Overview: content_admin/overview.md
+      - Encoding (coming soon): content_admin/encoding.md
+      - Content Management (coming soon): content_admin/content_management.md
+      - System Data (coming soon): content_admin/system_data.md
+      - JSON Interactive (coming soon): content_admin/json.md
+      - VT2GO (coming soon): content_admin/vt2go.md
+      - Localization (coming soon): content_admin/localization.md
+      - QC (coming soon): content_admin/qc.md
+      - Documentation (coming soon): content_admin/documentation.md
+- System Architect (coming soon):
+      - Overview (coming soon): system_architect/overview.md
+      - Access Levels (coming soon): system_architect/overview.md
+      - System Settings (Coming soon): system_architect/group_settings.md
+      - Main Menu: system_architect/main_menu.md
+      - Sign in Box (coming soon): system_architect/overview.md
+      - Product Pages (coming soon): system_architect/overview.md
+      - APBs (coming soon): system_architect/overview.md
+      - Certifications (coming soon): system_architect/overview.md
+      - Roll Up Report (coming soon): system_architect/overview.md
+      - API Integration (coming soon): system_architect/overview.md
+      - Webhooks / Triggers (coming soon): system_architect/overview.md
+      - Registration Forms (coming soon): system_architect/overview.md
+      - Premium Content Roles (coming soon): system_architect/overview.md
+      - Template Locations (coming soon): system_architect/overview.md
+      - Demo Locations (coming soon): system_architect/overview.md
+      - ESPs (coming soon): system_architect/overview.md
+      - Chargify (coming soon): system_architect/overview.md
+theme: readthedocs
