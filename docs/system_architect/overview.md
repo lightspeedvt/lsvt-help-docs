@@ -7,7 +7,7 @@ Configure all of the system settings
 * **[Access Levels](../content_admin/encoding.md)**  
 Configure access levels
 
-* **[Group Settings](../training_center_designer/content_container.md)**  
+* **[Group Settings](../system_architect/group_settings.md)**  
 Configure all group settings (Note: full doc on google drive - update)
 
 * **[Main Menu](../system_architect/main_menu.md)**  

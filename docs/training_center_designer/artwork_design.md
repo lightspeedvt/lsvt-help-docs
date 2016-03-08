@@ -4,50 +4,45 @@ This section will cover all of the steps to create topic, category and course ti
 
 ##Image Specs
 
+Topics and Categories are now the same size - in older systems they are not - but moving forward you can use the same template for both. We list them both here just to keep the distinction, but they are the same file.
+
 Object | Size | Download  
 --------------- | --------------- | ---------------
-Topic | 556x298 | [Download Photoshop Template](/files/topic_556x298.psd)  
-Category | 556x298 | [Download Photoshop Template](/files/category_556x298.psd)  
-Course | 348x260 | [Download Photoshop Template](/files/course_556x298.psd)  
+Topic | 556x298 | [Download Photoshop Template](/files/cwtile_topic_556x298.psd)  
+Category | 556x298 | [Download Photoshop Template](/files/cwtile_cat_556x298.psd)  
+Course | 348x260 | [Download Photoshop Template](/files/cwtile_crs_556x298.psd)  
 
 <!-- Old cat size left here just in case 
-Category (Old): 360x216 - [Download Photoshop Template](/files/topic_556x298.psd) -->
+Category (Old): 360x216 - [Download Photoshop Template](/files/topic_556x298.psd)
 
-###Topics - 556x298
+Note - also need to speak with Tate on file sizes, how can we optimize these 
+ -->
 
-Here are some example Topics and how they look in the system (click to embiggen) - you do not need to worry about changing the size - one size fits all.
+###Topics & Categories - 556x298
+
+Here are some examples of how they look in the system (click to embiggen) - you do not need to change the file size - the system will automatically scale it to the correct size.
 
 4 wide
 -----------------
-<a href="../../img/pre-composted-no.png" target="_blank"><img src="../../img/pre-composed-no.png"></a>
+<a href="../../img/4_across.png" target="_blank"><img src="../../img/4_across.png"></a>
 
 3 wide
 -----------------
-<a href="../../img/pre-composted-no.png" target="_blank"><img src="../../img/pre-composed-no.png"></a>
+<a href="../../img/3_across.png" target="_blank"><img src="../../img/3_across.png"></a>
 
 2 wide
 -----------------
-<a href="../../img/pre-composted-no.png" target="_blank"><img src="../../img/pre-composed-no.png"></a>
-
-
-###Categories - 556x298
-
-
-4 across | 3 across | 2 across |
------------------ | ------------------ | -----------------
-<a href="../../img/pre-composted-no.png" target="_blank"><img src="../../img/pre-composed-no.png"></a> | <a href="../../img/pre-composted-yes.png" target="_blank"><img src="../../img/pre-composed-yes.png"></a>
-Pre-composed = No | Pre-composed = Yes | Example 3 test |
- |  |
+<a href="../../img/2_across.png" target="_blank"><img src="../../img/2_across.png"></a>
 
 ###Courses - 348x260
 
-4 across | 3 across | 2 across |
------------------ | ------------------ | -----------------
-<img src="/img/pre-composed-no.png"> | <img src="/img/pre-composed-yes.png">
-Pre-composed = No | Pre-composed = Yes | Example 3 test |
- |  |
+Course tiles do not scale up or down like Topics/Categories, they'll stay the same size. Here is an example of what they look like.
 
+Course Menu
+-----------------
+<a href="../../img/course1.png" target="_blank"><img src="../../img/course1.png"></a>
 
-
-----
+Chapter Menu
+-----------------
+<a href="../../img/course2.png" target="_blank"><img src="../../img/course2.png"></a>
 

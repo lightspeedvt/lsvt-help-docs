@@ -4,7 +4,10 @@ This section will cover all of the steps to create the initial content container
 
 ##Create a Container
 
-...
+There are two ways that you can check to see if a system has a content container already or not. The easiest way is to go to Manage Groups and select the Content Containers section.
+
+
+
 
 ##Create a Content Role
 

@@ -4,11 +4,11 @@ pages:
 - Training Center Designer:
       - Overview: training_center_designer/overview.md
       - Initial Build (Look and Feel Real): training_center_designer/initial_build.md
-      - Artwork Design (coming soon): training_center_designer/artwork_design.md
+      - Artwork Design: training_center_designer/artwork_design.md
       - Content Containers (coming soon): training_center_designer/content_container.md
       - Additional Design (coming soon): training_center_designer/additional_design.md
 - Content Administrator (coming soon):
-      - Overview (coming soon): content_admin/overview.md
+      - Overview: content_admin/overview.md
       - Encoding (coming soon): content_admin/encoding.md
       - Content Management (coming soon): content_admin/content_management.md
       - System Data (coming soon): content_admin/system_data.md
@@ -20,7 +20,7 @@ pages:
 - System Architect (coming soon):
       - Overview (coming soon): system_architect/overview.md
       - Access Levels (coming soon): system_architect/overview.md
-      - Group Settings (coming soon): system_architect/overview.md
+      - System Settings (Coming soon): system_architect/group_settings.md
       - Main Menu: system_architect/main_menu.md
       - Sign in Box (coming soon): system_architect/overview.md
       - Product Pages (coming soon): system_architect/overview.md
