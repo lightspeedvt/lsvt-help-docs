@@ -164,7 +164,7 @@
                 
                     <li><a class="toctree-l4" href="#search-settings">Search Settings</a></li>
                 
-                    <li><a class="toctree-l4" href="#certification-settings">Certification Settings</a></li>
+                    <li><a class="toctree-l4" href="#certification-settings-legacy">Certification Settings (Legacy)</a></li>
                 
                     <li><a class="toctree-l4" href="#usage-reports-friendly-name-legacy">Usage Reports Friendly Name (Legacy)</a></li>
                 
@@ -181,6 +181,8 @@
                     <li><a class="toctree-l4" href="#main-menu-welcome-message-config">Main Menu Welcome Message Config</a></li>
                 
                     <li><a class="toctree-l4" href="#webhooks-settings">WebHooks Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#powered-by-logo">Powered by Logo</a></li>
                 
                     <li><a class="toctree-l4" href="#notes-and-attachments">Notes and Attachments</a></li>
                 
@@ -462,15 +464,15 @@
 </ul>
 </li>
 <li><strong>Training Expectations Friendly Name</strong> <ul>
-<li>Here you can update the name of the report to something more friendly, if desired.</li>
+<li>Here you can update the name of the report to something different if desired.</li>
 </ul>
 </li>
 <li><strong>Progress Report Friendly Name</strong><ul>
-<li>Here you can update the name of the report to something more friendly, if desired.</li>
+<li>Here you can update the name of the report to something different if desired.</li>
 </ul>
 </li>
 <li><strong>User Tracker Friendly Name</strong><ul>
-<li>Here you can update the name of the report to something more friendly, if desired.</li>
+<li>Here you can update the name of the report to something different if desired.</li>
 </ul>
 </li>
 </ol>
@@ -486,54 +488,104 @@
 </ul>
 </li>
 </ol>
-<h3 id="certification-settings">Certification Settings</h3>
-<p>**Note to Brian: double check on where these are set... in System or Themer? Both?</p>
+<h3 id="certification-settings-legacy">Certification Settings (Legacy)</h3>
+<p>**Note These settings are updated in the Themer.</p>
 <ol>
 <li><strong>My Certification Name (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Certification to something different if desired. </li>
 </ul>
 </li>
 <li><strong>Certification Reports Name (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Certification to something different if desired. </li>
 </ul>
 </li>
 </ol>
 <h3 id="usage-reports-friendly-name-legacy">Usage Reports Friendly Name (Legacy)</h3>
+<p>**Note These settings are updated in the Themer.</p>
 <ol>
 <li><strong>My Usage Name (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Usage Report to something different if desired. </li>
 </ul>
 </li>
 <li><strong>Quick Links Usage Name (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Usage Report to something different if desired. </li>
 </ul>
 </li>
 </ol>
 <h3 id="report-card-friendly-name-legacy">Report Card Friendly Name (Legacy)</h3>
+<p>**Note These settings are updated in the Themer.</p>
 <ol>
 <li><strong>My Report Card (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Report Card to something different if desired. </li>
 </ul>
 </li>
 <li><strong>Quick Links Report Card Name (Legacy)</strong> <ul>
-<li></li>
+<li>Here you can update the name of the Report Card to something different if desired. </li>
 </ul>
 </li>
 </ol>
 <h3 id="no-access-custom-message">No Access Custom Message</h3>
 <p>If a user attempts to click on an area of the training center that they do not have access to, you can customize that error message here.</p>
+<p>This area allows basic HTML or plain text.</p>
+<h3 id="auto-email-upon-user-creation">Auto Email Upon User Creation</h3>
+<p>This feature gives users who have access to 'Create User' to send an email to the user's email address with their login credentials, after they have been created.</p>
+<p>Before updating these settings you will be asked which theme to modify. Select the theme from the drop down list and then you can edit the following fields:</p>
 <ol>
-<li><strong>No Access Custom Message (Legacy)</strong> <ul>
-<li></li>
+<li><strong>Send Auto Email Upon User Creation</strong> <span style="color:red">Default: No</span><ul>
+<li>If this toggle is set to Yes, then you must fill out the rest of the fields in order for the email to work correctly. Note: Even if this is toggled "yes" you will still have the option to disable this when creating individual users if you choose.</li>
+</ul>
+</li>
+<li><strong>From Email</strong><ul>
+<li>This will appear to the end user as the 'From' email address.</li>
+</ul>
+</li>
+<li><strong>Email Subject</strong><ul>
+<li>Enter the subject of the email.</li>
+</ul>
+</li>
+<li><strong>Email Body Top</strong><ul>
+<li>Enter the copy that will go on the top of the email.</li>
+</ul>
+</li>
+<li><strong>Email Body Bottom</strong><ul>
+<li>Enter the copy that will go on the bottom of the email.</li>
 </ul>
 </li>
 </ol>
-<h3 id="auto-email-upon-user-creation">Auto Email Upon User Creation</h3>
+<p>Note: You will be given a chance to preview this email during the user creation process.</p>
 <h3 id="pass-back-url-settings">Pass Back URL Settings</h3>
+<p>The pass back feature is an easy way to create a seamless experience for your users between LSVT and your application or to make easy to collect basic data about a user without the need to use our full ADMIN API.</p>
+<p>There are a fixed number of optional parameters, or data elements about a user that LSVT can pass back to you via URL parameters. This could be used to allow a user to be passed back to your site and/or application – possibly already signed in, or to simply create a user in your system with the extra data provided.</p>
+<p>We can quickly configure your system to pass these URL parameters of your choice, simply contact your project manager to get you in touch with System Config. Dept. to accomplish this.</p>
+<p>Additional information on steps to configure this can be found on our Knowledge Base <a href="http://support.lightspeedvt.com/pass-back-feature/" target="_blank">HERE</a>. </p>
 <h3 id="system-images">System Images</h3>
+<p>This feature allows you to set the default system images for all locations in your System.</p>
+<ol>
+<li><strong>Choose a file to upload</strong><ul>
+<li>The image size should be 174x130 and either be a .PNG or .JPG</li>
+</ul>
+</li>
+<li><strong>Image Link</strong> (Optional)<ul>
+<li>You can add a link to the image, this may be used to link to a book for sale, or an upcoming webinar for example.</li>
+</ul>
+</li>
+<li><strong>Text Area</strong> (Optional)<ul>
+<li>Here you can write a short message to welcome the user. You can also personalize it using some optional TOKENS</li>
+</ul>
+</li>
+</ol>
+<p>Example:</p>
+<p>Hello %Fname% %Lname%! Welcome to %LocationName%! Your username is: %UserName%</p>
+<p>That would look like:</p>
+<p>Hello Han Solo! Welcome to Rebel Command! Your username is: hsolo </p>
 <h3 id="main-menu-welcome-message-config">Main Menu Welcome Message Config</h3>
+<p>On this screen you can add different welcome videos based on the user's access level or content role.</p>
 <h3 id="webhooks-settings">WebHooks Settings</h3>
+<p>This section will enable your system to start using webhooks. We'll explain this more in Phase 2.</p>
+<h3 id="powered-by-logo">Powered by Logo</h3>
+<p>Hide LSVT Logo?</p>
 <h3 id="notes-and-attachments">Notes and Attachments</h3>
+<p>Add any Notes or Attachments to the System for future use.</p>
               
             </div>
           </div>
