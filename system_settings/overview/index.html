@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Overview - System Configuration</title>
+  <title>Overview - LSVT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -38,7 +38,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> System Configuration</a>
+        <a href="../.." class="icon icon-home"> LSVT Help Docs</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -144,7 +144,45 @@
             
                 <li class="toctree-l3"><a href="#overview">Overview</a></li>
                 
-                    <li><a class="toctree-l4" href="#choose-a-sub-topic">Choose a sub-topic:</a></li>
+                    <li><a class="toctree-l4" href="#system-information">System Information</a></li>
+                
+                    <li><a class="toctree-l4" href="#content-containers">Content Containers</a></li>
+                
+                    <li><a class="toctree-l4" href="#system-settings">System Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#language-settings">Language Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#enrollment-updated-per-theme">Enrollment (Updated Per Theme)</a></li>
+                
+                    <li><a class="toctree-l4" href="#location-settings">Location Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#lightpad-settings-updated-per-theme">LightPad Settings (Updated Per Theme)</a></li>
+                
+                    <li><a class="toctree-l4" href="#message-delivery-options">Message Delivery Options</a></li>
+                
+                    <li><a class="toctree-l4" href="#watchdogs">Watchdogs</a></li>
+                
+                    <li><a class="toctree-l4" href="#search-settings">Search Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#certification-settings">Certification Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#usage-reports-friendly-name-legacy">Usage Reports Friendly Name (Legacy)</a></li>
+                
+                    <li><a class="toctree-l4" href="#report-card-friendly-name-legacy">Report Card Friendly Name (Legacy)</a></li>
+                
+                    <li><a class="toctree-l4" href="#no-access-custom-message">No Access Custom Message</a></li>
+                
+                    <li><a class="toctree-l4" href="#auto-email-upon-user-creation">Auto Email Upon User Creation</a></li>
+                
+                    <li><a class="toctree-l4" href="#pass-back-url-settings">Pass Back URL Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#system-images">System Images</a></li>
+                
+                    <li><a class="toctree-l4" href="#main-menu-welcome-message-config">Main Menu Welcome Message Config</a></li>
+                
+                    <li><a class="toctree-l4" href="#webhooks-settings">WebHooks Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#notes-and-attachments">Notes and Attachments</a></li>
                 
             
             </ul>
@@ -195,7 +233,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">System Configuration</a>
+        <a href="../..">LSVT Help Docs</a>
       </nav>
 
       
@@ -222,12 +260,280 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>This page is for the System Settings</p>
-<h3 id="choose-a-sub-topic">Choose a sub-topic:</h3>
-<ul>
-<li><strong><a href="../training_center_designer/artwork_design.md">Content Containers</a></strong><br />
-Record and document final outlines.</li>
+<h3 id="system-information">System Information</h3>
+<p>This section controls general system information.</p>
+<p>Note: We use the term "Legacy" for more than a few of these settings. Legacy means the toggle or setting only exists because OLD Systems may use the toggle, and that newer methods have been invented to update the toggle or setting. Anything marked Legacy will direct you where to go to update the setting in question.</p>
+<p><img alt="Image" src="../../img/system_settings_system_information1.png" /><br /></p>
+<ol>
+<li><strong>Exit URL</strong><ul>
+<li>This is the URL to take the user to once they sign out. Clicking the Sign Out button will first end the user's session with LightSpeed and then take them to the URL. Typically this is set to the client's login page.
+<br /><br />
+<img alt="Image" src="../../img/system_settings_system_information2.png" /><br /><br /></li>
 </ul>
+</li>
+</ol>
+<h3 id="content-containers">Content Containers</h3>
+<p><img alt="Image" src="../../img/system_settings_content_containers1.png" /><br /></p>
+<p>Here we can assign a system to a Content Container. This is how we keep the content isolated so that it is not possible (without severe human error) for content to cross over into unintended systems. It is possible for multiple systems to pull all from the same Container - but it is not possible for one system to pull from multiple Containers.</p>
+<ol>
+<li><strong>Content Role and Access Level Instructions</strong><ul>
+<li>Here you can customize the instructions that users/managers see on the front end when selecting Content Roles and Access Levels for users. Examples are:<br /><br /><ul>
+<li><strong>Content Roles:</strong> Content Roles determine what content a user sees, you can set a user to as many content roles as desired.<br /><br /></li>
+<li><strong>Access Levels:</strong> Specify below the Access Level desired for this user - the Access Levels determine if this user is a Manager that can view reports, or just a standard Employee. A user can be set to only one Access Level at a time. </li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="system-settings">System Settings</h3>
+<p>Below are the System settings and notes about how they work and what they do, and the default setting for each.</p>
+<ol>
+<li><strong>Search Enabled</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on/off the search feature.</li>
+</ul>
+</li>
+<li><strong>Favorites Enabled</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on/off the Favorites feature.</li>
+</ul>
+</li>
+<li><strong>Ratings Enabled</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on/off the Ratings feature.</li>
+</ul>
+</li>
+<li><strong>Show Chapter Extras (TC Tubes)</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on/off the "tubes" that appear below chapter titles in the training center.</li>
+</ul>
+</li>
+<li><strong>File Vault Active / Friendly Name (Legacy)</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on/off the File Vault. You can also rename the File Vault here for Legacy systems. Any newer system using Themer 2.0 will need to be renamed in there.</li>
+</ul>
+</li>
+<li><strong>Show Teams</strong> - <span style="color:red">Default: Yes</span><ul>
+<li>When teams are ON, each location has their own ability to create their own teams. The team names are location specific, they are not shared across the whole system.</li>
+<li><strong>Use Teams Plus</strong> - This setting puts the teams into a "genealogy" - where when the Access Level "Mgr-C" (Access level 6) is set to a "Team Leader" - then they only see users that are on their team. More information can be found <a href="http://support.lightspeedvt.com/teams-plus/" target="_blank">HERE</a>.</li>
+</ul>
+</li>
+<li><strong>Show Job Positions</strong> - <span style="color:red">Default: No</span><ul>
+<li>This will activate a new drop-down when creating or editing users to assign them a Job Position. A Super User B with the "Manage Systems" privilege can manage the Job Positions. This setting is "System Wide" (not able to be different per location)</li>
+</ul>
+</li>
+<li><strong>Enable Notes (HTML Training Center / Report in Search)</strong> <span style="color:red">Default: Yes</span><ul>
+<li>This toggle will control the "My Notes" tab that shows up on the left side of the video player in the Training Center. There is also an over ride at the COURSE and CHAPTER level, in case a client has something like a "Final Compliance Course" where they do not want NOTES on that particular course or chapter available.</li>
+</ul>
+</li>
+<li><strong>Calendar Enabled</strong> <span style="color:red">Default: Yes</span><ul>
+<li>On legacy systems, this turns on automatically in the System Modules on the Main Menu. On newer systems, the System Design team must manually add the button to the Theme. This is a System wide setting.</li>
+</ul>
+</li>
+<li><strong>Google Analytics Account ID</strong><ul>
+<li>This is an account number specifically for this client. It allows the client to utilize Google Analytics to track usage around their system. This is typically added by the System Design team.</li>
+</ul>
+</li>
+<li><strong>TC Home Icon URL (Legacy)</strong><ul>
+<li>Use this to override the HOME icon URL in the Training Center. Example: /tc/#/trainingcenter/topics/acme_main - this is a Legacy setting. On new systems, this Home Icon URL is controlled in the Themer 2.</li>
+</ul>
+</li>
+<li><strong>TC Use New Category Layout</strong> <span style="color:red">Default: No</span><ul>
+<li>Changing this to "Yes" will make the category menu in the Training Center look like Topics.</li>
+</ul>
+</li>
+<li><strong>TC Layout Column Count</strong> <ul>
+<li>If the New Layout setting (Above) is set to "Yes" - this setting will control how many columns to lay the Categories out in. Typically "3" is a good default.</li>
+</ul>
+</li>
+<li>Social Share Settings</li>
+</ol>
+<h3 id="language-settings">Language Settings</h3>
+<ol>
+<li><strong>Enable Google Translation</strong> <span style="color:red">Default: Yes</span><ul>
+<li>Google Translate is a basic machine translation that will translate the text on all of the pages and screens of our System, it will not translate any text on graphics or video content.</li>
+</ul>
+</li>
+<li><strong>Enable Smartling Translation</strong> <span style="color:red">Default: No</span><ul>
+<li>If utilizing Smartling, then turn off "Google Translation." Also, when using Smartling, you need to select which languages you want to use for this System. Once done, there may be a few words to "translate" per System, depending on what buttons they may have renamed.</li>
+</ul>
+</li>
+</ol>
+<p>More information on Language and System Localization can be found <a href="https://sites.google.com/a/lightspeedvt.com/lsvt-employee-wiki/localization" target="_blank">HERE</a>.</p>
+<h3 id="enrollment-updated-per-theme">Enrollment (Updated Per Theme)</h3>
+<p>This feature allows Admins and Managers (who have the privilege to "Create Users") to easily enroll users at their location. </p>
+<ol>
+<li><strong>Enable Enrollment Options</strong> <span style="color:red">Default: No</span><ul>
+<li>If this toggle is set to Yes, then you must fill out the rest of the fields in order for the Enrollment email to work correctly.</li>
+</ul>
+</li>
+<li><strong>Enrollment Link Text</strong><ul>
+<li>This will be the button or link in the Enrollment email that the user will click on to proceed to a registration form to enroll.</li>
+</ul>
+</li>
+<li><strong>From Email</strong><ul>
+<li>This will appear to the end user as the 'From' email address.</li>
+</ul>
+</li>
+<li><strong>Email Subject</strong><ul>
+<li></li>
+</ul>
+</li>
+<li><strong>Email Body Top</strong>
+    -</li>
+<li><strong>Email Body Bottom</strong><ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<p>Additional information on steps to configure this can be found on our Knowledge Base <a href="http://support.lightspeedvt.com/enrollment-feature/" target="_blank">HERE</a>. </p>
+<h3 id="location-settings">Location Settings</h3>
+<p>Here you can set the "Max Users Exceeded Error Message." If a Location has a Maximum Users limit, and an admin attempts to create another user, this is the error message they will see on the screen.</p>
+<p>The Default text is: This location has exceeded the maximum number of active users. Please contact support.</p>
+<p>Typically you will want to customize this for your own system to include your own support contact information. </p>
+<h3 id="lightpad-settings-updated-per-theme">LightPad Settings (Updated Per Theme)</h3>
+<p>The LightPad is User-to-user messaging within the VT System. This communication features can also be utilized to send SMS Text messages and emails to users as well, if configured to do so. (NOTE: This is an optional feature that can be disabled.)</p>
+<p>There are two tiers to the LightPad. The first is a simple way for your end users to contact Support.</p>
+<p>The second is a way for users to 'Ask the Expert' </p>
+<ol>
+<li><strong>Enable LightPad Yes/No</strong> <span style="color:red">Default: Yes</span><ul>
+<li>This will turn off or on the LightPad</li>
+</ul>
+</li>
+<li><strong>LightPad From Address</strong><ul>
+<li>This field is not required - if left blank it will default to "support@lightspeedvt.com". If the client has a support email address you will enter that here.</li>
+</ul>
+</li>
+<li><strong>Custom LightPad Support Yes/No</strong><ul>
+<li>This feature is nicknamed the “Ask The Expert” feature, where users can send a message to a pre-determined admin user that you can specify. You can use this to have a feature where users can interact with you and you can respond, within the System. Common uses for this are: “Ask The Expert,” “Notify Support,” etc.</li>
+</ul>
+</li>
+<li><strong>LightPad Support Title</strong><ul>
+<li>This is the Title of the custom support message. Example: Ask Tony Robbins!</li>
+</ul>
+</li>
+<li><strong>Support Button Name</strong> <ul>
+<li>This is the name of the button users click to send a message to support. Example: Click Here for Help.</li>
+</ul>
+</li>
+<li><strong>Support Image</strong> <ul>
+<li>Enter the path to the Image. This image appears next to the support verbiage.</li>
+</ul>
+</li>
+<li><strong>Support Recipient</strong> <ul>
+<li>Enter the Username of the person who will receive these messages.</li>
+</ul>
+</li>
+<li><strong>Support Verbiage</strong> <ul>
+<li>Enter the Support Verbiage. This text appears on the main LightPad form.</li>
+</ul>
+</li>
+<li><strong>Extended Instructions</strong> <ul>
+<li>Enter the Extended Instructions. This text appears on the page where the user sends the message.</li>
+</ul>
+</li>
+</ol>
+<p><img alt="Image" src="../../img/system_settings_lightpad.png" /><br /></p>
+<h3 id="message-delivery-options">Message Delivery Options</h3>
+<p>These settings control which message delivery options are available to users of the System. </p>
+<p>Once these options have been toggled to YES, they become available to to add to each user. This flexibility allows some users to opt for Emails, Text Messages, or LightPad messages only, based on their personal preference.</p>
+<p>Once toggled to "Yes", a new tab will appear on both the location "Manage Users" screen and the Super User Dashboard, "Search and Manage all Users" screen, for the users of that System.</p>
+<p>Adding each delivery option to a User will prompt you for more information, either adding an email address or phone number for text messages.</p>
+<p>Once the delivery methods have been added to each user, when you create a new message in the LightPad and choose the recipients, an icon will appear next to the users name based on which delivery method is available.</p>
+<ol>
+<li><strong>Message Delivery - LightPad</strong> <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on or off the ability to send a message to other users via the LightPad. </li>
+</ul>
+</li>
+<li><strong>Message Delivery - SMS</strong> <span style="color:red">Default: No</span><ul>
+<li>This will turn on or off the ability to send a message to other users from the lightpad to the user's email. (Note: In order to reply to the message, the user would have to login to the system and navigate to the LightPad.) </li>
+</ul>
+</li>
+<li><strong>Message Delivery - Email</strong> <span style="color:red">Default: No</span><ul>
+<li>This will turn on or off the ability to send a message to other users from the lightpad to the user's cell phone.</li>
+</ul>
+</li>
+<li><strong>Sendgrid Subuser</strong><ul>
+<li>This feature in progress and not yet ready for LIVE.</li>
+</ul>
+</li>
+</ol>
+<p>Note: If the LightPad is enabled, at least one delivery option must be selected in order for it to function. </p>
+<h3 id="watchdogs">Watchdogs</h3>
+<p>The Watch Dog feature is a series of reports where a “watch dog” is placed at certain areas of the System and “barks” when it sees something it is told to look for. It can push these reporting details out to you via email and/or SMS Text Messages. These reports can be activated under System Settings, and configured per location as desired.</p>
+<ol>
+<li><strong>Watchdog Enabled Yes/No</strong> <span style="color:red">Default: Yes</span><ul>
+<li>This will turn on or off the Watchdog reporting feature.</li>
+</ul>
+</li>
+<li><strong>Training Expectations Friendly Name</strong> <ul>
+<li>Here you can update the name of the report to something more friendly, if desired.</li>
+</ul>
+</li>
+<li><strong>Progress Report Friendly Name</strong><ul>
+<li>Here you can update the name of the report to something more friendly, if desired.</li>
+</ul>
+</li>
+<li><strong>User Tracker Friendly Name</strong><ul>
+<li>Here you can update the name of the report to something more friendly, if desired.</li>
+</ul>
+</li>
+</ol>
+<h3 id="search-settings">Search Settings</h3>
+<p>This is an open field for users to search for content in the Training Center by title, description and keyword. We can also add a drop-down contextual menu to force desired search words/phrases.</p>
+<ol>
+<li><strong>Use Search Terms Yes/No</strong> <span style="color:red">Default: No</span><ul>
+<li>This will turn on or off the Search feature.</li>
+</ul>
+</li>
+<li><strong>Search Terms</strong> <ul>
+<li>Click "+ Add Row" to add a new search term. Enter the term and then its "Sort Order" (the order in which it will be displayed when a user clicks on the search bar)</li>
+</ul>
+</li>
+</ol>
+<h3 id="certification-settings">Certification Settings</h3>
+<p>**Note to Brian: double check on where these are set... in System or Themer? Both?</p>
+<ol>
+<li><strong>My Certification Name (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+<li><strong>Certification Reports Name (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<h3 id="usage-reports-friendly-name-legacy">Usage Reports Friendly Name (Legacy)</h3>
+<ol>
+<li><strong>My Usage Name (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+<li><strong>Quick Links Usage Name (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<h3 id="report-card-friendly-name-legacy">Report Card Friendly Name (Legacy)</h3>
+<ol>
+<li><strong>My Report Card (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+<li><strong>Quick Links Report Card Name (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<h3 id="no-access-custom-message">No Access Custom Message</h3>
+<p>If a user attempts to click on an area of the training center that they do not have access to, you can customize that error message here.</p>
+<ol>
+<li><strong>No Access Custom Message (Legacy)</strong> <ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<h3 id="auto-email-upon-user-creation">Auto Email Upon User Creation</h3>
+<h3 id="pass-back-url-settings">Pass Back URL Settings</h3>
+<h3 id="system-images">System Images</h3>
+<h3 id="main-menu-welcome-message-config">Main Menu Welcome Message Config</h3>
+<h3 id="webhooks-settings">WebHooks Settings</h3>
+<h3 id="notes-and-attachments">Notes and Attachments</h3>
               
             </div>
           </div>
