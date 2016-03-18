@@ -189,7 +189,7 @@
               
                 <h1 id="courseware-management">Courseware Management</h1>
 <p>This section will cover the steps for creating Categories, Courses, Chapters and Test questions for Your VT System. </p>
-<p>First let's cover some basic vocabulary.</p>
+<p>Here are some basic volcabulary terms to familiarize yourself with:</p>
 <p><strong>Training Center:</strong> This is where users navigate – topically – through the available content, with Courses being the building blocks of the content that users have available to them to complete.</p>
 <p>There are different types of Courses that the Training Center can display such as: VT Courseware, which is the LSVT format that inherently comes with your VT System; SCORM, which is a standardized format which outside authoring tools can be utilized to build courses; or “custom” where you may engage in a custom build of a Course type to accommodate a specific need.</p>
 <p><strong>Category Selection Menu</strong>: This is the top level of the navigation hierarchy and Course grouping.</p>
@@ -212,8 +212,8 @@
 <li>The Rank is the order in which this category will display in the training center. The <em>lower</em> the rank (1, 2, 3, etc.) the <em>higher</em> the category will be listed in the system. Rank 1 = the very first category. Rank 999 = the very last category. If two or more categories are set to the same Rank, then the system will sort them alphabetically. </li>
 </ul>
 </li>
-<li><strong>Category Type</strong><ul>
-<li>A category can be "Standard" or it can be a "List of Links" - which means you can use a category to point to additional categories, OR you can use the category to link out to another website, link to a file to download, etc. "Standard" categories, when clicked, will simply load the courses that are assigned to that category.</li>
+<li><strong>Category Type</strong> - <span style="color:red"><em>Standard or List of Links</em></span><ul>
+<li>A category can be "Standard" or it can be a "List of Links". A "List of Links" means you can use a category to point to additional categories, OR you can use the category to link out to another website, link to a file to download, etc. "Standard" categories, when clicked, will simply load the courses that are assigned to that category.</li>
 </ul>
 </li>
 <li><strong>Name</strong> - <span style="color:red"><em>Required Field</em></span><ul>
@@ -229,7 +229,7 @@
 </ul>
 </li>
 <li><strong>Add Sheen to Thumbnail</strong><ul>
-<li>The default setting here is usually "No". The "No" setting will automatically add rounded edges and a highlight effect to the rollover. If you set this to "Yes", it will assume you are adding the rollover and rounded corners through other means (Custom CSS, etc.)</li>
+<li>The default setting here is usually "Yes". The "Yes" setting will automatically add rounded edges and a highlight effect to the rollover. If you set this to "No", it will assume you are adding the rollover and rounded corners through other means (Custom CSS, GIF, etc.)</li>
 </ul>
 </li>
 </ol>
@@ -253,7 +253,7 @@
         Note
     </p>
     <p class="last">
-File Size best practices: Every time one of your users loads the Training Center they will be downloading all of the visible artwork on the screen. This means you should keep in mind file size when uploading image thumbnails. If you add a 50mb image to one of your Category tiles, the user is going to have to download that every time.
+File Size best practices: Every time one of your users load the Training Center they will be downloading all of the visible artwork on the screen. This means you should keep in mind file size when uploading image thumbnails. Currently LightSpeed VT does not compress any files when you upload them. If you add a 50mb image to one of your Category tiles, the user is going to have to download that every time.
     </p>
 </div>
 
@@ -269,18 +269,9 @@ File Size best practices: Every time one of your users loads the Training Center
 </li>
 </ol>
 <p>When you have entered all of your information, click <strong>"Save"</strong>, and move on to the next section.</p>
-<div class="admonition note">
-    <p class="first admonition-title">
-        Note
-    </p>
-    <p class="last">
-"VT2GO" is covered in a separate section.
-    </p>
-</div>
-
 <hr />
 <h2 id="courses">Courses</h2>
-<p>A Course is made up of a series of Chapters, a description (in text), an image tile (picture or image representing the content) and a Course Preview Trailer (video).</p>
+<p>A Course is made up of one or more Chapters, a text description, an image tile (picture or image representing the content) and a Course Preview Trailer (video).</p>
 <h3 id="1-create-a-course-basic-info">1. Create a Course - Basic Info</h3>
 <p>On the <strong>Create New Course</strong> menu, we see the following fields (click on the image to open it in a new window):</p>
 <p>Create your course by filling out the following fields:</p>
@@ -289,7 +280,7 @@ File Size best practices: Every time one of your users loads the Training Center
 <li>Select whether this course should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of this process.)</li>
 </ul>
 </li>
-<li><strong>Rank</strong><ul>
+<li><strong>Rank</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
 <li>The Rank is the order in which this course will display in the training center. The <em>lower</em> the rank (1, 2, 3, etc.) the <em>higher</em> the course will be listed in the system. Rank 1 = the very first course. Rank 999 = the very last course. If two or more courses are set to the same Rank, then the system will sort them alphabetically. </li>
 </ul>
 </li>
@@ -297,37 +288,37 @@ File Size best practices: Every time one of your users loads the Training Center
 <li>A "Linked Course (Banner)" indicates that this course will be used to link to another course, rather than linking to a set of chapters as a Standard course would.</li>
 </ul>
 </li>
-<li><strong>Name</strong><ul>
+<li><strong>Name</strong> - <span style="color:red"><em>Default: Required Field</em></span><ul>
 <li>Enter the name of the course here.</li>
 </ul>
 </li>
-<li><strong>Category</strong><ul>
+<li><strong>Category</strong> - <span style="color:red"><em>Default: Required Field</em></span><ul>
 <li>Select which category this course should go in. (Note: Currently a course can only be in 1 category at a time.)</li>
 </ul>
 </li>
 <li><strong>Thumbnail</strong><ul>
-<li>Enter the path to the course image. This will be the web URL to where the image is hosted on our cloud server, or your own CDN. Or, you can click on "Choose File" to upload a thumbnail.</li>
+<li>Enter the path to the course image. This will be the web URL to where the image is hosted on your server. Or, you can click on "Choose File" to upload a thumbnail from your local device.</li>
 </ul>
 </li>
-<li><strong>Preview Video</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Preview Video</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Enter the path to the course video preview (If you do not have a course preview video, just leave this blank.)</li>
 </ul>
 </li>
 <li><strong>Enable Notes</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
 <li>This will toggle on and off the notes feature for the entire course. Additionally you can control the notes feature at the Group level, and at the Chapter level. This should <strong>always</strong> be set to "Yes" unless indicated otherwise.
-9.. <strong>Course Description</strong> - <span style="color:red"><em>Can be left blank.</em></span></li>
+9.. <strong>Course Description</strong> - <span style="color:red"><em>This can be left blank.</em></span></li>
 <li>Enter the description of the course. If there was none provided, enter something as a temporary placeholder.</li>
 </ul>
 </li>
-<li><strong>Course Internal Description</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Course Internal Description</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Enter the internal description. This is a LightSpeed viewable field only. This is used to quickly identify which client a course belongs to, or adding other important details, such as recent changes.</li>
 </ul>
 </li>
-<li><strong>Author</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Author</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Enter the name of the author of this material (Usually the client's name - but if it's a collaboration, enter the name of the System, ex. Patricia Fripp as an individual, or NCM OnDemand as a collaboration, etc.)</li>
 </ul>
 </li>
-<li><strong>Duration</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Duration</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>This field is for the duration, in minutes, of the course. (This feature is currently not in use.)</li>
 </ul>
 </li>
@@ -349,14 +340,14 @@ File Size best practices: Every time one of your users loads the Training Center
 </ol>
 <h3 id="keywords">Keywords</h3>
 <ol>
-<li><strong>Keywords</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Keywords</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Add any keywords associated with this course. Type in your desired Keyword and then hit enter. Enter as many keywords as you desire.</li>
 </ul>
 </li>
 </ol>
 <h3 id="extended-info">Extended Info</h3>
 <ol>
-<li><strong>Extended Info</strong> - <span style="color:red"><em>Can be left blank.</em></span><ul>
+<li><strong>Extended Info</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>This is for advanced Content Configuration. You can leave this empty for now - this is covered more in the Content Administrator section.</li>
 </ul>
 </li>
