@@ -139,6 +139,16 @@
             "location": "/getting_started/overview/#available-tutorials", 
             "text": "Create a Category  Create a Course  Create a Chapter  Content Containers  Content Roles  Access Levels  Turning Content On/Off at a Location  System Settings  Location Settings  Theme Settings  Certifications  The Impersonate Feature   1. Create a Category  This section will take you step-by-step through the VT Courseware section to demonstrate how to create a Category, Course, Chapter and Test Question, and then activate it in your system.   Click on \"Courseware Management\" and then select your Content Container  Click on \"Categories\" and then \"Create Category\"  Add a Category Name  Add a Category Thumbnail  Add a Category Description   2. Create a Course  This section will take you step-by-step through the VT Courseware section to demonstrate how to create a Category, Course, Chapter and Test Question, and then activate it in your system.   Click on \"Courseware Management\" and then select your Content Container  Click on \"Categories\" and then \"Create Category\"  Add a Category Name  Add a Category Thumbnail  Add a Category Description   3. Create a Chapter  This section will take you step-by-step through the VT Courseware section to demonstrate how to create a Category, Course, Chapter and Test Question, and then activate it in your system.   Click on \"Courseware Management\" and then select your Content Container  Click on \"Categories\" and then \"Create Category\"  Add a Category Name  Add a Category Thumbnail  Add a Category Description", 
             "title": "Available Tutorials"
+        }, 
+        {
+            "location": "/admin_superusers/overview/", 
+            "text": "Overview\n\n\nJason will Write this", 
+            "title": "Admin SuperUsers"
+        }, 
+        {
+            "location": "/admin_superusers/overview/#overview", 
+            "text": "Jason will Write this", 
+            "title": "Overview"
         }
     ]
 }
