@@ -57,7 +57,7 @@
         }, 
         {
             "location": "/content_containers/overview/", 
-            "text": "What is a Content Container?\n\n\nPull out Premier Content Roles into it's \n\n\nPremier Content Roles\n\n\nThis has two facets to it.\nOne - Under the 201 (Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and modify their premier content. You will also see a list of Premier Content Roles when viewing a User\u2019s profile at the Location level.\n\n\nTwo - Under 402 (Content Containers), you will see the \u201cPremier Content\u201d tab, and you will be able to select a \u201cSystem\u201d for which you have SU access to a Locations within, you will see that list of all Locations that you can update the Premier Content at. As content roles may be set to Premier at one Location, but not Premier at another Location.\n\n\nEtc...\n\n\nPremier Content Access - Pull out that chunk of text ^^^^ explain if a SUB has it - what they see - screenshot of that", 
+            "text": "What is a Content Container?\n\n\nPull out Premier Content Roles into it's \n\n\nPremier Content Roles (move this out to the front)\n\n\nThis has two facets to it.\nOne - Under the 201 (Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and modify their premier content. You will also see a list of Premier Content Roles when viewing a User\u2019s profile at the Location level.\n\n\nTwo - Under 402 (Content Containers), you will see the \u201cPremier Content\u201d tab, and you will be able to select a \u201cSystem\u201d for which you have SU access to a Locations within, you will see that list of all Locations that you can update the Premier Content at. As content roles may be set to Premier at one Location, but not Premier at another Location.\n\n\nEtc...\n\n\nPremier Content Access - Pull out that chunk of text ^^^^ explain if a SUB has it - what they see - screenshot of that", 
             "title": "Content Containers"
         }, 
         {
@@ -77,12 +77,12 @@
         }, 
         {
             "location": "/turning_on-off_content/overview/", 
-            "text": "Overview\n\n\nIf you have SU access to the location, you can turn courses on and off at that location.", 
-            "title": "Turning Content On or Off"
+            "text": "Overview\n\n\nGOOD NEWS!\n\n\nThere are Admin tools to do bulk content activations and deactivations for lots Locations at a time!\n\n\nBAD NEWS!\n\n\nWe\u2019re not quite ready to have them LIVE yet for Super User B\u2019s (sorry).\n\n\nBETTER NEWS!\n\n\nThe LSVT Client Care Dept. can assist you in bulk content changes - simply give us a call or an email, and we\u2019ll be happy to assist!\n\n\nWe\u2019ll just ask you what the list of Course ID\u2019s you want activated (or deactivated) and a list of Location ID\u2019s or just tell us - \u201cAll Locations.\u201d\n\n\nsupport@lightspeedvt.com\n\nOr call: \n702-369-4260", 
+            "title": "Activating/Deactivating Content"
         }, 
         {
             "location": "/turning_on-off_content/overview/#overview", 
-            "text": "If you have SU access to the location, you can turn courses on and off at that location.", 
+            "text": "GOOD NEWS!  There are Admin tools to do bulk content activations and deactivations for lots Locations at a time!  BAD NEWS!  We\u2019re not quite ready to have them LIVE yet for Super User B\u2019s (sorry).  BETTER NEWS!  The LSVT Client Care Dept. can assist you in bulk content changes - simply give us a call or an email, and we\u2019ll be happy to assist!  We\u2019ll just ask you what the list of Course ID\u2019s you want activated (or deactivated) and a list of Location ID\u2019s or just tell us - \u201cAll Locations.\u201d  support@lightspeedvt.com \nOr call:  702-369-4260", 
             "title": "Overview"
         }, 
         {
@@ -142,12 +142,12 @@
         }, 
         {
             "location": "/admin_superusers/overview/", 
-            "text": "Overview\n\n\nJason will Write this", 
+            "text": "Overview\n\n\nYou will likely have the need to create other top level \u201cSuper Users\u201d at your company, and you will want to grant them appropriate privileges to administer a lot the settings in the VT System. This section will briefly explain how you can create and administrate Super User B\u2019s for your organization, as you can grant them as many or as few privileges as you wish.\n\n\nFirst, you will need create a Super User B, just like you would create any user - likely at your \u201cAdmin Location.\u201d Once the user exists, you will then want to go to the Super User Dashboard, and \u201cSearch\u201d for them with the \u201c201 - Manage All Users\u201d tool. Once you select their username, you will see a new \u201ctab\u201d on the top called \u201cSuper User B Privilege\u201d and if you click on that tab, will will then see all of the privileges listed out, and a \u201cYES/NO\u201d toggle for each. They all have a \u201c?-ICON\u201d that you can hover over and get a tooltip as to what each privilege does.", 
             "title": "Admin SuperUsers"
         }, 
         {
             "location": "/admin_superusers/overview/#overview", 
-            "text": "Jason will Write this", 
+            "text": "You will likely have the need to create other top level \u201cSuper Users\u201d at your company, and you will want to grant them appropriate privileges to administer a lot the settings in the VT System. This section will briefly explain how you can create and administrate Super User B\u2019s for your organization, as you can grant them as many or as few privileges as you wish.  First, you will need create a Super User B, just like you would create any user - likely at your \u201cAdmin Location.\u201d Once the user exists, you will then want to go to the Super User Dashboard, and \u201cSearch\u201d for them with the \u201c201 - Manage All Users\u201d tool. Once you select their username, you will see a new \u201ctab\u201d on the top called \u201cSuper User B Privilege\u201d and if you click on that tab, will will then see all of the privileges listed out, and a \u201cYES/NO\u201d toggle for each. They all have a \u201c?-ICON\u201d that you can hover over and get a tooltip as to what each privilege does.", 
             "title": "Overview"
         }
     ]
