@@ -92,7 +92,9 @@
             
                 <li class="toctree-l3"><a href="#overview">Overview</a></li>
                 
-                    <li><a class="toctree-l4" href="#access-level-explanations">Access Level Explanations</a></li>
+                    <li><a class="toctree-l4" href="#how-to-configure-access-levels">How to Configure Access Levels</a></li>
+                
+                    <li><a class="toctree-l4" href="#access-level-privileges">Access Level Privileges</a></li>
                 
             
             </ul>
@@ -189,62 +191,95 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>Each “System” currently has 12 access levels. Within the System, these Access Levels can be renamed to best suit your needs. Additionally, we will turn off any unused Access Levels for your System to alleviate any confusion.</p>
-<p>The Access Levels are organized into three tiers, which are:</p>
-<p><strong>Super Users</strong></p>
-<p>“Multi location admins” – which can access the “Super User” dashboard which is a series of reporting tools and Admin features over Multiple Locations.</p>
-<p><strong>Managers</strong></p>
-<p>“Location level admin” – which can access the “Quick Links” at the location level, which give them access to administrate users* and run training and usage reports. As you will see below, there are three levels of Managers, and if you grant the Manager the “Ability to Create Users” they can only create users at their access level or lower. Then cannot create users above their Access Level. The same rule goes for the “Super User C” – in that they cannot create a “Super User B.”</p>
-<p><strong>Users</strong></p>
-<p>This is a standard user who can access the Training Center and view their own reports.</p>
-<h3 id="access-level-explanations">Access Level Explanations</h3>
-<p>Below, is the specific numeric ID’s for the Access Levels (note: the names in parentheses are the default names that these start out as – we can rename them to suit your needs):</p>
-<p><strong>Super Users:</strong></p>
-<p>Access Level 1 (Super User A)<br />
-This is reserved for LightSpeed VT Administrators to use on your account. No client access is provided on this level.</p>
-<p>Access Level 2 (Super User B)<br />
-This level is reserved for your “Top Client Admin” users that will need the most access all of the Admin features and over multiple locations.</p>
-<p>Access Level 3 (Super User C)<br />
-This level is commonly used to provide access for your clients that need to have reporting and access to multiple locations. Note, the “Super User B” has the privileges to determine what locations each “Super User C” can access, allowing for you as the “Top Client Admin” to set their privileges.</p>
-<p><strong>Managers</strong></p>
-<p>Access Level 4 (Manager A)<br />
-Access Level 5 (Manager B)<br />
-Access Level 6 (Manager C)<br /></p>
-<p><strong>Users</strong></p>
-<p>Access Level 7 (User A)<br />
-Access Level 8 (User B)<br />
-Access Level 9 (User C)<br />
-Access Level 10 (Limited User A)<br />
-Access Level 11 (Limited User B)<br />
-Access Level 12 (Limited User C)<br /></p>
-<p><strong>Reporting Needs</strong></p>
-<p>It is possible to utilize our “Job Positions” and “Teams” to further organize users into other designations. Job Positions are “System” centric labels, and “Teams” are “Location” level names (click on each label below see their related article).</p>
-<p>Using the Job Positions Feature</p>
-<p>Using the Teams Feature</p>
-<p><strong>Common Configurations</strong></p>
-<p>Take, for example,  a fictitious training company called “Acme Training Company” that has one corporate office, as well as offices in different cities with Managers and Users at each Location. See the example below for a possible way to set up Access Levels for this “Acme Training Company”.</p>
-<p>Access Level 2 (Super User B) – [ACME Training Admin]<br />
-This will be for users at the Corporate office that will be overseeing the entire organization.<br />
-Access Level 3 (Super User C) – [ACME Regional Manager]<br />
-This will be a user that works at one of the field offices, but still needs admin and reporting access over the locations that they specifically oversee – such as the “South West Region.”<br />
-Access Level 4 (Manager A) – [General Manager]<br />
-This will be the GM of a specific location and will oversee the users only at their own location.<br />
-Access Level 5 (Manager B) – [Assistant Manager]<br />
-This is a lower level manager that can run reports on all of the users at their specific location, but cannot administrate users above them.<br />
-Access Level 6<br />
-(NOT USED IN THIS EXAMPLE)<br />
-Access Level 7 (User A) – [Sales Associate]<br />
-This is a user that has Sales training provisioned to their access level, and can utilize all of that training and run their own reports.<br />
-Access Level 8 (User B) – [Front Desk Attendant]<br />
-This is a user that has Front Desk training provisioned to their access level, and can utilize all of that training and run their own reports.<br />
-Access Level 9<br />
-(NOT USED IN THIS EXAMPLE)<br />
-Access Level 10<br />
-(NOT USED IN THIS EXAMPLE)<br />
-Access Level 11<br />
-(NOT USED IN THIS EXAMPLE)<br />
-Access Level 12<br />
-(NOT USED IN THIS EXAMPLE)<br /></p>
+<p>Each user is assigned to one (and only one) Access Level, and this determines what basic “Overseer” privileges they have, or do not have.</p>
+<p>Each “System” currently has up to 11 access levels. Within the System, these Access Levels can be renamed, turned on/off, and select privileges toggled on/off to best suit your needs. </p>
+<p>The Access Levels have ID#’s 2 through 12 so that when you rename them, you can still see the ID# in some areas so you know which is which (Access Level #1 is reserved for internal LSVT use).</p>
+<p>The Access Levels are split into four sets.</p>
+<p>Super Users:    ID# 2 and 3<br />
+The Super User has access to the Super User Dashboard, and in short, that means they can have access to more than one Location. Your internal team of “Top Admins” will always be the highest level, which is ID# 2.
+You will often rename Access Level #3 to a “Multi Location Manager” - so that these users can oversee and run reports on multiple Locations.</p>
+<p>Managers:   ID# 4, 5 and 6<br />
+The “Manager” has access to oversee Users that are at their Access Level and below. They can create users (if toggled the ability to do so) and they can run reports. The users they can create and reports that they can run are localized to their own Location.</p>
+<p>Users:  ID# 7, 8 and 9<br />
+This Access Level is for standard users. There is often only the need to use one of these “User” Access Levels and turn the others off. They all have the same exact privileges (or lack thereof) in that they can only see their own reports, and not other users. This level does have access to the LightPad Message Center and can send messages to other users at their Location.</p>
+<p>Well, I spoke too soon - there is one fairly important reason why you may want to use all three of these Access Levels, and that is if you have the need to “Auto-Populate” content to a user, based on their Access Level. In this case,  you may need more than one “User” Access Level to designate what you need.</p>
+<p>To learn more about how to use the “Auto Populate” Content Feature, follow me... (link to the Auto-Populate page).</p>
+<p>Limited Users:  ID# 10, 11 and 12<br />
+This Access Level is almost exactly the same as the  “User” set, with the exception that in the LightPad Message Center, this Access Level can only send a message to “Support” and not to other other users at their Location.</p>
+<h3 id="how-to-configure-access-levels">How to Configure Access Levels</h3>
+<p>In the Super User Dashboard, go to the “400 - Application Administration” area, and look in the “401 - System Management” section for the button called “Manage Access Levels.”</p>
+<p><img alt="Image" src="../../img/manag-access-levels-button.png" /><br /><br /></p>
+<p>If you have access to more than one System, you will first select the System you want to administrate the Access Levels for, and click “Get Access Levels.” From here you will see the list of Access Levels, and you can rename them for you needs and toggle a few privileges for each.</p>
+<p><img alt="Image" src="../../img/access-level-list.jpg" /><br /><br /></p>
+<ul>
+<li>The privilege toggle switches next to each one are:<ul>
+<li>Visible: Simply set to “No” if you do not want to use certain Access Levels.</li>
+<li>Skip Video: If set to “Yes” then these users will be able to Fast Forward the videos, as well as see a “Skip” button on the right side of the video player.</li>
+<li>Show Answers: If set to “Yes” then these users will see the correct answers highlighted in green on the standard multiple choice test questions.</li>
+</ul>
+</li>
+</ul>
+<p><i class="fa fa-asterisk"></i> NOTE - Access Level 13 is an extra Access Level reserved for “Anonymous Users” - which are set up for ESPs and other advanced content features. These Advanced content features will have Super User Admin tools in the near future.</p>
+<p>Below is a grid of the specific privileges that each Access Level has built in.</p>
+<h3 id="access-level-privileges">Access Level Privileges<br /></h3>
+<table>
+<thead>
+<tr>
+<th>Access Level</th>
+<th>2</th>
+<th>3</th>
+<th align="center">4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Super User Dashboard</td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+<tr>
+<td>Send LightPad Messages</td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td align="center"><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td><i class="fa fa-check"></i></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+</tbody>
+</table>
+<p>(BG note - for “401 AL Toggle” put in a single * .. for “Toggle On/Off” put in a double <strong> … and for Assigned Team” put in a triple </strong>* ).</p>
+<p>Notes:
+<em>= If the associated “Yes/No” privilege toggle is set in the “Manage Access Levels” - it will decide this privilege.
+<strong>= This ability is able to be overridden on each user's profile, there is a Yes/No toggle for “Ability to Manage Users” that can be set per individual
+</strong></em>= If “teams Plus” feature is enabled, then Access Level 6 (Manager C) can only Oversee users that are on their “Team.”
+If a user has the ability to “Manage Users” then they can only create/manage users at their Access Level and below.</p>
+<p>(BG heading)
+File Vault Privileges related to Access Levels</p>
+<p>If the File Vault is enabled, then there are some additional built in privileges that apply specifically to the File Vault, and they are noted below.</p>
+<p>(BG display this “File Vault Functionality” table/grid)</p>
               
             </div>
           </div>

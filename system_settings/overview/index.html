@@ -553,9 +553,50 @@
 <h3 id="main-menu-welcome-message-config">Main Menu Welcome Message Config</h3>
 <p>On this screen you can add different welcome videos based on the user's access level or content role.</p>
 <h3 id="webhooks-settings">WebHooks Settings</h3>
-<p>This section will enable your system to start using webhooks. We'll explain this more in Phase 2.</p>
+<p>We have some Webhooks built in to the VT System that can be used to trigger events in real time. If you have another web application and wish to use Webhooks to send real time notifications to that other Web Application, you can go to the “System Settings” and add in your Endpoint URL’s, and indicate what events you want to listen to - CLICK HERE to go the Help Doc that specifically talks about that. There is also some Documentation for developers available on our API DOCS site that will describe the JSON data and parameters that will get sent to that other Web Application.  (CLICK HERE for the API DOCS about Webhooks).</p>
+<p>However, you can take advantage of some of the utilities we have built inside of the VT System leveraging Webhooks, with no programming needed. Below I’ll describe some of these thing - and SOON - we will have new Admin controls for you to manage these - but until then - please contact the Client Care Dept. to configure these for you. </p>
+<hr />
+<h4 id="email-notifications">Email Notifications</h4>
+<p>Course or Chapter Completions
+When a user finishes Course  (or a Chapter), we can send them an email. You can use this to congratulate them on completing a Course, and encourage usage by telling them what to get started on next.</p>
+<p>What we need from you are:<br />
+Which Content: This can be a Course, or a Chapter, or a list of courses, and the email will go out once the user completes ALL of them.<br />
+From who: (A name)<br />
+Reply to Email address: (email address)<br />
+Subject Line of the email:<br />
+Text for the email body:<br />
+An example may be:<br /></p>
+<p>Dear %%firstname%%,<br />
+Great job on completing %%coursename%%.<br />
+Please contact us if you have any questions!<br /></p>
+<p>The available dynamic data to insert is:<br /></p>
+<p>%%courseid%%<br />
+%%coursename%%<br />
+%%datetimecompleted%%<br />
+%%email%%<br />
+%%firstname%%<br />
+%%lastname%%<br />
+%%locationid%%<br />
+%%locationname%%<br />
+%%phone1%%<br />
+%%phone2%%<br />
+%%userid%%<br />
+%%username%%<br /></p>
+<hr />
+<h4 id="no-sign-in">No SIgn In</h4>
+<p>We can send an email to users who have NOT signed in, for “X” number of days.</p>
+<p>This can help drive usage, if you send them an email that asks them why they have not signed in.</p>
+<hr />
+<h4 id="email-after-start-date">Email after “Start Date”</h4>
+<p>We can send a user an email “X” number of days after they have started. This can be something like, “Hey, now that you have been a customer for 7 days, we just wanted to say THANKS!”</p>
+<hr />
+<h4 id="email-prior-to-expiration">Email prior to “Expiration”</h4>
+<p>We can send a user an email “X” number of days prior to their account expiring. This can be something like, “Hey, your account will expire in 7 days, be sure to renew!”</p>
+<h4 id="update-user-access">Update User Access</h4>
+<hr />
+<p>This is a tool that you can use to update/change the content a user has (add or subtract Content Roles), based on what they complete. We can trigger it off of a Course completion, or a Chapter completion. We can do things like; when a User Completes Course A,  it unlocks Course B (and you can show a “locked” version of Course B before it is unlocked). Another cool detail is that we can “Reset” their Main Menu Message video too. This can be used to tell them something different next time they sign in - something like; “Hey, I noticed you recently unlocked Course B… Nice work!”</p>
 <h3 id="powered-by-logo">Powered by Logo</h3>
-<p>Hide LSVT Logo?</p>
+<p>Hide LSVT Logo!</p>
 <h3 id="notes-and-attachments">Notes and Attachments</h3>
 <p>Add any Notes or Attachments to the System for future use.</p>
               
