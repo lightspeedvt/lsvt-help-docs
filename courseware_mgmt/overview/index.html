@@ -72,6 +72,8 @@
                 
                     <li><a class="toctree-l4" href="#test-questions">Test Questions</a></li>
                 
+                    <li><a class="toctree-l4" href="#glossary-of-terms">Glossary of Terms</a></li>
+                
             
             </ul>
         
@@ -157,7 +159,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../admin_superusers/overview/">Admin SuperUsers</a>
+        <a class="" href="../../superusers/overview/">SuperUsers</a>
         
     </li>
 <li>
@@ -206,17 +208,14 @@
 <hr />
 <h2 id="categories">Categories</h2>
 <p>A category is made up of one or more courses, a text description, an image thumbnail (picture or image representing the content) and if applicable, a rollover image thumbnail (an additional image that will appear when a user hovers over the tile with their mouse).</p>
-<h3 id="create-a-new-category"><i class="fa fa-hand-o-right"></i> Create a new Category</h3>
-<p>From this screen you can either <strong>Search</strong> for an existing category, or <strong>Create a new category</strong>.</p>
-<p>On the <strong>Create New Category</strong> menu, we see the following fields (click on the image to open it in a new window):</p>
-<h3 id="category-basic-info">Category Basic Info</h3>
-<p>Create your category by filling out these fields:</p>
+<h3 id="create-or-edit-a-category-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Category - Basic Info</h3>
+<p>After you have selected your content container, you can select <strong>Category List</strong>, where you can either <strong>Search</strong> for an existing category, or <strong>Create a new category</strong>.</p>
 <ol>
-<li><strong>Active Yes/No</strong><ul>
+<li><strong>Active Yes/No</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
 <li>Select whether this category should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of this process.)</li>
 </ul>
 </li>
-<li><strong>Rank</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
+<li><strong>Rank</strong> - <span style="color:red"><em>Default: 1, Required Field</em></span><ul>
 <li>The Rank is the order in which this category will display in the training center. The <em>lower</em> the rank (1, 2, 3, etc.) the <em>higher</em> the category will be listed in the system. Rank 1 = the very first category. Rank 999 = the very last category. If two or more categories are set to the same Rank, then the system will sort them alphabetically. </li>
 </ul>
 </li>
@@ -232,12 +231,12 @@
 <li>Here you can enter the image path to the category image, or choose to upload one from your local device.</li>
 </ul>
 </li>
-<li><strong>Thumbnail Rollover</strong> - <span style="color:red"><em>Can be left blank</em></span><ul>
+<li><strong>Thumbnail Roll Over (Optional)</strong> - <span style="color:red"><em>This can be left blank</em></span><ul>
 <li>Here you can enter the path to the category rollover image, or choose to upload one from your local device. This is similar to the Thumbnail above.</li>
 </ul>
 </li>
-<li><strong>Add Sheen to Thumbnail</strong><ul>
-<li>The default setting here is usually "Yes". The "Yes" setting will automatically add rounded edges and a highlight effect to the rollover. If you set this to "No", it will assume you are adding the rollover and rounded corners through other means (Custom CSS, GIF, etc.)</li>
+<li><strong>Add Sheen to Thumbnail</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
+<li>The "Yes" setting will automatically add rounded edges and a highlight effect to the rollover. If you set this to "No", it will assume you are adding the rollover and rounded corners through other means (Custom CSS, GIF, etc.)</li>
 </ul>
 </li>
 </ol>
@@ -265,7 +264,7 @@ File Size best practices: Every time one of your users load the Training Center 
     </p>
 </div>
 
-<h3 id="2-category-additional-information">2. Category Additional Information</h3>
+<h3 id="category-additional-information">Category - Additional Information</h3>
 <ol>
 <li><strong>Description</strong> - <span style="color:red"><em>Can be left blank</em></span><ul>
 <li>Enter the description of the category.</li>
@@ -280,9 +279,8 @@ File Size best practices: Every time one of your users load the Training Center 
 <hr />
 <h2 id="courses">Courses</h2>
 <p>A Course is made up of one or more Chapters, a text description, an image tile (picture or image representing the content) and a Course Preview Trailer (video).</p>
-<h3 id="1-create-a-course-basic-info">1. Create a Course - Basic Info</h3>
-<p>On the <strong>Create New Course</strong> menu, we see the following fields (click on the image to open it in a new window):</p>
-<p>Create your course by filling out the following fields:</p>
+<p>After you have selected your content container, you will be on the <strong>Course List</strong> screen, where you can either <strong>Search</strong> for an existing course, or <strong>Create a new course</strong>.</p>
+<h3 id="create-or-edit-a-course-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Course - Basic Info</h3>
 <ol>
 <li><strong>Active Yes/No</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
 <li>Select whether this course should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of this process.)</li>
@@ -331,7 +329,7 @@ File Size best practices: Every time one of your users load the Training Center 
 </ul>
 </li>
 </ol>
-<h3 id="display-settings">Display Settings</h3>
+<h3 id="course-display-settings">Course - Display Settings</h3>
 <ol>
 <li><strong>Hide this Course from Reports</strong> - <span style="color:red"><em>Default: No</em></span><ul>
 <li>This will show/hide the course in reporting sections.</li>
@@ -346,21 +344,21 @@ File Size best practices: Every time one of your users load the Training Center 
 </ul>
 </li>
 </ol>
-<h3 id="keywords">Keywords</h3>
+<h3 id="course-keywords">Course - Keywords</h3>
 <ol>
 <li><strong>Keywords</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Add any keywords associated with this course. Type in your desired Keyword and then hit enter. Enter as many keywords as you desire.</li>
 </ul>
 </li>
 </ol>
-<h3 id="extended-info">Extended Info</h3>
+<h3 id="course-extended-info">Course - Extended Info</h3>
 <ol>
 <li><strong>Extended Info</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
-<li>This is for advanced Content Configuration. You can leave this empty for now - this is covered more in the Content Administrator section.</li>
+<li>This is for advanced Content Configuration. </li>
 </ul>
 </li>
 </ol>
-<h3 id="content-role-assignments">Content Role Assignments</h3>
+<h3 id="course-content-role-assignments">Course - Content Role Assignments</h3>
 <p>When you have entered all of your information, click <strong>"Save"</strong>, and move on to the next section.</p>
 <hr />
 <h2 id="chapters">Chapters</h2>
@@ -377,7 +375,7 @@ File Size best practices: Every time one of your users load the Training Center 
 <p>By default, a test is followed by a "Recap" Chapter part if the user fails to pass the test. (this is optional)</p>
 <p>Chapter creation is unique from Categories and Courses in which you can only <strong>"Create New Chapter"</strong> from an existing <strong><em>course</em></strong>. So you'll see after you save your course from the previous section that there is now a <strong>"Create New Chapter"</strong> button at the top.</p>
 <p>Click on that when you're ready to create your chapter.</p>
-<h3 id="create-new-chapter-part-1-basic-info">Create New Chapter - Part 1, Basic Info</h3>
+<h3 id="create-new-chapter-basic-info">Create New Chapter - Basic Info</h3>
 <p>On the <strong>Create New Chapter</strong> menu, we see the following fields (click on the image to open it in a new window):</p>
 <p>Create your chapter by filling out these fields:</p>
 <ol>
@@ -403,8 +401,9 @@ File Size best practices: Every time one of your users load the Training Center 
 </ol>
 <p>Let's take a closer look at these chapter types.</p>
 <h3 id="1-standard-video-and-test">1. Standard (Video and Test)</h3>
-<p>In a Standard chapter type, this is normal courseware - it has at least 1 video part and at least 1 test question.</p>
-<p>After selecting 'Standard', you will need to click on 'Add Chapter Part' and add a path to your video file.</p>
+<p>In a Standard chapter type, the chapter must have at least 1 video part and at least 1 test question.</p>
+<p>After selecting 'Standard', you will need to click on 'Add Chapter Part' and either upload a new video to your <strong>Video Library</strong>, or copy and paste the path of an existing video in your <strong>Video Library</strong> into the chapter part field. </p>
+<h4 id="summary-info">Summary Info</h4>
 <ol>
 <li><strong>Test Instructions / Setup (Seen before test)</strong><ul>
 <li>Enter the test instruction text the user will see before starting the test. The default language we use here is: <br /><br /><span style="color:red">This chapter test is a quick check of your knowledge so far. As you select your answers, each question is timed and all results are recorded on your “Report Card.” Click START below when you are ready.</span><br /><br /></li>
@@ -414,15 +413,14 @@ File Size best practices: Every time one of your users load the Training Center 
 <li>Enter the test summary for when the user passes the test. The default text is already populated if you do not need to change it.</li>
 </ul>
 </li>
-<li>
-<p><strong>Test Summary (Failed Test) (Seen upon test completion)</strong></p>
-<ul>
+<li><strong>Test Summary (Failed Test) (Seen upon test completion)</strong><ul>
 <li>Enter the test summary for when the user fails the test. The default text is already populated if you do not need to change it.</li>
 </ul>
 </li>
-<li>
-<p><strong>Number of Test Questions</strong> - <span style="color:red"><em>Default: 1</em></span></p>
-<ul>
+</ol>
+<h4 id="test-settings">Test Settings</h4>
+<ol>
+<li><strong>Number of Test Questions</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
 <li>Enter the number of test questions that will be pulled for this chapter. If you enter a number here smaller than the total number of test questions active, then it will randomly select that number from that <strong>"pool"</strong> of available questions. For example - if there are 10 active test questions for this chapter, and the number of test questions is set to 5, each time a user takes the test it will randomly serve up 5 of the 10 total questions.</li>
 <li>Note: You will not be able to activate this chapter until this number matches the number of test questions added.</li>
 </ul>
@@ -549,7 +547,7 @@ File Size best practices: Every time one of your users load the Training Center 
 <p>Once all of the fields are complete, hit <strong>"Save"</strong> and then click on the chapter name at the top of the screen to return to the chapter menu. From there you can now activate the chapter.</p>
 <h3 id="next-steps-activation">Next Steps - Activation</h3>
 <p>And that is it. You should have now successfully created a Category, Course, Chapter and Test Question.</p>
-<h3 id="glossary-of-terms">Glossary of Terms</h3>
+<h2 id="glossary-of-terms">Glossary of Terms</h2>
 <p>Here are some basic volcabulary terms to familiarize yourself with:</p>
 <p><strong>Training Center:</strong> This is where users navigate – topically – through the available content, with Courses being the building blocks of the content that users have available to them to complete.</p>
 <p>There are different types of Courses that the Training Center can display such as: VT Courseware, which is the LSVT format that inherently comes with your VT System; SCORM, which is a standardized format which outside authoring tools can be utilized to build courses; or “custom” where you may engage in a custom build of a Course type to accommodate a specific need.</p>
