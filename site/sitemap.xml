@@ -4,207 +4,121 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
-        
     <url>
-     <loc>None/training_center_designer/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/courseware_mgmt/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    <url>
-     <loc>None/training_center_designer/initial_build/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/training_center_designer/artwork_design/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/training_center_designer/content_container/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/training_center_designer/additional_design/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
-        
     <url>
-     <loc>None/content_admin/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/vt2go/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    <url>
-     <loc>None/content_admin/encoding/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/content_management/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/system_data/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/json/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/vt2go/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/localization/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/qc/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/content_admin/documentation/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
-        
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/content_containers/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/content_roles/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/group_settings/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/access_levels/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/main_menu/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/turning_on-off_content/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/system_settings/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/location_settings/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/theme_settings/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/certifications/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/impersonate/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/getting_started/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/superusers/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
+     <loc>None/webservices/overview/</loc>
+     <lastmod>2016-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/system_architect/overview/</loc>
-     <lastmod>2016-03-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
 </urlset>
