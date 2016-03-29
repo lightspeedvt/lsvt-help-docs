@@ -8,7 +8,7 @@
   
   
   
-  <title>LSVT API - VT Help Docs</title>
+  <title>The LSVT API - VT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "LSVT API";
+    var mkdocs_page_name = "The LSVT API";
     var mkdocs_page_input_path = "lsvt_api/overview.md";
     var mkdocs_page_url = "/lsvt_api/overview/";
   </script>
@@ -175,11 +175,23 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">LSVT API</a>
+        <a class="current" href="./">The LSVT API</a>
         
             <ul>
             
                 <li class="toctree-l3"><a href="#overview">Overview</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#webservices">Webservices</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#chargify">Chargify</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#registration-forms">Registration Forms</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#unlock-content-event-trigger">Unlock Content - Event Trigger</a></li>
                 
             
             </ul>
@@ -216,7 +228,7 @@
     
       
     
-    <li>LSVT API</li>
+    <li>The LSVT API</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -227,7 +239,81 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>Jason to write</p>
+<p>Integrating to and from LightSpeed VT.</p>
+<p>The LightSpeed VT API provides programmatic access to your organization’s information using simple, powerful, and secure application programming interfaces (API’s). To use the API, you should have a basic familiarity with software development, Web services, and a basic understanding LSVT hierarchy.</p>
+<p><strong>Administrate (create and update) Locations and Users</strong><br/>
+You can do things such as administrate users in LightSpeed VT from parent applications, such as an HR system, a CRM, or even a Shopping Cart system of your choice.</p>
+<p><strong>Single Sign On</strong><br/>
+You can also accomplish a “Single Sign On” ability, so that users do not need two user names or even to sign in twice with the same user name.</p>
+<p><strong>Pull Reporting Data</strong><br/>
+It is also possible to extract course completion results for users, so that you can have reporting data in another application, or even build you own custom reports.</p>
+<p>There are many custom things that you can do, utilizing an available API like this, and we update and add new methods to our API frequently.</p>
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+Before you will be able to use the LSVT API, you will need to be provided an “API Key” and a set of “Basic Data Properties” for your organization for you to get started.
+    </p>
+</div>
+
+<p>Please visit our publicy available API Docs for a deep understanding of how to use and leverage the LSVT API.</p>
+<p><a href="http://apidocs.lightspeedvt.com" target="_blank">http://apidocs.lightspeedvt.com</a></p>
+<p>The diagram below shows a basic example of how an API works. The LSVT API acts as a liaison to the VT Application. You are able to hit these “methods” (represented in the dotted lines) and perform the noted tasks, such as; Create Users, Update Users, Create Locations, etc.</p>
+<p><img alt="Image" src="../../img/api-image-basic.jpg" /></p>
+<h2 id="webservices">Webservices</h2>
+<p>LightSpeed VT has its own internal “middleware” component, which we call our “LSVT Webservices Control Panel” and this has some built in integration points, that use the LSVT API, and some other internal and external tools. Currently, the LSVT Client Care Team will configure anything in the Webservices Control Panel for you, but we are rapidly preparing these tools to be client facing as well.</p>
+<p>Below are some of the “internal” and “external” tools that the Webservices Control Panel can configure.</p>
+<p><img alt="Image" src="../../img/api-image-webservices.jpg" /></p>
+<h2 id="chargify">Chargify</h2>
+<p>LightSpeed VT is already integrated with Chargify’s API’s making it a “ready to go” solution for recurring billing for your customers. LSVT can help get you set up on our “umbrella” account so that it makes the setup process even quicker.</p>
+<p>You will be provided a credential to sign in to your Chargify account and “manage” your products and customers subscriptions.</p>
+<p>The LSVT Client Care team will do the needed configuration to get your Chargify account talking to your VT System so that when a user makes a purchase, the appropriate privileges and account information is all set up.</p>
+<p>Each “product family” in Chargify will have a “Checkout Page” that is built in the Webservices admin area. These can be branded and configured to your needs.</p>
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+We are underway making an Admin area for Super Users to use, but until then, please contact the LSVT Client Care department for assistance.
+    </p>
+</div>
+
+<h2 id="registration-forms">Registration Forms</h2>
+<p>A Registration Form (Reg Form for short) acts a lot like the “Checkout Page” except it does not need any billing information. It is basically a way for users to “Register” and get an account. Each Registration Form is configured to create a user at a certain Location, with predefined Access Levels and Content Roles.</p>
+<p><strong>Promo Codes</strong><br />
+The Reg Form can also utilize ‘Promo Codes” where a cod is required in order to Register - we can generate codes for you. Codes can be unique and only able to be used once, or we can create you codes that can have a certain amount of uses, or infinite.</p>
+<p><strong>Email Notifications</strong><br />
+The Webservices Control Panel can configure email notifications to go to users based on the following events:<br /></p>
+<ul>
+<li>Course Completion - when a user completes a course, the email gets triggered to go out in real time.</li>
+<li>Chapter Completion when a user completes a chapter, the email gets triggered to go out in real time.</li>
+<li>Number of days with no sign in</li>
+<li>Number of days after “Sign Up” (Start date)</li>
+<li>Number of days prior to account expiration</li>
+</ul>
+<p>To set these up, the information we will need from you is:<br /></p>
+<ul>
+<li>The IDs of the Courses/Chapters desired, or the “number” of days (whcihever is applicable)</li>
+<li>Email from “Name” and “Email Address”</li>
+<li>Email subject line</li>
+<li>Email body text</li>
+</ul>
+<p>And here is the dynamic data that is available to use in the body text:<br />
+%%courseid%%<br />
+%%coursename%%<br />
+%%datetimecompleted%%<br />
+%%email%%<br />
+%%firstname%%<br />
+%%lastname%%<br />
+%%locationid%%<br />
+%%locationname%%<br />
+%%phone1%%<br />
+%%phone2%%<br />
+%%userid%%<br />
+%%username%%<br /></p>
+<h2 id="unlock-content-event-trigger">Unlock Content - Event Trigger</h2>
+<p>The Webservices Control Panel can be configured to change a user's Content Role(s) based on Course or Chapter completions. This is handy because you can use it to unlock content after a user completes some sort of prerequisite. You can also “reset” their “Welcome Message Video” if desired on this trigger too.</p>
               
             </div>
           </div>
