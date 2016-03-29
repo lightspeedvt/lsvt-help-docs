@@ -35,7 +35,15 @@
 
     
     <url>
-     <loc>None/premier_content_roles/overview/</loc>
+     <loc>None/content_roles/overview/</loc>
+     <lastmod>2016-03-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/premier_content/overview/</loc>
      <lastmod>2016-03-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
