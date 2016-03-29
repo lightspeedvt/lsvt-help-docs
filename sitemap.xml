@@ -35,22 +35,6 @@
 
     
     <url>
-     <loc>None/content_roles/overview/</loc>
-     <lastmod>2016-03-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/premier_content/overview/</loc>
-     <lastmod>2016-03-29</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>None/access_levels/overview/</loc>
      <lastmod>2016-03-29</lastmod>
      <changefreq>daily</changefreq>
@@ -140,6 +124,30 @@
     
     <url>
      <loc>None/glossary/overview/</loc>
+     <lastmod>2016-03-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/signinbox/overview/</loc>
+     <lastmod>2016-03-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/lsvt_api/overview/</loc>
+     <lastmod>2016-03-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/filevault/overview/</loc>
      <lastmod>2016-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
