@@ -4,95 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/courseware_mgmt/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/vt2go/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/content_containers/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/access_levels/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/turning_on-off_content/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/system_settings/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/location_settings/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/theme_settings/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/certifications/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/impersonate/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/moving_users/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -100,7 +12,111 @@
     
     <url>
      <loc>None/superusers/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/system_settings/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/theme_settings/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/location_settings/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/import/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/access_levels/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/content_containers/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tc_heirarchy/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/courseware_mgmt/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/vt2go/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/turning_on-off_content/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/certifications/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/impersonate/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/moving_users/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -108,23 +124,7 @@
     
     <url>
      <loc>None/course_scheduler/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/regforms/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>None/glossary/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -132,7 +132,7 @@
     
     <url>
      <loc>None/signinbox/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -140,7 +140,23 @@
     
     <url>
      <loc>None/lsvt_api/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/apbs/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/unsubscribe/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -148,7 +164,23 @@
     
     <url>
      <loc>None/filevault/overview/</loc>
-     <lastmod>2016-03-30</lastmod>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/email_notifications/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/glossary/overview/</loc>
+     <lastmod>2016-04-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
