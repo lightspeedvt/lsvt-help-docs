@@ -131,8 +131,6 @@
                 
                     <li><a class="toctree-l4" href="#chapters">Chapters</a></li>
                 
-                    <li><a class="toctree-l4" href="#adding-videos-to-your-video-library">Adding Videos to your Video Library</a></li>
-                
                     <li><a class="toctree-l4" href="#test-questions">Test Questions</a></li>
                 
             
@@ -206,7 +204,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../unsubscribe/overview/">Manage Unsubscribe List*</a>
+        <a class="" href="../../unsubscribe/overview/">Manage Unsubscribe List</a>
         
     </li>
 <li>
@@ -496,28 +494,26 @@ LSVT does not compress or resize your images. Every time one of your users load 
 <hr />
 <h2 id="chapters">Chapters</h2>
 <p>Once a user clicks into a Course, they may select a Chapter of their choice, unless you changed the toggle to require them to take the chapters in order.</p>
-<p>A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part consists of either an M3U8 Playlist (for Streaming content) or an MP4 file (for Progressive).</p>
+<p>A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part consists of either an M3U8 Playlist (for Adaptive Streaming) or an MP4 file (for Progressive).</p>
 <ul>
 <li><strong>A Chapter may consist of:</strong><ul>
 <li>Training parts and a Chapter test.</li>
 <li>Training parts and no test.</li>
-<li>No training parts and only a test.</li>
+<li>Only a test.</li>
 </ul>
 </li>
 </ul>
-<p>By default, a chapter with a test is followed by a "Recap". A "Recap" will play if the user fails to pass the test. This is optional, howevever it is recommended you include these. (In some scenarios, if you have a 10 minute chapter, and the user fails the test, it is a better user experience to have the user review a brief recap, 1-2 minutes, rather than go through the entire 10 minute video again)</p>
-<p>Chapter creation is unique from Categories and Courses in which you can only <strong>"Create New Chapter"</strong> from an existing <strong><em>course</em></strong>. So you'll see after you save your course from the previous section that there is now a <strong>"Create New Chapter"</strong> button at the top.</p>
-<p>Click on that when you're ready to create your chapter.</p>
+<p>A chapter with a test can be followed by a "Recap". A "Recap" can be text or video, that will play if the user fails to pass the test. This is optional, howevever it is recommended you include this for each chapter. (In some scenarios, if you have a 10 minute chapter, and the user fails the test, it is a better user experience to have the user review a brief recap, 1-2 minutes, rather than go through the entire 10 minute video again)</p>
+<p>Chapter creation is unique from Categories and Courses in which you can only <strong>"Create New Chapter"</strong> while editing an existing <strong><em>course</em></strong>. The "Chapters" section will become active after you have saved and created your course.</p>
 <h3 id="create-new-chapter-basic-info"><i class="fa fa-hand-o-right"></i> Create New Chapter - Basic Info</h3>
-<p>On the <strong>Create New Chapter</strong> menu, we see the following fields (click on the image to open it in a new window):</p>
 <p>Create your chapter by filling out these fields:</p>
 <ol>
 <li><strong>Active</strong><ul>
 <li>If this is a standard chapter, you must add at least 1 test question in order for you to receive the option to activate it.</li>
 </ul>
 </li>
-<li><strong>Rank</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
-<li>The Rank is the order in which this chapter will display. The lower the rank (1, 2, 3, etc.) the <em>higher</em> the chapter will be listed. Rank 1 = the very first chapter. Rank 999 = the very last chapter.</li>
+<li><strong>Rank</strong><ul>
+<li>The Rank is the order in which this chapter will display. The lower the rank (1, 2, 3, etc.) the <em>higher</em> the chapter will be listed. Rank 1 = the very first chapter. Rank 999 = the very last chapter. The system will populate a default rank 1 higher than the previous chapter automatically.</li>
 </ul>
 </li>
 <li><strong>Chapter Name</strong><ul>
@@ -531,27 +527,35 @@ LSVT does not compress or resize your images. Every time one of your users load 
 <li>Video Only (with Summary)</li>
 </ol>
 </li>
+<li><strong>Show "default" test summary Navigation buttons</strong><ul>
+<li>In chapter type 1, 2 and 4, you have the option to show or hide the automatic navigation buttons. If set to yes, navigation buttons will appear on the test summary screen directing the user to either move on to the next course, or visit the course menu to select new content.</li>
+</ul>
+</li>
 </ol>
-<p>Let's take a closer look at these chapter types.</p>
-<h2 id="adding-videos-to-your-video-library">Adding Videos to your Video Library</h2>
+<p>Let's take a closer look at the different chapter types.</p>
 <h3 id="1-standard-video-and-test">1. Standard (Video and Test)</h3>
 <p>In a Standard chapter type, the chapter must have at least 1 video part and at least 1 test question.</p>
-<p>After selecting 'Standard', you will need to click on 'Add Chapter Part' and either upload a new video to your <strong>Video Library</strong>, or copy and paste the path of an existing video in your <strong>Video Library</strong> into the chapter part field. </p>
+<p>If you've already uploaded and encoded your video file, you can add that now by clicking on <strong>"+ Add Chapter Part"</strong> and selecting the file path from your Video Library.</p>
+<p>If you're still waiting for your files to upload and encode, you can come back to this section at any time and add your chapter part.</p>
 <h4 id="summary-info">Summary Info</h4>
 <ol>
-<li><strong>Test Instructions / Setup (Seen before test)</strong><ul>
-<li>Enter the test instruction text the user will see before starting the test. The default language we use here is: <br /><br /><span style="color:red">This chapter test is a quick check of your knowledge so far. As you select your answers, each question is timed and all results are recorded on your “Report Card.” Click START below when you are ready.</span><br /><br /></li>
+<li><strong>Test Instructions / Setup (This screen is displayed before the user starts the test)</strong><ul>
+<li>Enter the test instruction text the user will see before starting the test.</li>
 </ul>
 </li>
 <li><strong>Test Summary (Passed Test) (Seen upon test completion)</strong><ul>
-<li>Enter the test summary for when the user passes the test. The default text is already populated if you do not need to change it.</li>
+<li>Enter the test summary for when the user passes the test.</li>
 </ul>
 </li>
 <li><strong>Test Summary (Failed Test) (Seen upon test completion)</strong><ul>
-<li>Enter the test summary for when the user fails the test. The default text is already populated if you do not need to change it.</li>
+<li>Enter the test summary for when the user fails the test.</li>
 </ul>
 </li>
 </ol>
+<h4 id="social-settings">Social Settings</h4>
+<p>Please visit <a href="http://support.lightspeedvt.com/socialize/">THIS</a> Knowledge Base article for more information on the Social Settings feature.</p>
+<h4 id="vt2go-settings">VT2GO Settings</h4>
+<p>VT2GO settings are covered <a href="../../vt2go/overview/">HERE</a>.</p>
 <h4 id="test-settings">Test Settings</h4>
 <ol>
 <li><strong>Number of Test Questions</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
