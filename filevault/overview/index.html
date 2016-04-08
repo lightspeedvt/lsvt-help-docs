@@ -8,7 +8,7 @@
   
   
   
-  <title>File Vault* - VT Help Docs</title>
+  <title>File Vault - VT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "File Vault*";
+    var mkdocs_page_name = "File Vault";
     var mkdocs_page_input_path = "filevault/overview.md";
     var mkdocs_page_url = "/filevault/overview/";
   </script>
@@ -147,7 +147,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../impersonate/overview/">The Impersonate Feature*</a>
+        <a class="" href="../../impersonate/overview/">The Impersonate Feature</a>
         
     </li>
 <li>
@@ -196,11 +196,17 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">File Vault*</a>
+        <a class="current" href="./">File Vault</a>
         
             <ul>
             
-                <li class="toctree-l3"><a href="#overview">Overview</a></li>
+                <li class="toctree-l3"><a href="#initial-setup">Initial Setup</a></li>
+                
+                    <li><a class="toctree-l4" href="#roles">Roles</a></li>
+                
+                    <li><a class="toctree-l4" href="#functions">Functions</a></li>
+                
+                    <li><a class="toctree-l4" href="#locations-settings">Locations Settings:</a></li>
                 
             
             </ul>
@@ -210,7 +216,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../glossary/overview/">Glossary of Terms*</a>
+        <a class="" href="../../glossary/overview/">Glossary of Terms</a>
         
     </li>
 <li>
@@ -237,7 +243,7 @@
     
       
     
-    <li>File Vault*</li>
+    <li>File Vault</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -247,8 +253,82 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="overview">Overview</h2>
-<p>We are currently working on a Super User Admin area for this feature, which will be available soon. In the meantime, please reach out to the Client Care department for assistance if you need anything.</p>
+                <h2 id="initial-setup">Initial Setup</h2>
+<p>The file vault is available all locations within a system. It must be activated by using the “File Vault Active” toggle within the system settings page. This toggle doesn’t affect the actual functions of the file vault, it only turns on or off the main menu icon/link to file vault area and access for users.</p>
+<p><img alt="Image" src="../../img/vault1.png" /></p>
+<h3 id="roles">Roles</h3>
+<p><strong>System Admin (Super User B):</strong><br />
+This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within its systems or by individual locations. This user can also define which locations have access to folders or files.</p>
+<p><strong>System Admin (Super User C):</strong><br />
+Similar to Super User B, this user has full admin privileges, but is restricted to its own system and locations. Also, a Super User C cannot delete or edit files/folders created by a Super User B.</p>
+<p><strong>Location Manager:</strong><br />
+This user has similar privileges to System Admins, but is restricted to its own location. Manager can optionally (If rights are granted by System Admin for that location) deactivate folders/files added by System Admin.</p>
+<p><strong>Location User:</strong><br />
+This base user has limited privileges and may only view or download files from its own location.</p>
+<p><img alt="Image" src="../../img/vault2.png" /></p>
+<p>File Types Accepted<br />
+.pdf<br />
+.txt .rt .rtf<br />
+.html<br />
+.doc .docx<br />
+.xls .xlsx .csv<br />
+.ppt<br />
+.jpeg .jpg .gif .png .bmp .tiff .tif .pic .pict<br />
+.vsd .vst .vsw<br />
+.mp3 .m4a .mpg .mpeg .avi .mov .wmv .mp4 .flv<br /></p>
+<p>Upload size limit: 60 MB</p>
+<h3 id="functions">Functions</h3>
+<p><strong>New Folder/New File:</strong><br />
+(Files use the same principle as folder creation)
+System admin would simply create a new folder or file.</p>
+<p><img alt="Image" src="../../img/vault3.png" /></p>
+<p>Enter information for the folder and specify which locations can access the new folder. By default, when creating a new folder or file, all existing locations will have access to that folder or file.</p>
+<p>If you wish to make the folder or file available as you add new locations, please make sure to check the “use for all newly created locations” checkbox.</p>
+<p>System admin can also grant authorization for a location manager to deactivate the folder or file (This would allow a location manager to turn on or off folders or files that are of no use/interest for their location)</p>
+<p><img alt="Image" src="../../img/vault4.png" /></p>
+<p><strong>User Uploaded Documents:</strong><br />
+A system admin has an extra option/tab available. System admin can easily review and manage all folders/files that have been created by individual location managers by sorting locations. System admin also has an “override” option to deactivate/activate a folder or file created by a location manager, thus maintaining control of content.</p>
+<p><img alt="Image" src="../../img/vault5.png" /></p>
+<h3 id="locations-settings">Locations Settings:</h3>
+<p>System admin also has the ability to restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
+<p><img alt="Image" src="../../img/vault6.png" /></p>
+<p><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong>Update 4-8-2016<strong><em>*</em></strong><strong><em>*</em></strong></strong>***</p>
+<p>Super user file vault administration functions are now separated from the general user view. 
+Super User A, B and C can access the file vault admin from the Super User Dashboard, in the 400’s tab (Application Administration).</p>
+<p>ALL SYSTEMS FILES</p>
+<p>Super User A and B will need to first select a system.
+The following options are available for search criteria:
+By folder name
+By file name
+Active/Inactive/All locations (Super User A only)
+By UserID (Super User A only)
+By Username (Super User A only)
+By first or last name (Super User A only)</p>
+<p>Super User A</p>
+<p>Super User B and C
+A search will return a list of all active folders under the selected system. </p>
+<p>Results will be paginated and have 25 records per page by default.</p>
+<p>Results can be filtered down by location. By selecting a location, only folders active at that location will show.</p>
+<p>Clicking on the folder name or the quantity of files, will take you to the list of files under that folder.</p>
+<p>Folder View</p>
+<p>Files View</p>
+<p>Clicking on the pencil icon will take you to the manage screen for that folder.
+Edit Option</p>
+<p>You can edit the folder’s name/title and description. The description is used in the tooltip next to the title, in the results.</p>
+<p>Description Field</p>
+<p>Front End Tooltip</p>
+<p>By checking the “Use for all newly created locations”, the folder will automatically be added/set to “enabled” and activated in any new location created within the originally selected system.</p>
+<p>Under location settings, a list of locations is displayed, by default showing 25 records per page.</p>
+<p>Admin can choose to enable the folder for all, some or none of the locations.</p>
+<p>In addition, admin can choose to allow a location manager to hide the folder in their location. </p>
+<p>An audit log is available to Super User A, which will allow admin to review actions taken on that folder.</p>
+<p>LOCATION SETTINGS</p>
+<p>By default, all locations manager have the ability to manage files and folders. System admin can restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
+<p>Admin Settings View</p>
+<p>Manager View</p>
+<p>COPY OPERATIONS
+System admin can copy all existing files and folders from one location in one system to another location in another system. You just select the original system, then the locations from that system. Select the system that will receive the new files and folders, and the locations under that system.</p>
+<p>In addition, you will need to select and associate a user in the new system with the newly copied files.</p>
               
             </div>
           </div>
@@ -256,7 +336,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../glossary/overview/" class="btn btn-neutral float-right" title="Glossary of Terms*">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../glossary/overview/" class="btn btn-neutral float-right" title="Glossary of Terms">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../../unsubscribe/overview/" class="btn btn-neutral" title="Manage Unsubscribe List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
