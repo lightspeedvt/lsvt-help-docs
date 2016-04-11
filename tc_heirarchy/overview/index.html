@@ -8,7 +8,7 @@
   
   
   
-  <title>Training Center Heirarchy* - VT Help Docs</title>
+  <title>Training Center Heirarchy - VT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Training Center Heirarchy*";
+    var mkdocs_page_name = "Training Center Heirarchy";
     var mkdocs_page_input_path = "tc_heirarchy/overview.md";
     var mkdocs_page_url = "/tc_heirarchy/overview/";
   </script>
@@ -105,7 +105,7 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Training Center Heirarchy*</a>
+        <a class="current" href="./">Training Center Heirarchy</a>
         
             <ul>
             
@@ -237,7 +237,7 @@
     
       
     
-    <li>Training Center Heirarchy*</li>
+    <li>Training Center Heirarchy</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -248,7 +248,29 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>We are currently working on a Super User Admin area for this feature, which will be available soon. In the meantime, please reach out to the Client Care department for assistance if you need anything.</p>
+<p>This is actually pretty simple, so we’ll try to make this a quick read. As we have talked about before, the “Course” is the on/off building block of what users see (vs Categories, or Chapters).</p>
+<p>A Course is contained within a Category, and Categories can be nested inside of each other (essentially sub-categories) and then Chapters are what make up a Course. Here is a simple diagram:</p>
+<p><img alt="Image" src="../../img/cat-course-flowchart.png" /></p>
+<p>So in this example, a user will first see:<br />
+<strong>Category A and Category B</strong><br /></p>
+<p>If category A is clicked, they will then see:<br />
+<strong>Category A-1 and Category A-2</strong><br /></p>
+<p>Then if Category A-2 is clicked, they will see the courses within it, which are:<br />
+<strong>Course A1 and Course A2</strong><br /></p>
+<p>If Category B is clicked, they will simply see:<br />
+<strong>Course B1 and Course B2</strong><br /></p>
+<p>Then as you can see, Chapters are contained within a Course.<br /></p>
+<div class="admonition tip">
+    <p class="first admonition-title">
+        Tip
+    </p>
+    <p class="last">
+The top level of Categories used to be called “Topics” but we have updated this so that you can nest Categories as you wish, and they also respond to the end user’s content provisioning - meaning that they will only see the Categories that they have Courses within them - vs in the prior “Topics” functionality, the users would see, “Oops  - you don't have any content here.”
+    </p>
+</div>
+
+<p>You will see in the next section of these Help Docs where you specify what “type” of Category you want, whether it will contain Courses, or whether it will link to another list of Categories.</p>
+<p>One other important note to make is, now that you can nest, and re-nest Categories as deep as you want, there is a setting to specify is what “list” of Categories your users will see upon first clicking into the Training Center, as this can also be changed per “Theme.” We will cover that in the next section as well, and our Client Care team can help you with this as well, as this is often a “set it and forget it” type of a setting.</p>
               
             </div>
           </div>
