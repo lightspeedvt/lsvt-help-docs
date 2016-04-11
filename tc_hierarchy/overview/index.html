@@ -8,7 +8,7 @@
   
   
   
-  <title>Sign In Box - VT Help Docs</title>
+  <title>Training Center Hierarchy - VT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Sign In Box";
-    var mkdocs_page_input_path = "signinbox/overview.md";
-    var mkdocs_page_url = "/signinbox/overview/";
+    var mkdocs_page_name = "Training Center Hierarchy";
+    var mkdocs_page_input_path = "tc_hierarchy/overview.md";
+    var mkdocs_page_url = "/tc_hierarchy/overview/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -104,8 +104,15 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../../tc_hierarchy/overview/">Training Center Hierarchy</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Training Center Hierarchy</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#overview">Overview</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -167,15 +174,8 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Sign In Box</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#overview">Overview</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../signinbox/overview/">Sign In Box</a>
         
     </li>
 <li>
@@ -237,7 +237,7 @@
     
       
     
-    <li>Sign In Box</li>
+    <li>Training Center Hierarchy</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -248,24 +248,29 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>The branded Sign In Box is provided with your VT System. This is where all of your end users will sign in. It has a few components to it that can be configured, which are:</p>
-<ul>
-<li>Logo art and color scheme</li>
-<li>“Welcome” text-area (brief content managed block of text above the Username/Password fields)</li>
-<li>Retrieve Username and/or Password feature - this is built in, but you can specify the “from” email address and the body copy of this email.</li>
-<li>“Help” info - basic contact and support info</li>
-<li>Security Notice (default message)</li>
-<li>Join Now / Sign Up - Link (optional)</li>
-<li>Social Media sign in tools: Google, Facebook, Twitter and LinkedIn (optional)</li>
-</ul>
-<div class="admonition note">
+<p>This is actually pretty simple, so we’ll try to make this a quick read. As we have talked about before, the “Course” is the on/off building block of what users see (vs Categories, or Chapters).</p>
+<p>A Course is contained within a Category, and Categories can be nested inside of each other (essentially sub-categories) and then Chapters are what make up a Course. Here is a simple diagram:</p>
+<p><img alt="Image" src="../../img/cat-course-flowchart.png" /></p>
+<p>So in this example, a user will first see:<br />
+<strong>Category A and Category B</strong><br /></p>
+<p>If category A is clicked, they will then see:<br />
+<strong>Category A-1 and Category A-2</strong><br /></p>
+<p>Then if Category A-2 is clicked, they will see the courses within it, which are:<br />
+<strong>Course A1 and Course A2</strong><br /></p>
+<p>If Category B is clicked, they will simply see:<br />
+<strong>Course B1 and Course B2</strong><br /></p>
+<p>Then as you can see, Chapters are contained within a Course.<br /></p>
+<div class="admonition tip">
     <p class="first admonition-title">
-        Note
+        Tip
     </p>
     <p class="last">
-The Sign In Box is an optional feature. If you have another application that you are doing Single Sign On integration into the VT System, then you may not need to use the Sign In Box feature at all.
+The top level of Categories used to be called “Topics” but we have updated this so that you can nest Categories as you wish, and they also respond to the end user’s content provisioning - meaning that they will only see the Categories that they have Courses within them - vs in the prior “Topics” functionality, the users would see, “Oops  - you don't have any content here.”
     </p>
 </div>
+
+<p>You will see in the next section of these Help Docs where you specify what “type” of Category you want, whether it will contain Courses, or whether it will link to another list of Categories.</p>
+<p>One other important note to make is, now that you can nest, and re-nest Categories as deep as you want, there is a setting to specify is what “list” of Categories your users will see upon first clicking into the Training Center, as this can also be changed per “Theme.” We will cover that in the next section as well, and our Client Care team can help you with this as well, as this is often a “set it and forget it” type of a setting.</p>
               
             </div>
           </div>
@@ -273,10 +278,10 @@ The Sign In Box is an optional feature. If you have another application that you
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../lsvt_api/overview/" class="btn btn-neutral float-right" title="The LSVT API">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../video_library/overview/" class="btn btn-neutral float-right" title="Video Library">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../course_scheduler/overview/" class="btn btn-neutral" title="Course Scheduler"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../content_containers/overview/" class="btn btn-neutral" title="Content Containers*"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -302,10 +307,10 @@ The Sign In Box is an optional feature. If you have another application that you
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../course_scheduler/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../content_containers/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../../lsvt_api/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../video_library/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
