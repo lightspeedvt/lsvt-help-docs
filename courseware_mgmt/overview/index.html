@@ -8,7 +8,7 @@
   
   
   
-  <title>Courseware Management* - VT Help Docs</title>
+  <title>Courseware Management - VT Help Docs <br /><br />Last Updated - 4/12/2016</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Courseware Management*";
+    var mkdocs_page_name = "Courseware Management";
     var mkdocs_page_input_path = "courseware_mgmt/overview.md";
     var mkdocs_page_url = "/courseware_mgmt/overview/";
   </script>
@@ -43,7 +43,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> VT Help Docs</a>
+        <a href="../.." class="icon icon-home"> VT Help Docs <br /><br />Last Updated - 4/12/2016</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -119,7 +119,7 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Courseware Management*</a>
+        <a class="current" href="./">Courseware Management</a>
         
             <ul>
             
@@ -127,11 +127,50 @@
                 
                     <li><a class="toctree-l4" href="#categories">Categories</a></li>
                 
+                    <li><a class="toctree-l4" href="#create-or-edit-a-category-basic-info"> Create or Edit a Category - Basic Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#category-additional-information">Category - Additional Information</a></li>
+                
+                    <li><a class="toctree-l4" href="#category-vt2go-settings">Category - VT2GO Settings</a></li>
+                
                     <li><a class="toctree-l4" href="#courses">Courses</a></li>
+                
+                    <li><a class="toctree-l4" href="#create-or-edit-a-course-basic-info"> Create or Edit a Course - Basic Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-additional-information">Course - Additional Information</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-display-settings">Course - Display Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-keywords">Course - Keywords</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-extended-info">Course - Extended Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-vt2go-settings">Course - VT2GO Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#course-content-role-assignments">Course - Content Role Assignments</a></li>
                 
                     <li><a class="toctree-l4" href="#chapters">Chapters</a></li>
                 
-                    <li><a class="toctree-l4" href="#test-settings">Test Settings</a></li>
+                    <li><a class="toctree-l4" href="#create-or-edit-a-chapter-basic-info"> Create or Edit a Chapter - Basic Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#chapter-standard-video-and-test">Chapter - Standard (Video and Test)</a></li>
+                
+                    <li><a class="toctree-l4" href="#chapter-summary-info">Chapter - Summary Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#chapter-social-settings">Chapter - Social Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#chapter-vt2go-settings">Chapter - VT2GO Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#chapter-test-settings">Chapter - Test Settings</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#chapter-test-only">Chapter - Test Only</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#chapter-video-only-with-auto-advance">Chapter - Video only (With Auto Advance)</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#chapter-video-only-with-summary">Chapter - Video only (With Summary)</a></li>
                 
             
             </ul>
@@ -233,7 +272,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">VT Help Docs</a>
+        <a href="../..">VT Help Docs <br /><br />Last Updated - 4/12/2016</a>
       </nav>
 
       
@@ -245,7 +284,7 @@
     
       
     
-    <li>Courseware Management*</li>
+    <li>Courseware Management</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -393,11 +432,36 @@ There is a way to make some Content Roles “Premium” so that they are not vis
 </tbody>
 </table>
 <p>In this example, there are two images for the center Category. One thumbnail, and one rollover thumbnail.</p>
-<p>Okay let's dive into Courseware Management - After you have selected your content container, you can select <strong>Category List</strong>, where you can either <strong>Search</strong> for an existing category, or <strong>Create a new category</strong>.</p>
-<h3 id="create-or-edit-a-category-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Category - Basic Info</h3>
+<p>Okay let's dive into Courseware Management - After you have selected your content container, you can either select <strong>Category List</strong>, where you can <strong>Search</strong> for an existing category, or <strong>Create a new category</strong>.</p>
+<p>When you click on the <strong>Category List</strong> option, if you have any existing categories they will be displayed like this:</p>
+<table>
+<thead>
+<tr>
+<th>CatID</th>
+<th>Rank</th>
+<th>Category Name</th>
+<th>Internal Desc.</th>
+<th>Courses Assigned To</th>
+<th>Active</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This is a unique identifyer for this Category.</td>
+<td>This is order in which this category will display in the Training Center. (Lower the rank, higher it will display)</td>
+<td>This is the name of the Category.</td>
+<td>This is an area for internal notes only, the end-user will never see this text.</td>
+<td>This is a list of Courses, with their Course ID, that are currently assigned to this Category.</td>
+<td>If the Category is active, it will be checked.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create-or-edit-a-category-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Category - Basic Info</h2>
+<p>Once you click into a Category, or add a new one, you can add or edit the following fields (click on the image to open it in a new window):</p>
+<p><a href="../../img/category_basic_info.png" target="_blank"><img src="../../img/category_basic_info.png"/></a></p>
 <ol>
 <li><strong>Active Yes/No</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
-<li>Select whether this category should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of the activation process.)</li>
+<li>Select whether this category should be active or not. (Note: It is safe to always select "Yes" here - this content will not display for anyone until you complete the very last step of the activation process.)</li>
 </ul>
 </li>
 <li><strong>Rank</strong> - <span style="color:red"><em>Default: 1, Required Field</em></span><ul>
@@ -413,11 +477,11 @@ There is a way to make some Content Roles “Premium” so that they are not vis
 </ul>
 </li>
 <li><strong>Thumbnail</strong><ul>
-<li>Here you can enter the image path to the category image, or choose to upload one from your local device.</li>
+<li>Here you can enter the image path to the category image, or choose to upload one from your local device. After you have selected an image from your local device, and hit 'save', the thumbnail will appear.</li>
 </ul>
 </li>
 <li><strong>Thumbnail Roll Over (Optional)</strong> - <span style="color:red"><em>This can be left blank</em></span><ul>
-<li>Here you can enter the path to the category rollover image, or choose to upload one from your local device. This is similar to the Thumbnail above.</li>
+<li>Here you can enter the path to the category rollover image, OR choose to upload one from your local device. This is similar to the Thumbnail above. </li>
 </ul>
 </li>
 <li><strong>Add Sheen to Thumbnail</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
@@ -451,7 +515,8 @@ LSVT does not compress or resize your images. Every time one of your users load 
     </p>
 </div>
 
-<h3 id="category-additional-information">Category - Additional Information</h3>
+<h2 id="category-additional-information">Category - Additional Information</h2>
+<p><a href="../../img/category_additional_info.png" target="_blank"><img src="../../img/category_additional_info.png"/></a></p>
 <ol>
 <li><strong>Description</strong> - <span style="color:red"><em>Can be left blank</em></span><ul>
 <li>Enter the description of the category.</li>
@@ -462,15 +527,46 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 </ol>
-<p>When you have entered all of your information, click <strong>"Save"</strong>, and move on to the next section.</p>
+<h2 id="category-vt2go-settings">Category - VT2GO Settings</h2>
+<p>VT2GO settings are covered <a href="../../vt2go/overview/">HERE</a>.</p>
+<p>When you have entered all of your information, click <strong>"Save"</strong>, and now you have your Category! You can now move on and add a Course to that category. </p>
 <hr />
 <h2 id="courses">Courses</h2>
-<p>A Course is made up of one or more Chapters, a text description, an image thumbnail (picture or image representing the content) and a Course Preview Trailer (video).</p>
+<p>This section will help you create a new Course. A course is made up of one or more chapters, a text description, an image thumbnail (picture or image representing the content) and a Course Preview Trailer (video).</p>
 <p>After you have selected your content container, you will be on the <strong>Course List</strong> screen, where you can either <strong>Search</strong> for an existing course, or <strong>Create a new course</strong>.</p>
-<h3 id="create-or-edit-a-course-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Course - Basic Info</h3>
+<p>When you click on the <strong>Course List</strong> option, if you have any existing courses they will be displayed like this:</p>
+<table>
+<thead>
+<tr>
+<th>CoID</th>
+<th>Rank</th>
+<th>Course Name</th>
+<th>Internal Desc.</th>
+<th>Category</th>
+<th>Chapters</th>
+<th>Duration</th>
+<th>Active</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This is a unique identifyer for this Course.</td>
+<td>This is order in which this course will display in the Training Center.</td>
+<td>This is the name of the Course.</td>
+<td>This is an area for internal notes only, the end-user will never see this text.</td>
+<td>The Category that this Course is currently assigned to.</td>
+<td>The number of Chapters in this course.</td>
+<td>How long this course is (in minutes)</td>
+<td>If the Course is active, it will be checked.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create-or-edit-a-course-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Course - Basic Info</h2>
+<p>Once you click into a Course, or add a new one, you can add or edit the following fields (click on the image to open it in a new window):</p>
+<p><a href="../../img/course_basic_info.png" target="_blank"><img src="../../img/course_basic_info.png"/></a></p>
 <ol>
 <li><strong>Active Yes/No</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
-<li>Select whether this course should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of this process.)</li>
+<li>Select whether this course should be active or not. (Note: It is safe to always select "Yes" here - this content will not be on display for anyone until you complete the very last step of the activation process.)</li>
 </ul>
 </li>
 <li><strong>Rank</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
@@ -494,7 +590,7 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 <li><strong>Preview Video</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
-<li>Enter the path to the course video preview (If you do not have a course preview video, just leave this blank.)</li>
+<li>Select a Video from your Video Library to use as a preview video. If you have not uploaded one yet, you will be given the chance in the Video Library. (If you do not have a course preview video, just leave this blank.)</li>
 </ul>
 </li>
 <li><strong>Enable Notes</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
@@ -502,7 +598,8 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 </ol>
-<h3 id="course-additional-information">Course - Additional Information</h3>
+<h2 id="course-additional-information">Course - Additional Information</h2>
+<p><a href="../../img/course_additional_info.png" target="_blank"><img src="../../img/course_additional_info.png"/></a></p>
 <ol>
 <li><strong>Course Description</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
 <li>Enter the description of the course.</li>
@@ -521,7 +618,8 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 </ol>
-<h3 id="course-display-settings">Course - Display Settings</h3>
+<h2 id="course-display-settings">Course - Display Settings</h2>
+<p><a href="../../img/course_display_settings.png" target="_blank"><img src="../../img/course_display_settings.png"/></a></p>
 <ol>
 <li><strong>Hide this Course from Reports</strong> - <span style="color:red"><em>Default: No</em></span><ul>
 <li>This will show/hide the course in reporting sections.</li>
@@ -536,26 +634,58 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 </ol>
-<h3 id="course-keywords">Course - Keywords</h3>
+<h2 id="course-keywords">Course - Keywords</h2>
+<p><a href="../../img/course_keywords.png" target="_blank"><img src="../../img/course_keywords.png"/></a></p>
 <ol>
 <li><strong>Keywords</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
-<li>Add any keywords associated with this course. Type in your desired Keyword and then hit enter. Enter as many keywords as you desire.</li>
+<li>Add any keywords associated with this course. Type in your desired Keyword and then hit enter. Enter as many keywords as you desire. (Note: The system will automatically use the Category, Course and Chapter names to search, as well as all words within the descriptions.)</li>
 </ul>
 </li>
 </ol>
-<h3 id="course-extended-info">Course - Extended Info</h3>
+<h2 id="course-extended-info">Course - Extended Info</h2>
+<p><a href="../../img/course_extended_info.png" target="_blank"><img src="../../img/course_extended_info.png"/></a></p>
+<p><strong>Extended Info</strong> - <span style="color:red"><em>This can be left blank.</em></span>
+    - In this area you can add additional data to the Course Menu, if needed, such as additional resources for the user to download, or adding special instructions for the end user.</p>
 <ol>
-<li><strong>Extended Info</strong> - <span style="color:red"><em>This can be left blank.</em></span><ul>
-<li>In this area you can add additional data to the Course Menu, if needed, such as additional resources for the user to download, or adding special instructions for the end user. </li>
+<li><strong>Extended Info Position</strong><ul>
+<li>Select either "Top" or "Bottom" where you would like the Extended Info to be displayed on the Chapter Menu.</li>
+</ul>
+</li>
+<li><strong>Extended Info Style</strong><ul>
+<li>This can be Default, None, Shadowbox, or iframe. (Example outputs of each will follow) Note: If you select "iframe" - there will be additional fields to fill out. (Details below)</li>
+</ul>
+</li>
+<li><strong>Extended Info Title</strong><ul>
+<li>If you are using Default, None, or Shadowbox, enter a title for your information (example: Downloads)</li>
+</ul>
+</li>
+<li><strong>Extended Info Content</strong><ul>
+<li>If you are using Default, None, or Shadowbox, enter the additional information you want to display on the chapter menu here.</li>
 </ul>
 </li>
 </ol>
-<h3 id="course-vt2go-settings">Course - VT2GO Settings</h3>
+<p><a href="../../img/course_extended_info_2.png" target="_blank"><img src="../../img/course_extended_info_2.png"/></a></p>
+<ol>
+<li><strong>iFrame Path</strong>    <ul>
+<li>Enter the path to your iFrame HTML file here.</li>
+</ul>
+</li>
+<li><strong>iFrame Height</strong><ul>
+<li>Enter the height of the iFrame.</li>
+</ul>
+</li>
+</ol>
+<h2 id="course-vt2go-settings">Course - VT2GO Settings</h2>
 <p>VT2GO settings are covered <a href="../../vt2go/overview/">HERE</a>.</p>
-<h3 id="course-content-role-assignments">Course - Content Role Assignments</h3>
+<h2 id="course-content-role-assignments">Course - Content Role Assignments</h2>
+<p><a href="../../img/course_content_roles.png" target="_blank"><img src="../../img/course_content_roles.png"/></a></p>
 <ol>
 <li><strong>Content Role Assignment</strong><ul>
-<li>Select each content role that this course should appear in. <em>Note: This still does not mean the content is active. If you recall from the diagram at the top of this section, the final step will be to activate this course for the Location. </em>Note 2: LightSpeed VT will create you an "Admin - All Content" role initially for testing and review purposes, however if you need to add additional roles, you may do so now, or after your Courseware is created. To add more Content Roles now, click on "Content Containers" in the top navigation bar now. We cover Content Containers and Roles in the <a href="../../content_containers/overview/">Content Containers</a> section of these Help Docs.</li>
+<li>Select each content role that this course should appear in. <br /><br /><ul>
+<li>Note: This still does not mean the content is active. If you recall from the diagram at the top of this section, the final step will be to activate this course for the Location. <br /><br /></li>
+<li>Note 2: LightSpeed VT will create you an "Admin - All Content" role initially for testing and review purposes, however if you need to add additional roles, you may do so now, or after your Courseware is created. To add more Content Roles now, click on "Content Containers" in the top navigation bar now. We cover Content Containers and Roles in the <a href="../../content_containers/overview/">Content Containers</a> section of these Help Docs.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ol>
@@ -563,7 +693,7 @@ LSVT does not compress or resize your images. Every time one of your users load 
 <hr />
 <h2 id="chapters">Chapters</h2>
 <p>Once a user clicks into a Course, they may select a Chapter of their choice, unless you changed the toggle to require them to take the chapters in order.</p>
-<p>A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part consists of either an M3U8 Playlist (for Adaptive Streaming) or an MP4 file (for Progressive).</p>
+<p>A Course may have as many Chapters as needed. Each Chapter may consist of multiple Chapter parts. Each Chapter part consists of either an .m3u8 Playlist (for Adaptive Streaming) or an .mp4 file (for Progressive).</p>
 <ul>
 <li><strong>A Chapter may consist of:</strong><ul>
 <li>Training parts and a Chapter test.</li>
@@ -574,13 +704,19 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 <p>A chapter with a test can be followed by a "Recap". A "Recap" can be text or video, that will play if the user fails to pass the test. This is optional, however it is recommended you include this for each chapter. (In some scenarios, if you have a 10 minute chapter, and the user fails the test, it is a better user experience to have the user review a brief recap, 1-2 minutes, rather than go through the entire 10 minute video again)</p>
 <p>Chapter creation is unique from Categories and Courses in which you can only <strong>"Create New Chapter"</strong> while editing an existing <strong><em>course</em></strong>. The "Chapters" section will become active after you have saved and created your course.</p>
-<h3 id="create-new-chapter-basic-info"><i class="fa fa-hand-o-right"></i> Create New Chapter - Basic Info</h3>
-<p>Create your chapter by filling out these fields:</p>
+<p><a href="../../img/chapter_add_new.png" target="_blank"><img src="../../img/chapter_add_new.png"/></a></p>
+<h2 id="create-or-edit-a-chapter-basic-info"><i class="fa fa-hand-o-right"></i> Create or Edit a Chapter - Basic Info</h2>
+<p>First decide which type of chapter this is. There are 4 basic types:</p>
 <ol>
-<li><strong>Active</strong><ul>
-<li>If this is a standard chapter, you must add at least 1 test question in order for you to receive the option to activate it.</li>
-</ul>
-</li>
+<li>Standard (Video and Test)</li>
+<li>Test Only</li>
+<li>Video Only (with Auto Advance)</li>
+<li>Video Only (with Summary)</li>
+</ol>
+<p>We will discuss each in detail below.</p>
+<p>Begin by filling The Rank, Chapter Name and Chapter Type. Pay special attention to the warning messages here, they're very important to be able to navigate further:</p>
+<p><a href="../../img/chapter_basic_info_1.png" target="_blank"><img src="../../img/chapter_basic_info_1.png"/></a></p>
+<ol>
 <li><strong>Rank</strong><ul>
 <li>The Rank is the order in which this chapter will display. The lower the rank (1, 2, 3, etc.) the <em>higher</em> the chapter will be listed. Rank 1 = the very first chapter. Rank 999 = the very last chapter. The system will populate a default rank 1 higher than the previous chapter automatically.</li>
 </ul>
@@ -601,159 +737,149 @@ LSVT does not compress or resize your images. Every time one of your users load 
 </ul>
 </li>
 </ol>
+<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> This friendly warning you may have seen already, but it's there to remind you to save your work!<br /><br />
+<span style="color:orange"><i class="fa fa-asterisk"></i></span><span style="color:orange"><i class="fa fa-asterisk"></i></span> This friendly note is letting you know that you must SAVE the chapter before adding any test questions. (You can't add test questions to something that doesn't exist! By saving the chapter, you are "creating" it in our database, and therefore we have something to attach the test questions to.)<br /><br />
+<span style="color:orange"><i class="fa fa-asterisk"></i></span><span style="color:orange"><i class="fa fa-asterisk"></i></span><span style="color:orange"><i class="fa fa-asterisk"></i></span> You can see here the "Test Settings" section is grayed out. As soon as you hit Save it will be accessible!</p>
 <p>Let's take a closer look at the different chapter types.</p>
-<h3 id="1-standard-video-and-test">1. Standard (Video and Test)</h3>
+<h2 id="chapter-standard-video-and-test">Chapter - Standard (Video and Test)</h2>
 <p>In a Standard chapter type, the chapter must have at least 1 video part and at least 1 test question.</p>
 <p>If you've already uploaded and encoded your video file, you can add that now by clicking on <strong>"+ Add Chapter Part"</strong> and selecting the file path from your Video Library.</p>
 <p>If you're still waiting for your files to upload and encode, you can come back to this section at any time and add your chapter part.</p>
-<h4 id="summary-info">Summary Info</h4>
+<p><a href="../../img/chapter_basic_info_2.png" target="_blank"><img src="../../img/chapter_basic_info_2.png"/></a></p>
+<ol>
+<li><strong>+ Add Chapter Part</strong><ul>
+<li>Click on the "Select From Library" button and select a video to add to this chapter.</li>
+</ul>
+</li>
+</ol>
+<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> You'll notice now that we saved, the "Test Settings" link is no longer grayed out.<br /><br />
+<span style="color:orange"><i class="fa fa-asterisk"></i></span><span style="color:orange"><i class="fa fa-asterisk"></i></span> We still cannot active this chapter until we add at least 1 test question!</p>
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+We will be continuing with this section as if you already have a video ready to add to this Chapter. If you still need to upload and encode your video file(s), please check out our section on the <a href="/video_library/overview/" target="_self">Video Library</a> for tips and best practices.
+    </p>
+</div>
+
+<h2 id="chapter-summary-info">Chapter - Summary Info</h2>
+<p><a href="../../img/chapter_summary_info.png" target="_blank"><img src="../../img/chapter_summary_info.png"/></a></p>
 <ol>
 <li><strong>Test Instructions / Setup (This screen is displayed before the user starts the test)</strong><ul>
 <li>Enter the test instruction text the user will see before starting the test.</li>
 </ul>
 </li>
-<li><strong>Test Summary (Passed Test) (Seen upon test completion)</strong><ul>
-<li>Enter the test summary for when the user passes the test.</li>
+<li><strong>Test Summary (Passed Test) (This is seen upon test completion)</strong><ul>
+<li>Enter the test summary for when the user passes the test. This could be the default message, or if it's the last chapter of a course you could direct the user to the next training content, or even add supplemental information such as a PDF download or link to a 3rd party site.</li>
 </ul>
 </li>
-<li><strong>Test Summary (Failed Test) (Seen upon test completion)</strong><ul>
-<li>Enter the test summary for when the user fails the test.</li>
+<li><strong>Test Summary (Failed Test) (This is seen upon test completion)</strong><ul>
+<li>Enter the test summary for when the user fails the test. This could be the default message, or words of encouragement, or hints as to how to pass the test, or anything really.</li>
 </ul>
 </li>
 </ol>
-<h4 id="social-settings">Social Settings</h4>
+<p>We also make available "Default Text" options in case you are unsure what to put here.</p>
+<h2 id="chapter-social-settings">Chapter - Social Settings</h2>
 <p>Please visit <a href="http://support.lightspeedvt.com/socialize/">THIS</a> Knowledge Base article for more information on the Social Settings feature.</p>
-<h4 id="vt2go-settings">VT2GO Settings</h4>
+<h2 id="chapter-vt2go-settings">Chapter - VT2GO Settings</h2>
 <p>VT2GO settings are covered <a href="../../vt2go/overview/">HERE</a>.</p>
-<h2 id="test-settings">Test Settings</h2>
+<h2 id="chapter-test-settings">Chapter - Test Settings</h2>
+<p>In order to access the additional test settings we must enter our first test question. Currently the only available test type is "Standard" which is Multiple Choice. More test types are coming soon!</p>
+<p><a href="../../img/chapter_test_questions.png" target="_blank"><img src="../../img/chapter_test_questions.png"/></a></p>
 <ol>
-<li><strong>Number of Test Questions</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
-<li>Enter the number of test questions that will be pulled for this chapter. If you enter a number here smaller than the total number of test questions active, then it will randomly select that number from that <strong>"pool"</strong> of available questions. For example - if there are 10 active test questions for this chapter, and the number of test questions is set to 5, each time a user takes the test it will randomly serve up 5 of the 10 total questions.</li>
-<li>Note: You will not be able to activate this chapter until this number matches the number of test questions added.</li>
+<li><strong>Test Type</strong> - <span style="color:red"><em>Default: Standard</em></span><ul>
+<li>Your options here are: Standard.</li>
 </ul>
 </li>
-<li>
-<p><strong>Test Pass Percentage</strong> - <span style="color:red"><em>Default: 100</em></span></p>
-<ul>
+<li><strong>+ Add Question</strong><ul>
+<li>Add a question, let's get started!</li>
+</ul>
+</li>
+</ol>
+<h3 id="create-question">Create Question</h3>
+<p><a href="../../img/chapter_test_questions_1.png" target="_blank"><img src="../../img/chapter_test_questions_1.png"/></a></p>
+<ol>
+<li><strong>Question Active</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
+<li>This is a simple toggle - this will default to yes. If you need to later turn this Question off you can do so here, or on the previous screen.</li>
+</ul>
+</li>
+<li><strong>Question Rank</strong><ul>
+<li>This field will increase in rank for each test question you add. It is only used when the chapter toggle <strong>"Pull Questions in Order by Rank"</strong> is set to <strong>"Yes"</strong>. Otherwise it will still randomize all of your test questions even if a rank is displayed.</li>
+</ul>
+</li>
+<li><strong>Question</strong><ul>
+<li>This is where you enter the test question text.</li>
+</ul>
+</li>
+<li><strong>Question Timer</strong> - <span style="color:red"><em>Default: 60</em></span><ul>
+<li>Here you can set, in seconds, how long the question timer should be. We default to 60 seconds. You may go as high as 999 seconds (which is about 16-17 minutes).</li>
+</ul>
+</li>
+<li><strong>Answer Options (Select which answer is correct by checking the box)</strong><ul>
+<li>Answer A is for the first possible test question answer. Answer B is the second option, and down the line to F. There can be 6 possible answers, but you are only required to use a minimum of 2.</li>
+</ul>
+</li>
+<li><strong>Display Correct or Incorrect Answer Graphic</strong> - <span style="color:red"><em>Default: Checked</em></span><ul>
+<li>These checkboxes will be selected by default. If this is unchecked, after a user answers a test question, the <strong>"Correct"</strong> and <strong>"Incorrect"</strong> graphic pop-ups will not be active. Note: These must be checked in order for the text or video answer response action to appear.</li>
+</ul>
+</li>
+<li><strong>Response Action</strong> - <span style="color:red"><em>Default: None</em></span><ul>
+<li>This drop-down box is where you can setup an answer response. You can either select a video response or a text response. If a video response is selected, then you can select that video from your library. If Text is selected, then you will enter your text answer response in the <strong>Response Text</strong> field.</li>
+</ul>
+</li>
+</ol>
+<h3 id="test-settings">Test Settings</h3>
+<p>After you have created your first question, navigate back to the "Test Settings" tab and you can now view and modify the additional settings.</p>
+<p><a href="../../img/chapter_test_questions_3.png" target="_blank"><img src="../../img/chapter_test_questions_3.png"/></a></p>
+<ol>
+<li><strong>Number of Test Questions</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
+<li>Enter the number of test questions that will be pulled for this chapter. If you enter a number here smaller than the total number of test questions active, then the system will randomly select that number from that <strong>"pool"</strong> of available questions. For example - if there are 10 active test questions for this chapter, and the number of test questions is set to 5, each time a user takes the test it will randomly serve up 5 of the 10 total questions.</li>
+</ul>
+</li>
+<li><strong>Test Pass Percentage</strong> - <span style="color:red"><em>Default: 100</em></span><ul>
 <li>Enter the minimum test percentage a user must receive in order to pass the test and move on to the next chapter.</li>
 </ul>
 </li>
-<li>
-<p><strong>Test Type</strong> - <span style="color:red"><em>Default: Standard</em></span></p>
-<ul>
-<li>Your options here are: Standard, Survey, Only Test, No Test. More on testing mechanisms can be found <em>here</em>.</li>
-</ul>
-</li>
-<li><strong>Pull Questions in Order By Rank</strong> - <span style="color:red"><em>Default: No</em></span><ul>
-<li>This will pull all of the test questions in order by rank, and no longer serve them up randomly.</li>
+<li><strong>Question Sort Order</strong> - <span style="color:red"><em>Default: Random</em></span><ul>
+<li>Randomize the questions: This will pull all of the test questions randomly.</li>
+<li>Pull Questions in Order By Rank: This will pull all of the test questions in order by rank, and no longer serve them up randomly. </li>
 </ul>
 </li>
 <li><strong>Fail Test on Incorrect</strong> - <span style="color:red"><em>Default: No</em></span><ul>
 <li>Setting this to "Yes" will cause the user to fail the test on ANY missed question - rather than allowing them to complete the entire test first.</li>
 </ul>
 </li>
-<li><strong>Answer Notifications</strong> - <span style="color:red"><em>Default: No</em></span><ul>
-<li>Setting this to "Yes" will allow you to enter an email address <strong><em>per answer</em></strong> which will notify the recipient of that user's answer. This is often used with the Survey test type.</li>
-</ul>
-</li>
 <li><strong>Show Test Stats</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
 <li>This toggle will show or hide the test stats before and after the test. This is often used with the Survey test types.</li>
 </ul>
 </li>
-<li><strong>Show Test Summary Nav Buttons</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
-<li>This toggle will show or hide the navigation buttons after the test.</li>
-</ul>
-</li>
-<li><strong>Enable Notes</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
-<li>This will toggle on and off the notes feature for this specific chapter. Additionally you can control the notes feature at the Group level, and at the Course level. This should <strong>always</strong> be set to "Yes" unless indicated otherwise.</li>
-</ul>
-</li>
-<li><strong>Social</strong> - <span style="color:red"><em>Leave blank for now.</em></span><ul>
-<li>You can enter in social information <strong>per chapter</strong>.</li>
-</ul>
-</li>
-<li><strong>Chapter Part Info</strong> - <span style="color:red"><em>Default: 1</em></span><ul>
-<li>You must enter at least "1" chapter part here.</li>
+<li><strong>Recap</strong><ul>
+<li>If you add a recap, and the user fails the test, then the user will be prompted to take the <em>recap</em> before taking the test again. If they then fail the test a second time, they will have to take the training from the beginning of the chapter again.</li>
 </ul>
 </li>
 </ol>
-<p>Once you have filled out each field, hit <strong>Save</strong>. After the course is created there will be some additional fields to complete before moving on.</p>
-<h3 id="create-new-chapter-part-2">Create New Chapter - Part 2</h3>
-<p><a href="../../img/content_mgmt.png" target="_blank"><img src="../../img/placeholder.png"/></a></p>
-<ol>
-<li><strong>Show Captions</strong> - <span style="color:red"><em>Leave blank for now.</em></span><ul>
-<li>Selecting this button will show the optional Caption fields.</li>
-</ul>
-</li>
-<li><strong>Video Path, Mobile Path, Asset Path</strong><ul>
-<li><strong>Video Path</strong>: This is the path to the chapter part media (MP4, PDF, etc.)<ul>
-<li>For a default video for a "LaFR" we use: <span style="color:red">http://videos.lightspeedvt.com/video_files/coming_soon.mp4</span> - this is a path to a placeholder "Coming Soon" video. This is used so we can show our clients a completed system without actually having any of their content ready.</li>
-</ul>
-</li>
-<li><strong>Mobile Path</strong>: This is the path to the mobile encoded version of the above video path. <span style="color:red">Leave Blank for now.</span></li>
-<li><strong>Asset Path</strong>: This is a legacy field, it is for content that still utilizes flash side assets that lay on top of the video parts, before they were edited into the video itself. Most of the time this can remain blank. <span style="color:red">Leave blank for now.</span></li>
-</ul>
-</li>
-<li><strong>Rehash/Recap - Video Path</strong><ul>
-<li>A recap HTML file is linked here by default. If the user fails the test then the user will be prompted to take a <em>recap</em> before taking the test again. This HTML file will let the user know they have 1 more chance to pass the test or else they'll have to watch the chapter part over again.</li>
-</ul>
-</li>
-<li><strong>Add Question</strong> - <span style="color:red">Be sure to hit "Save" before you hit "Add Question" - as you will lose any modifications you have made to the chapter if you do so.</span><ul>
-<li>This is where you can add test questions to this chapter. We'll cover that in the next section.</li>
-</ul>
-</li>
-</ol>
-<p>Once all of the chapter information has been added, you're ready to move on to the next section - adding test questions.</p>
-<p>------------------ OLD OLD OLD ------------------</p>
-<h3 id="create-new-test-question">Create new Test Question</h3>
-<p><a href="../../img/content_mgmt.png" target="_blank"><img src="../../img/placeholder.png"/></a></p>
-<p>After your chapter has been saved, click on <strong>"Add Question"</strong> and follow the steps below.</p>
-<ol>
-<li><strong>Question</strong><ul>
-<li>This is where you enter the question text. For this exercise, we'll enter a placeholder question. Enter this text into the Question field: <span style="color:red">Did you understand everything in this chapter?</span></li>
-</ul>
-</li>
-<li><strong>Question Active</strong> - <span style="color:red"><em>Default: Yes</em></span><ul>
-<li>This is a simple toggle - this will default to yes.</li>
-</ul>
-</li>
-<li><strong>Question Rank</strong><ul>
-<li>This field will increase in rank for each test question you add. It is only used when the chapter toggle <strong>"Pull Questions in Order by Rank"</strong> is set to <strong>"Yes"</strong>.</li>
-</ul>
-</li>
-<li><strong>Answer A) &amp; B)</strong><ul>
-<li>This field is for the first possible test question answer. For this exercise enter this as the answer: <span style="color:red">Yes</span></li>
-<li>In the <strong>Answer B)</strong> field, enter: <span style="color:red">No</span></li>
-</ul>
-</li>
-<li><strong>Show Correct / Inc.</strong> - <span style="color:red"><em>Default: Checked</em></span><ul>
-<li>These checkboxes will be selected by default. If this is unchecked, after a user answers a test question, the <strong>"Correct"</strong> and <strong>"Incorrect"</strong> dialogue pop-ups will not be active.</li>
-</ul>
-</li>
-<li><strong>Response Action</strong> - <span style="color:red"><em>Default: None</em></span><ul>
-<li>This drop-down box is where you can setup an answer response. You can either select a video response or a text response. If a video response is selected (FLV), then you will enter a path to that video in the <strong>Response Info</strong> field. If Text is selected, then you will enter your text answer response in the <strong>Response Info</strong> field.</li>
-</ul>
-</li>
-<li><strong>Response Info</strong> - <span style="color:red"><em>Leave blank for now.</em></span><ul>
-<li>This field will be filled out only if the Response Action field is active.</li>
-</ul>
-</li>
-<li><strong>Points</strong> - <span style="color:red"><em>Leave blank for now.</em></span><ul>
-<li>You can assign a point value to each different answer. This feature was designed to eventually lead to a "Leaderboard" where users can see how they rank against other users. Currently this feature is disabled, but the field was left here for when the development team eventually circles back to it.</li>
-</ul>
-</li>
-<li><strong>Correct Answer</strong><ul>
-<li>Here you can select "Any / All Correct", or any individual answer. If you hold <strong>Ctrl/Command</strong> you can select more than one answer. For this exercise select answer "A".</li>
-</ul>
-</li>
-<li><strong>Question Timer</strong> - <span style="color:red"><em>Default: 60</em></span><ul>
-<li>Here you can set, in miliseconds, how long the question timer should be. We default to 60 seconds.</li>
-</ul>
-</li>
-</ol>
-<p>Once all of the fields are complete, hit <strong>"Save"</strong> and then click on the chapter name at the top of the screen to return to the chapter menu. From there you can now activate the chapter.</p>
-<p>And that is it. You should have now successfully created a Category, Course, Chapter and Test Question.</p>
-<p>**Link to ACTIVATION here?</p>
+<p>Once you have added as many test questions as you need, remember now to activate your chapter and move on to the final activation steps!</p>
+<h1 id="chapter-test-only">Chapter - Test Only</h1>
+<p>In a Test Only chapter type, the chapter will have no video parts, and at least 1 test question.</p>
+<p>You will see that once you change the Chapter Type, the screen changes slightly. You no longer have the option to add a video to this chapter - as it is a test only.</p>
+<p><a href="../../img/chapter_type_test_only.png" target="_blank"><img src="../../img/chapter_type_test_only.png"/></a></p>
+<h1 id="chapter-video-only-with-auto-advance">Chapter - Video only (With Auto Advance)</h1>
+<p>In a Video Only chapter type, the chapter will only have a video part, and no Summary or Test Question options.</p>
+<p>A chapter set to Auto Advance will automatically begin playing the next chapter once it is done. </p>
+<p><a href="../../img/chapter_type_video_only_aa.png" target="_blank"><img src="../../img/chapter_type_video_only_aa.png"/></a></p>
+<div class="admonition warning">
+    <p class="first admonition-title">
+        Warning
+    </p>
+    <p class="last">
+Your final chapter of your course CAN NOT be set to this chapter type, or it will cause an error. The system will have nothing to auto advance to once the course is completed!
+    </p>
+</div>
+
+<h1 id="chapter-video-only-with-summary">Chapter - Video only (With Summary)</h1>
+<p>This is similar to the option above, however in this case you can add a Summary to give the user additional information, direct them to another area of the system, or to simply say congratulations before they move on to the next chapter.</p>
+<p><a href="../../img/chapter_type_video_only_with_summary.png" target="_blank"><img src="../../img/chapter_type_video_only_with_summary.png"/></a></p>
               
             </div>
           </div>
