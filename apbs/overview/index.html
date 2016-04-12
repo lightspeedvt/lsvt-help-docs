@@ -8,7 +8,7 @@
   
   
   
-  <title>Manage APBs* - VT Help Docs <br /><br />Last Updated - 4/12/2016</title>
+  <title>Manage APBs - VT Help Docs <br /><br />Last Updated - 4/12/2016</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,7 +23,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Manage APBs*";
+    var mkdocs_page_name = "Manage APBs";
     var mkdocs_page_input_path = "apbs/overview.md";
     var mkdocs_page_url = "/apbs/overview/";
   </script>
@@ -182,11 +182,17 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Manage APBs*</a>
+        <a class="current" href="./">Manage APBs</a>
         
             <ul>
             
                 <li class="toctree-l3"><a href="#overview">Overview</a></li>
+                
+                    <li><a class="toctree-l4" href="#managing-or-creating-a-new-apb">Managing or Creating a new APB</a></li>
+                
+                    <li><a class="toctree-l4" href="#assignment-options">Assignment Options</a></li>
+                
+                    <li><a class="toctree-l4" href="#apb-examples">APB Examples:</a></li>
                 
             
             </ul>
@@ -237,7 +243,7 @@
     
       
     
-    <li>Manage APBs*</li>
+    <li>Manage APBs</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -248,7 +254,88 @@
             <div class="section">
               
                 <h2 id="overview">Overview</h2>
-<p>We are currently working on a Super User Admin area for this feature, which will be available soon. In the meantime, please reach out to the Client Care department for assistance if you need anything.</p>
+<p>The APB is the ability to display a custom message screen to users. (Nicknamed: All Points Bulletin)</p>
+<p>This can display either immediately upon sign in, before they get to the Main Menu -OR- as soon as they click “Training Center” – which is commonly used to give a brief orientation of the Training Center to new users.</p>
+<p>These custom Bulletins can be toggled ON/OFF per location. They also have a toggle for the user to see a “Don’t Show This Message Next Time,” or not.</p>
+<p>The dimensions of the APB are 900px wide, while the height scales according to the size of your content.</p>
+<p>Some common uses for the APB are:</p>
+<ul>
+<li>Making new announcements</li>
+<li>Publicizing new content that has been added to your system</li>
+<li>Advertising an upcoming Webinar</li>
+<li>Introducing users to the Training Center for the first time</li>
+</ul>
+<h3 id="managing-or-creating-a-new-apb">Managing or Creating a new APB</h3>
+<p>When you open the APB admin area, you will see a list of existing APBs that you currently have access to. You can Manage these existing ones, or create a new one.</p>
+<p><a href="../../img/apb_simple_text.png" target="_blank"><img src="../../img/apb_simple_text.png"/></a></p>
+<ol>
+<li><strong>APB Name</strong><ul>
+<li>Enter the name of the APB. This will only be seen internally on the APB Admin screen.</li>
+</ul>
+</li>
+<li><strong>APB Status</strong><ul>
+<li>Is this Active or Inactive?</li>
+</ul>
+</li>
+<li><strong>Date Range</strong><ul>
+<li>You can set a date range for the APB to be active. After the last date of the range, it will automatically deactivate.</li>
+</ul>
+</li>
+<li><strong>Allow Don't Show Option:</strong><ul>
+<li>If this is set to yes, it will allow users to bypass the APB the next time they login or enter the Training Center. Typically this would be used for one-time announcements. If you had a permanent message however, you would want to make this "No."</li>
+</ul>
+</li>
+<li><strong>Show APB On:</strong><ul>
+<li>You can either show the APB on user Login, or when they first enter the Training Center.</li>
+</ul>
+</li>
+<li><strong>iFrame Path</strong><ul>
+<li>If you have an HTML file you'd like to use in place of the regular text editor, you can link it here. (Example below)</li>
+</ul>
+</li>
+<li><strong>Theoplayer Path:</strong><ul>
+<li>If you would like to show a video in the APB, you can link it here. (Example below)</li>
+</ul>
+</li>
+<li><strong>APB Text</strong><ul>
+<li>Here you can enter any text or html that you would like to feature in the apb. The example above is a basic text example.</li>
+</ul>
+</li>
+<li><strong>iFrame Height</strong><ul>
+<li>The APB is automatically a width of 900 pixels. With the height option, you can raise or lower the height of the APB. It has a  maximum height of 750 pixels. If your information is taller than 750 pixels, a scroll bar will be added to the right side of the APB for users to scroll down for more information.</li>
+</ul>
+</li>
+</ol>
+<h3 id="assignment-options">Assignment Options</h3>
+<ol>
+<li>Select a System this APB will go in (typically you will only have 1 option to select here)</li>
+<li>Select a location, or all locations, that this APB will go in.</li>
+</ol>
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+An APB can only be in 1 location at a time. If you have a second APB to use, you must first unassign the first APB from the desired location before you can assign your second one.
+    </p>
+</div>
+
+<p><a href="../../img/apb_assignment.png" target="_blank"><img src="../../img/apb_assignment.png"/></a></p>
+<h3 id="apb-examples">APB Examples:</h3>
+<p>Basic HTML admin screen:</p>
+<p><a href="../../img/apb_simple_text_html.png" target="_blank"><img src="../../img/apb_simple_text_html.png"/></a></p>
+<p>What this screen would look like in the System:</p>
+<p><a href="../../img/apb_simple_example.png" target="_blank"><img src="../../img/apb_simple_example.png"/></a></p>
+<p>You can even get a little fancier and include some simple images and font size changes:</p>
+<p><a href="../../img/apb_fancy_example.png" target="_blank"><img src="../../img/apb_fancy_example.png"/></a></p>
+<p>Using an iFrame, you can implement your own Fonts, CSS, colors, pictures, anything a regular webpage could output. You would just link it in the "iFrame" field: </p>
+<p><a href="../../img/apb_example_iframe_1.png" target="_blank"><img src="../../img/apb_example_iframe_1.png"/></a></p>
+<p>And here is what the screen would look like in the System:</p>
+<p><a href="../../img/apb_example_iframe.png" target="_blank"><img src="../../img/apb_example_iframe.png"/></a></p>
+<p>Theoplayer example:</p>
+<p><a href="../../img/apb_example_theoplayer_1.png" target="_blank"><img src="../../img/apb_example_theoplayer_1.png"/></a></p>
+<p>What the screen would look like in the System:</p>
+<p><a href="../../img/apb_example_theoplayer_2.png" target="_blank"><img src="../../img/apb_example_theoplayer_2.png"/></a></p>
               
             </div>
           </div>
