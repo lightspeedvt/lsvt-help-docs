@@ -8,7 +8,7 @@
   
   
   
-  <title>File Vault - VT Help Docs <br /><br />Last Updated - 4/12/2016</title>
+  <title>File Vault - VT Help Docs <br /><br />Last Updated - 4/13/2016</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -43,7 +43,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> VT Help Docs <br /><br />Last Updated - 4/12/2016</a>
+        <a href="../.." class="icon icon-home"> VT Help Docs <br /><br />Last Updated - 4/13/2016</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -98,7 +98,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../content_containers/overview/">Content Containers*</a>
+        <a class="" href="../../content_containers/overview/">Content Containers</a>
         
     </li>
 <li>
@@ -126,7 +126,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../vt2go/overview/">VT2GO*</a>
+        <a class="" href="../../vt2go/overview/">VT2GO</a>
         
     </li>
 <li>
@@ -208,6 +208,8 @@
                 
                     <li><a class="toctree-l4" href="#locations-settings">Locations Settings:</a></li>
                 
+                    <li><a class="toctree-l4" href="#steps-for-administrators">Steps for Administrators</a></li>
+                
             
             </ul>
         
@@ -231,7 +233,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">VT Help Docs <br /><br />Last Updated - 4/12/2016</a>
+        <a href="../..">VT Help Docs <br /><br />Last Updated - 4/13/2016</a>
       </nav>
 
       
@@ -261,6 +263,8 @@
 This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within its systems or by individual locations. This user can also define which locations have access to folders or files.</p>
 <p><strong>System Admin (Super User C):</strong><br />
 Similar to Super User B, this user has full admin privileges, but is restricted to its own system and locations. Also, a Super User C cannot delete or edit files/folders created by a Super User B.</p>
+<p>Admins can access the File Vault Admin area under the Super User Dashboard, 412 - File Vaults Management</p>
+<p><img alt="Image" src="../../img/412-file-vault.png" /></p>
 <p><strong>Location Manager:</strong><br />
 This user has similar privileges to System Admins, but is restricted to its own location. Manager can optionally (If rights are granted by System Admin for that location) deactivate folders/files added by System Admin.</p>
 <p><strong>Location User:</strong><br />
@@ -292,18 +296,19 @@ A system admin has an extra option/tab available. System admin can easily review
 <h3 id="locations-settings">Locations Settings:</h3>
 <p>System admin also has the ability to restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
 <p><img alt="Image" src="../../img/vault6.png" /></p>
-<p><strong><em>*</em></strong><strong><em>*</em></strong><strong><em>*</em></strong><strong>Update 4-8-2016<strong><em>*</em></strong><strong><em>*</em></strong></strong>***</p>
-<p>Super user file vault administration functions are now separated from the general user view. 
-Super User A, B and C can access the file vault admin from the Super User Dashboard, in the 400’s tab (Application Administration).</p>
-<p>ALL SYSTEMS FILES</p>
-<p>Super User A and B will need to first select a system.
-The following options are available for search criteria:
-By folder name
-By file name
-Active/Inactive/All locations (Super User A only)
-By UserID (Super User A only)
-By Username (Super User A only)
-By first or last name (Super User A only)</p>
+<h3 id="steps-for-administrators">Steps for Administrators</h3>
+<ol>
+<li>Select a System</li>
+<li>Select a Folder</li>
+<li>Select a File</li>
+<li>Additional Search options:<ul>
+<li>Active/Inactive/All locations (Super User A only)</li>
+<li>By UserID (Super User A only)</li>
+<li>By Username (Super User A only)</li>
+<li>By first or last name (Super User A only)</li>
+</ul>
+</li>
+</ol>
 <p>Super User A</p>
 <p>Super User B and C
 A search will return a list of all active folders under the selected system. </p>
