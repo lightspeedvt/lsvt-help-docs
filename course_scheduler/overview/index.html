@@ -122,7 +122,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../video_library/overview/">Video Library</a>
+        <a class="" href="../../video_library/overview/">Media Library</a>
         
     </li>
 <li>
@@ -175,13 +175,16 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#creating-a-schedule">Creating A Schedule</a></li>
+                <li class="toctree-l3"><a href="#overview"> Overview</a></li>
                 
             
-                <li class="toctree-l3"><a href="#define-the-starting-content-role">Define the "Starting" Content Role</a></li>
+                <li class="toctree-l3"><a href="#creating-a-schedule"> Creating A Schedule</a></li>
                 
             
-                <li class="toctree-l3"><a href="#specifying-the-rest-of-the-content-roles-to-roll-out">Specifying the rest of the Content Roles to "roll out"</a></li>
+                <li class="toctree-l3"><a href="#define-the-starting-content-role"> Define the "Starting" Content Role</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#specifying-the-rest-of-the-content-roles-to-roll-out"> Specifying the rest of the Content Roles to "roll out"</a></li>
                 
             
             </ul>
@@ -270,11 +273,12 @@
           <div role="main">
             <div class="section">
               
-                <p>We are currently working on a Super User Admin area for this feature, which will be available soon. In the meantime, please reach out to the Client Care department for assistance if you need any Content Schedules created or revised.</p>
+                <h2 id="overview"><i class="fa fa-list" aria-hidden="true"></i> Overview</h2>
+<p>We are currently working on a Super User Admin area for this feature, which will be available soon. In the meantime, please reach out to the Client Care department for assistance if you need any Content Schedules created or revised.</p>
 <p>This feature will allow us to "Schedule" (roll out" content to a user, on a date range) - based on a field called "Start Date" - which is on the User's profile, in the second tab, called Personal Info." The field "Created Date" which is noted in the green box in the screen shot below - is the actual date the user was created, and this cannot be changed. The field called "Start Date" is noted in blue in the screen shot below, is auto-populated by the "Created Date" however this field "Start Date" can be changed, for the reason of changing this user's "Schedule" if desired.</p>
 <p>This "Scheduler" feature will run off of the "Start Date" and it will roll out content roles, based on that "Start Date."</p>
 <p><img alt="Image" src="../../img/webservices_course_scheduler.png" /><br /></p>
-<h4 id="creating-a-schedule">Creating A Schedule</h4>
+<h2 id="creating-a-schedule"><i class="fa fa-list-alt" aria-hidden="true"></i> Creating A Schedule</h2>
 <p>To Create a "Schedule" for a client, use the webservices/API admin tab "Scheduled Courses" and then search for the desired "Group" - one the desired Group is selected, you can create as many "Schedules" as desired. Know that the "Scheduler" uses Content Roles to change the content, so you will want to have your desired Content Roles set up first, then go to the API Admin area to create the Schedule, using those Content Roles.</p>
 <ul>
 <li>How the Scheduler knows to put a certain user on a "Schedule" is by the initial, or "Starting" Content Role, by a user being a member of that "Starting" Content Role, it will put that user on the Schedule. In this example below - our "Starting" Content Role is called "Schedule 1 - Start." (example - if you are creating a Schedule that rolls content out by "week" - you may want to name this "starting role" - "Week 1" - but this is flexible for you to name it as needed).</li>
@@ -298,12 +302,12 @@
 <li>Once you have created a “Scheduler”, you will be shown a table that contains all available Content Roles that could be added to the schedule. </li>
 </ul>
 <p><img alt="Image" src="../../img/webservices_course_scheduler_6.png" /><br /></p>
-<h4 id="define-the-starting-content-role">Define the "Starting" Content Role</h4>
+<h2 id="define-the-starting-content-role"><i class="fa fa-list-ol" aria-hidden="true"></i> Define the "Starting" Content Role</h2>
 <ul>
 <li>You will need to drag and drop the desired Content Role to the “Starting Content Role” row on top of tables. This will let the Scheduler know that every user that have that initial role assigned to them, will be part of the this Schedule- it will display in Orange, as in the screen shot below.</li>
 </ul>
 <p><img alt="Image" src="../../img/webservices_course_scheduler_7.png" /><br /></p>
-<h4 id="specifying-the-rest-of-the-content-roles-to-roll-out">Specifying the rest of the Content Roles to "roll out"</h4>
+<h2 id="specifying-the-rest-of-the-content-roles-to-roll-out"><i class="fa fa-table" aria-hidden="true"></i> Specifying the rest of the Content Roles to "roll out"</h2>
 <ul>
 <li>You then need to drag and drop the remaining courses into the “Content Roles in Schedule” table in the order you wish them to appear, they will turn Green, as shown in the screen shot below.</li>
 </ul>

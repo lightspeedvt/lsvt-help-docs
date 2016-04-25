@@ -122,7 +122,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../video_library/overview/">Video Library</a>
+        <a class="" href="../../video_library/overview/">Media Library</a>
         
     </li>
 <li>
@@ -214,9 +214,11 @@
                 
                     <li><a class="toctree-l4" href="#roles">Roles</a></li>
                 
-                    <li><a class="toctree-l4" href="#functions">Functions</a></li>
+            
+                <li class="toctree-l3"><a href="#functions">Functions</a></li>
                 
-                    <li><a class="toctree-l4" href="#locations-settings">Locations Settings:</a></li>
+            
+                <li class="toctree-l3"><a href="#locations-settings">Locations Settings</a></li>
                 
                     <li><a class="toctree-l4" href="#steps-for-administrators">Steps for Administrators</a></li>
                 
@@ -289,42 +291,42 @@ This base user has limited privileges and may only view or download files from t
 <table>
 <thead>
 <tr>
-<th>File/Folder Action</th>
-<th align="center">Super User B, C (System Admin)</th>
-<th align="center">Manager A (Location Manager)</th>
-<th align="center">User (Location User)</th>
+<th>Access Level</th>
+<th align="center">2 &amp; 3</th>
+<th align="center">4, 5 &amp; 6</th>
+<th align="center">7-12</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Create</td>
-<td align="center">Yes - All / Any Location</td>
-<td align="center">Yes - Own location</td>
-<td align="center">No</td>
+<td>Folder/File Create</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 <tr>
-<td>Edit</td>
-<td align="center">Yes - All / Any Location</td>
-<td align="center">Yes - Own location</td>
-<td align="center">No</td>
+<td>Folder/File Edit</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 <tr>
-<td>Delete</td>
-<td align="center">Yes - All / Any Location</td>
-<td align="center">Yes - Own location</td>
-<td align="center">No</td>
+<td>Folder/File Delete</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 <tr>
-<td>View</td>
-<td align="center">Yes - All / Any Location</td>
-<td align="center">Yes - Own location</td>
-<td align="center">Yes - Own Location</td>
+<td>Folder/File View</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
 </tr>
 <tr>
-<td>Activation Status</td>
-<td align="center">Yes - All / Any Location</td>
-<td align="center">Optional - Own location</td>
-<td align="center">No</td>
+<td>Folder/File Activation Status</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Optional - Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 </tbody>
 </table>
@@ -338,8 +340,9 @@ This base user has limited privileges and may only view or download files from t
 .jpeg .jpg .gif .png .bmp .tiff .tif .pic .pict<br />
 .vsd .vst .vsw<br />
 .mp3 .m4a .mpg .mpeg .avi .mov .wmv .mp4 .flv<br /></p>
-<p><strong>Upload file size limit: 60 MB</strong></p>
-<h3 id="functions">Functions</h3>
+<p><strong>Upload file size limit:</strong><br />
+60 MB</p>
+<h2 id="functions">Functions</h2>
 <p><strong>New Folder/New File:</strong><br />
 (Files use the same principle as folder creation)
 System admin would simply create a new folder or file.</p>
@@ -351,7 +354,7 @@ System admin would simply create a new folder or file.</p>
 <p><strong>User Uploaded Documents:</strong><br />
 A system admin has an extra option/tab available. System admin can easily review and manage all folders/files that have been created by individual location managers by sorting locations. System admin also has an “override” option to deactivate/activate a folder or file created by a location manager, thus maintaining control of content.</p>
 <p><img alt="Image" src="../../img/vault5.png" /></p>
-<h3 id="locations-settings">Locations Settings:</h3>
+<h2 id="locations-settings">Locations Settings</h2>
 <p>System admin also has the ability to restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
 <p><img alt="Image" src="../../img/vault6.png" /></p>
 <h3 id="steps-for-administrators">Steps for Administrators</h3>
