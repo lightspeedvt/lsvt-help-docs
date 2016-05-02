@@ -212,15 +212,23 @@
             
                 <li class="toctree-l3"><a href="#initial-setup">Initial Setup</a></li>
                 
-                    <li><a class="toctree-l4" href="#roles">Roles</a></li>
+            
+                <li class="toctree-l3"><a href="#access-level-and-role-definitions">Access Level and Role Definitions</a></li>
                 
             
-                <li class="toctree-l3"><a href="#functions">Functions</a></li>
+                <li class="toctree-l3"><a href="#getting-started">Getting Started</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#new-folder-creation">New Folder Creation</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#system-admin-screen">System Admin Screen</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#file-creation">File Creation</a></li>
                 
             
                 <li class="toctree-l3"><a href="#locations-settings">Locations Settings</a></li>
-                
-                    <li><a class="toctree-l4" href="#steps-for-administrators">Steps for Administrators</a></li>
                 
             
             </ul>
@@ -275,19 +283,18 @@
             <div class="section">
               
                 <h2 id="initial-setup">Initial Setup</h2>
-<p>The file vault is available at all locations within a system. It must be activated by using the “File Vault Active” toggle on the System settings page. This toggle doesn’t affect the actual functions of the file vault, it only turns on or off the main menu icon/link.</p>
+<p>The file vault is available at all locations within a system. It must be activated by using the “File Vault Active” toggle on the System Settings screen. This toggle doesn’t affect the actual functions of the file vault, it only turns on or off the main menu icon/link.</p>
 <p><img alt="Image" src="../../img/vault1.png" /></p>
-<h3 id="roles">Roles</h3>
+<h2 id="access-level-and-role-definitions">Access Level and Role Definitions</h2>
 <p><strong>System Admin (Super User B):</strong><br />
-This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within its systems or by individual locations. This user can also define which locations have access to folders or files.</p>
+This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within their systems or by individual locations. This user can also define which locations have access to folders or files.</p>
 <p><strong>System Admin (Super User C):</strong><br />
 Similar to Super User B, this user has full admin privileges, but is restricted to their own system and locations. Also, a Super User C cannot delete or edit files/folders created by a Super User B.</p>
-<p>Admins can access the File Vault Admin area under the Super User Dashboard, 412 - File Vault Management</p>
-<p><img alt="Image" src="../../img/412-file-vault.png" /></p>
 <p><strong>Location Manager:</strong><br />
 This user has similar privileges to System Admins, but is restricted to their own location. Managers can optionally (If rights are granted by System Admin for that location) deactivate folders/files added by a System Admin.</p>
 <p><strong>Location User:</strong><br />
 This base user has limited privileges and may only view or download files from their own location.</p>
+<p><strong>Here is a chart of the above information:</strong><br /></p>
 <table>
 <thead>
 <tr>
@@ -342,106 +349,47 @@ This base user has limited privileges and may only view or download files from t
 .mp3 .m4a .mpg .mpeg .avi .mov .wmv .mp4 .flv<br /></p>
 <p><strong>Upload file size limit:</strong><br />
 60 MB</p>
-<h2 id="functions">Functions</h2>
-<p><strong>New Folder/New File:</strong><br />
-(Files use the same principle as folder creation)
-System admin would simply create a new folder or file.</p>
-<p><img alt="Image" src="../../img/vault3.png" /></p>
-<p>Enter information for the folder and specify which locations can access the new folder. By default, when creating a new folder or file, all existing locations will have access to that folder or file.</p>
-<p>If you wish to make the folder or file available as you add new locations, please make sure to check the “use for all newly created locations” checkbox.</p>
-<p>System admin can also grant authorization for a location manager to deactivate the folder or file (This would allow a location manager to turn on or off folders or files that are of no use/interest for their location)</p>
-<p><img alt="Image" src="../../img/vault4.png" /></p>
-<p><strong>User Uploaded Documents:</strong><br />
-A system admin has an extra option/tab available. System admin can easily review and manage all folders/files that have been created by individual location managers by sorting locations. System admin also has an “override” option to deactivate/activate a folder or file created by a location manager, thus maintaining control of content.</p>
-<p><img alt="Image" src="../../img/vault5.png" /></p>
+<h2 id="getting-started">Getting Started</h2>
+<p>Here is your File Vault as it is viewable to all users. This is an example of a File Vault with NO content in it.</p>
+<p><img alt="Image" src="../../img/file_vault_1.png" /></p>
+<h2 id="new-folder-creation"><strong>New Folder Creation</strong><br /></h2>
+<p>As a Location Manager or User with privileges to add files to the File Vault, they will do so in the File Vault itself:<br />
+<img alt="Image" src="../../img/file_vault_mgr_a.png" /></p>
+<p>If you are a System Admin, to create files and folders you would access the File Vault Admin area under the Super User Dashboard, 412 - File Vault Management:</p>
+<p><img alt="Image" src="../../img/412-file-vault.png" /></p>
+<h2 id="system-admin-screen"><strong>System Admin Screen</strong><br /></h2>
+<p>In the Admin area, you will first select a System in which you want to manage the file vault files.</p>
+<p>Second, if you wish to search for a specific Folder or File, you can do so here. If you want to see all available Folders and Files for the system, leave these fields blank.</p>
+<p>After searching, results can be filtered further by location. By selecting a location, only folders active at that location will show.</p>
+<p><strong>Step 1: Select your System and search criteria:</strong><br />
+<img alt="Image" src="../../img/file_vault_2.png" /></p>
+<p><strong>Step 2: Review your results or filter by location:</strong><br />
+<img alt="Image" src="../../img/file_vault_3.png" /></p>
+<p>To create a new folder click on "New Folder" icon at the top right.</p>
+<p>Enter your information for the folder and then whether or not you would like ALL newly created locations in your system to have access to this folder (It will be checked by default, or set to Yes)</p>
+<p>Next, specify which locations can access the new folder (In our example there is only 1 location available, so only 1 is on the list). </p>
+<p>To the right of the location access, the System Admin can also grant authorization for a location manager to deactivate this folder (or as we'll see later, file.)</p>
+<p><strong>Success! The folder has been created - Great Job:</strong>
+<img alt="Image" src="../../img/file_vault_5.png" /></p>
+<p>If you need to make any changes to your Folder, you can click on the pencil icon to edit it.</p>
+<hr />
+<h2 id="file-creation"><strong>File Creation</strong></h2>
+<p>To create a file, click into any folder and then click on "New File" at the top right of the screen.</p>
+<p><img alt="Image" src="../../img/file_vault_6.png" /></p>
+<p><img alt="Image" src="../../img/file_vault_7.png" /></p>
+<p>The steps to add a file are similar to adding a new folder, except now you choose a file from your local device to upload to the file vault.</p>
+<p>File size specifications are right on the screen if you cannot remember whether a file type is accepted or not.</p>
+<p>You here you can also repeat the exercise of which locations can access the file, and whether or not the location managers can deactivate the file (at their location only.)</p>
+<p><strong>Sucess! We have now added a file to our File Vault:</strong>
+<img alt="Image" src="../../img/file_vault_8.png" /></p>
 <h2 id="locations-settings">Locations Settings</h2>
-<p>System admin also has the ability to restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
-<p><img alt="Image" src="../../img/vault6.png" /></p>
-<h3 id="steps-for-administrators">Steps for Administrators</h3>
-<ol>
-<li>Select a System</li>
-<li>Select a Folder</li>
-<li>Select a File</li>
-<li>Additional Search options:<ul>
-<li>Active/Inactive/All locations (Super User A only)</li>
-<li>By UserID (Super User A only)</li>
-<li>By Username (Super User A only)</li>
-<li>By first or last name (Super User A only)</li>
-</ul>
-</li>
-</ol>
-<!--
-
-Super User A
-
-
-
-Super User B and C
-A search will return a list of all active folders under the selected system. 
-
-
-Results will be paginated and have 25 records per page by default.
-
-Results can be filtered down by location. By selecting a location, only folders active at that location will show.
-
-
-Clicking on the folder name or the quantity of files, will take you to the list of files under that folder.
-
-Folder View
-
-
-Files View
-
-
-Clicking on the pencil icon will take you to the manage screen for that folder.
-Edit Option
-
-
-You can edit the folder’s name/title and description. The description is used in the tooltip next to the title, in the results.
-
-
-Description Field
-
-
-Front End Tooltip
-
-
-By checking the “Use for all newly created locations”, the folder will automatically be added/set to “enabled” and activated in any new location created within the originally selected system.
-
-
-Under location settings, a list of locations is displayed, by default showing 25 records per page.
-
-
-Admin can choose to enable the folder for all, some or none of the locations.
-
-
-In addition, admin can choose to allow a location manager to hide the folder in their location. 
-
-An audit log is available to Super User A, which will allow admin to review actions taken on that folder.
-
-
-
-LOCATION SETTINGS
-
-By default, all locations manager have the ability to manage files and folders. System admin can restrict individual locations. If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.
-
-Admin Settings View
-
-
-Manager View
-
-
-COPY OPERATIONS
-System admin can copy all existing files and folders from one location in one system to another location in another system. You just select the original system, then the locations from that system. Select the system that will receive the new files and folders, and the locations under that system.
-
-
-
-In addition, you will need to select and associate a user in the new system with the newly copied files.
-
-
-
-
--->
+<p>System admins also have the ability to restrict individual locations (to further override the folder and file specific access controls we covered above.). If restricted, a location manager would not be able to manage files or folders and would only be able to view and download files.</p>
+<p><img alt="Image" src="../../img/file_vault_9.png" /></p>
+<p>And finally here is what our file vault looks like in the System.</p>
+<p><strong>Top View:</strong>
+<img alt="Image" src="../../img/file_vault_10.png" /></p>
+<p><strong>Clicking on a Folder View:</strong>
+<img alt="Image" src="../../img/file_vault_11.png" /></p>
               
             </div>
           </div>

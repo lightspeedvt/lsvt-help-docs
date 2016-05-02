@@ -103,22 +103,7 @@
             
                 <li class="toctree-l3"><a href="#new-location-information"> New Location Information</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#billing-information"> Billing Information</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#location-notes"> Location Notes</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#additional-location-settings-available-after-location-creation"> Additional Location Settings (available after location creation)</a></li>
-                
-                    <li><a class="toctree-l4" href="#general-information">General Information</a></li>
-                
-                    <li><a class="toctree-l4" href="#location-information">Location Information</a></li>
-                
-                    <li><a class="toctree-l4" href="#main-menu-information">Main Menu Information</a></li>
-                
-                    <li><a class="toctree-l4" href="#main-menu-left-right-region">Main Menu Left &amp; Right Region</a></li>
+                    <li><a class="toctree-l4" href="#template-locations">Template Locations</a></li>
                 
             
             </ul>
@@ -288,188 +273,57 @@
 <p>To create a new location, navigate to the Super User Dashboard and select "Create New Location" under 102 - Location Management.</p>
 <p>This will allow you to create a new location in any System that you currently have Super User Access to. </p>
 <p><img alt="Image" src="../../img/102_location_mgmt.png" /></p>
+<h1 id="new-location-information"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> New Location Information</h1>
+<p><strong>Step 1.</strong> Select the “System” that you want to create this New Location within.</p>
+<p><strong>Step 2.</strong> Fill out the “New Location Information" - starting with which Template Location you want to ‘clone’ this new Location from (more about how Template Locations work is below).</p>
+<p>Now you can fill out all of the other information about this Location. The fields with the orange dot indicate a required field. The image below is an example of this screen.</p>
+<p><img alt="Image" src="../../img/new_location_creation.png" /></p>
+<p><strong>Step 3.</strong> Fill out the Billing Information</p>
+<p>First you will indicate if it is “Bill per Location” or “Bill per User.”</p>
+<p><img alt="Image" src="../../img/create-location-billing-info.png" /></p>
+<p>These fields below apply, whether it is being charged “By Location” or “By User.”</p>
+<ul>
+<li>Gross Set Up Fee - if you charged a one Time Set Up fee, put in the dollar amount here.</li>
+<li>Gross License Fee - this is the price is was sold for.</li>
+<li>License Frequence - this is how often the license fee is charged; in month(s). A monthly charge would be “1” and annual charge would be “12” (12 months), or leave it blank if it is a charge that is incurred once, and never again.</li>
+<li>Begin Bill Date: This is inserted for you with the “creation date” of this New Location. If you need this changed, please specify this in the “Billing Notes” filed at the bottom of this section. This will also be considered the Contract Start Date.</li>
+<li>Contract End Date - this is an optional field where you can indicate when this contract expires.</li>
+<li>Grace Period - this only applies when the “Auto Expire” Check box is indeed checked. The Grace Period allows you to give the Location a grace period to renew by. If you choose to Auto Expire a Location, it will expire on the Grace Period Date. Alternatively, if no Grace Period Date is entered, the Location will expire on the Contract End Date.</li>
+</ul>
 <div class="admonition note">
     <p class="first admonition-title">
         Note
     </p>
     <p class="last">
-You can only create a new location if you have at least one "Location Template" active. To create a "Template Location", access that location through "102 - Location Management," navigate to the location you wish to use as a template, then select "Location Settings" from the Quick Links menu, and then change the "Template Location" toggle to "Yes". Example:
-    </p>
-    <br />
-    <p><img src="http://lightspeedvt.github.io/lsvt-help-docs/img/location_settings.png">
+If you intend for this Location to just renew in a ‘month to month’ format after the Contract End date, then simply do not check the “Auto Expire” check box, and it will not get automatically deactivated on that date and it will roll over to a ‘month to month’ status.
     </p>
 </div>
 
-<p>Next, fill out all of the applicable information. Required fields are noted throughout this menu with an asterisk: <span style="color:orange"><i class="fa fa-asterisk"></i></span></p>
-<h1 id="new-location-information"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> New Location Information</h1>
-<ol>
-<li><strong>Source Location Template</strong> <span style="color:orange"><i class="fa fa-asterisk"></i></span><ul>
-<li>As described above, you will only be able to select from Locations that are flagged as a "Template Location".</li>
+<ul>
+<li>Billing Notes - this is an open text field for you to note anything you would like the LSVT Accounting Dept. to know. These notes are only seen by you and the LSVT Accounting Dept.- they are not seen on the front end by your customers.</li>
+<li>Contract - this is where you will upload the contract for this New Location to be stored.
+(end bullet list)</li>
 </ul>
-</li>
-<li><strong>New Location Name</strong> <span style="color:orange"><i class="fa fa-asterisk"></i></span><ul>
-<li>Enter the Location Name here - this can be updated any time after location creation.</li>
+<p><strong>Step 4.</strong> - Location Notes - this is a simple optional open field that you can utilize to indicate any helpful ‘notes’  about this Location that you and your customers can see on the front end to better describe what the Location is being used for. You can also update this text  in the  “Location Settings” at any time.</p>
+<p>When you are ready, click the “Create Location” button and this Location is ready to use right away.</p>
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+This newly created Location is ready to use right away, but it will also be sent to the LSVT Accounting Dept. in a “Pending Approval” status for review. If the LSVT Accounting team has any questions about it, they will contact you directly prior to placing it in an “Approved” status.
+    </p>
+</div>
+
+<h2 id="template-locations">Template Locations</h2>
+<p>Here is some additional information below about how ”Template Locations” work.</p>
+<p>When new Locations are created, we follow this process of cloning them from an existing “Template” Location so that the basic settings are all in place, and make it easier and faster for you as an Administrator to create new Locations. It also helps you ensure that it is created correctly Below are a list of settings that are cloned in this process.</p>
+<ul>
+<li>The Theme - this process will place the new Location in the same System and use the same Theme as the Template Location.</li>
+<li>Courseware - all of the courses that are active in the Template Location will be the exact set that are active for this New Location.</li>
+<li>Super User List - all ofthe Super Users that have access to the Template Location will now also have access to this newly created Location.</li>
+<li>Main Menu messages - the Main Menu welcome message video, the Main Menu bulletin board message and the left and right images and messages will all be used.</li>
 </ul>
-</li>
-<li><strong>Max. # of Users</strong><ul>
-<li>The Maximum number of users allowed for this location. Leave blank for infinite.</li>
-</ul>
-</li>
-<li><strong>Rep</strong><ul>
-<li>Who sold it</li>
-</ul>
-</li>
-<li><strong>Vendor Unique ID</strong><ul>
-<li>This can be left blank - unless you wish to use it for additional reporting and tracking information.</li>
-</ul>
-</li>
-<li><strong>Contact Name</strong><ul>
-<li>Enter a Contact Name and Address information for the Location here.</li>
-</ul>
-</li>
-<li><strong>Address</strong></li>
-<li><strong>City / State / Zip</strong></li>
-<li><strong>Country</strong></li>
-<li><strong>Phone</strong></li>
-<li><strong>Cell Phone</strong></li>
-<li><strong>Fax</strong></li>
-<li><strong>Web Address</strong></li>
-<li><strong>Email Address</strong></li>
-</ol>
-<p><strong>Example:</strong><br /><br />
-<img alt="Image" src="../../img/new_location_creation.png" /></p>
-<h1 id="billing-information"><i class="fa fa-credit-card" aria-hidden="true"></i> Billing Information</h1>
-<ol>
-<li><strong>Accounting Format</strong> <span style="color:orange"><i class="fa fa-asterisk"></i></span><ul>
-<li>Location Pricing or Per User Pricing?</li>
-</ul>
-</li>
-<li><strong>License Frequency</strong><ul>
-<li>How often do they pay this amount?</li>
-</ul>
-</li>
-<li><strong>Begin Bill Date</strong> <span style="color:orange"><i class="fa fa-asterisk"></i></span><ul>
-<li>The first date to begin billing for this location (Defaults to today's date)</li>
-</ul>
-</li>
-<li><strong>Contract End Date</strong><ul>
-<li>When will the contract for this location end?</li>
-</ul>
-</li>
-<li><strong>Grace Period Date</strong><ul>
-<li>This option will allow you to add an additional month 'Grace Period.' If the location decides to end their contract, you can allow an additional set of time before the location will be turned off (or auto turn off)</li>
-</ul>
-</li>
-<li><strong>Billing Notes</strong><ul>
-<li>Note anything you need to about this billing information for the Accounting Department</li>
-</ul>
-</li>
-<li><strong>Contract</strong><ul>
-<li>Attach a copy of the contract for this location if you have one.</li>
-</ul>
-</li>
-</ol>
-<h1 id="location-notes"><i class="fa fa-tag" aria-hidden="true"></i> Location Notes</h1>
-<p>In this section you can add any additional notes or comments. Note: This information can also be searchable under "Search and Manage Locations."</p>
-<hr />
-<h1 id="additional-location-settings-available-after-location-creation"><i class="fa fa-wrench" aria-hidden="true"></i> Additional Location Settings (available after location creation)</h1>
-<h3 id="general-information">General Information</h3>
-<ol>
-<li><strong>Location ID</strong><ul>
-<li>The Location ID is assigned to each location upon creation. This number is unique to this location, and can be used to help identify locations if the need arises.</li>
-</ul>
-</li>
-<li><strong>Theme</strong><ul>
-<li>This tells you which Theme this location is currently using.</li>
-</ul>
-</li>
-<li><strong>Location Name</strong><ul>
-<li>The Location Name is what appears at the top right of the screen, on every screen. This helps admins and end users alike identify which location they are currently logged into. The Location Name will also be what shows up on all reporting screens.</li>
-</ul>
-</li>
-<li><strong>Location Display Name</strong><ul>
-<li>This display name can be used to overwrite the Location Name field above. You would want to use this field when locations may have the same or similar names. (For example, there could be 10 "Acme Blue" locations, so as to avoid any confusion for admins, you could label the location name for this "Acme Blue 1" - while the Location Display Name could remain "Acme Blue" - then, as an admin, when you searched for "Acme Blue" you would see a different name for this location.)</li>
-</ul>
-</li>
-<li><strong>Location Active: Yes/No</strong><ul>
-<li>Here you can see if the location is active or not. If you have the proper Super User B Privileges, you can turn locations On or Off here.</li>
-</ul>
-</li>
-<li><strong>Rollout Date</strong><ul>
-<li>In this section you can add an additional date that is searchable on some Super User Reports. This field is useful for locations that are set up prior to being truley activated.</li>
-</ul>
-</li>
-<li><strong>Max # of Active Users</strong><ul>
-<li>If you have the Super User B Privilege to modify this field, it will appear open for you. A quick note on this: You cannot set the User Cap lower than the current Active User count. In order to lower the User count, you must first deactivate some users. </li>
-</ul>
-</li>
-<li><strong>Vendor Unique ID</strong><ul>
-<li>This field is searchable on some Reports and can be used to add a unique identifier to locations to help with organization.</li>
-</ul>
-</li>
-<li><strong>Rep</strong><ul>
-<li>If this particular location is Represented by a specific Admin, you can indicate that here.</li>
-</ul>
-</li>
-<li><strong>Manufacturer</strong><ul>
-<li>This is sort of a legacy field, it is more often used for Automotive Industry locations, where some needed to by identified by Manufacturer. However, you can use this field for anything you need, treat it as another unique identifier.</li>
-</ul>
-</li>
-<li><strong>Main Menu Bulletin Board: Yes/No</strong><ul>
-<li>If this is set to "Yes", then Manager A and above can update the Bulletin Board information. If it is set to "No", then only Super User C and above can update the Board.</li>
-</ul>
-</li>
-<li><strong>Click Agreement Path</strong><ul>
-<li>Here is where we can set a file path to a terms of service/click agreement. If you need to add a click agreement to your Location, please reach out to the Client Care department for assistance.</li>
-</ul>
-</li>
-<li><strong>API Template Location</strong><ul>
-<li>This was mentioned in the NOTE above. If this is set to "Yes", then this location will become available to create additional locations from it. You would want to use toggle for multiple locations if specific locations had different courseware setups, for example.</li>
-</ul>
-</li>
-<li><strong>Created By</strong><ul>
-<li>This will tell you who the location was created by.</li>
-</ul>
-</li>
-<li><strong>Chargify Format</strong><ul>
-<li>If this location was automatically created by Chargify, this section and the next will automatically be filled out.</li>
-</ul>
-</li>
-<li><strong>Chargify Message</strong><ul>
-<li>This will automatically be filled out by Chargify.</li>
-</ul>
-</li>
-</ol>
-<p><img alt="Image" src="../../img/general_information.png" /></p>
-<h3 id="location-information">Location Information</h3>
-<p>In the Location Information section, if your location has a physical address or owner, you can set the name and address here. You can also add "Location Notes" to this section for anything you may want to document. *Note: "Location Notes" will appear as one of the outputs when searching your system for locations.</p>
-<p><img alt="Image" src="../../img/location_information.png" /></p>
-<h3 id="main-menu-information">Main Menu Information</h3>
-<p>In this section you can configure the Main Menu Bulletin Board. This is the text message that appears on the Main Menu when users first access the location. This section does support some light HTML code if you want to link out to anything.</p>
-<p><img alt="Image" src="../../img/main_menu_bulletin.png" /></p>
-<p><img alt="Image" src="../../img/main_menu_bulletin_0.png" /></p>
-<h3 id="main-menu-left-right-region">Main Menu Left &amp; Right Region</h3>
-<p>The lower Left &amp; Right regions of the Main Menu can be configured here. You can customize each location with their own artwork and special message, OR you can use the global "System" settings.</p>
-<ol>
-<li><strong>Left/Right Image (174 x 130)</strong><ul>
-<li>Browse for a local file on your hard drive to load.</li>
-</ul>
-</li>
-<li><strong>Left/Right Image Link</strong><ul>
-<li>Here you can turn the images into Links which can lead to anywhere you choose - to an upsell, a book for sale, webinar coming up, supplemental information such as a PDF or word Doc, etc.</li>
-</ul>
-</li>
-<li><strong>Left/Right Text Area (Optional)</strong><ul>
-<li>Here you can leave a personalized message for your users by using some of the available TOKENS. Each token will pull that user's personal information. For example, if my name is Han Solo, and I enter in this text: "Hello %Fname% %Lname%!" - whenever I log in to the Location and view the Main Menu, I would see: "Hello Han Solo!" in the lower Left or Right area that I entered this text in.</li>
-</ul>
-</li>
-<li><strong>Use Location/System settings</strong><ul>
-<li>Here you can indicate whether to use the global/System settings for this area, or override those settings for this specific Location and use your own.</li>
-</ul>
-</li>
-</ol>
-<p><img alt="Image" src="../../img/main_menu_config.png" /></p>
-<p><img alt="Image" src="../../img/main_menu_config_2.png" /></p>
               
             </div>
           </div>
