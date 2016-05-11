@@ -287,7 +287,7 @@
 <p><img alt="Image" src="../../img/vault1.png" /></p>
 <h2 id="access-level-and-role-definitions">Access Level and Role Definitions</h2>
 <p><strong>System Admin (Super User B):</strong><br />
-This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within their systems or by individual locations. This user can also define which locations have access to folders or files.</p>
+This user has full admin privileges over files and folders within the file vault and can assign privileges for all locations within their systems or by individual locations. This user can also define which locations have access to folders or files. </p>
 <p><strong>System Admin (Super User C):</strong><br />
 Similar to Super User B, this user has full admin privileges, but is restricted to their own system and locations. Also, a Super User C cannot delete or edit files/folders created by a Super User B.</p>
 <p><strong>Location Manager:</strong><br />
@@ -313,13 +313,13 @@ This base user has limited privileges and may only view or download files from t
 </tr>
 <tr>
 <td>Folder/File Edit</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs) <span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
 <td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
 <td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 <tr>
 <td>Folder/File Delete</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs) <span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
 <td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
 <td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
@@ -331,12 +331,13 @@ This base user has limited privileges and may only view or download files from t
 </tr>
 <tr>
 <td>Folder/File Activation Status</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs) <span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
 <td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Optional - Own Loc)</td>
 <td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
 </tbody>
 </table>
+<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> = Access Level 3 does not have access to Edit, Delete or view Activation status on items created by Access Level 2 (Super User B)</p>
 <p><strong>Accepted File Types:</strong><br />
 .pdf<br />
 .txt .rt .rtf<br />
