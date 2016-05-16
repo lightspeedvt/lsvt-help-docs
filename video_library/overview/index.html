@@ -132,7 +132,7 @@
                 <li class="toctree-l3"><a href="#encoding-settings"> Encoding Settings</a></li>
                 
             
-                <li class="toctree-l3"><a href="#encoding-specifics"> Encoding Specifics</a></li>
+                <li class="toctree-l3"><a href="#encoding-output-specifics"> Encoding Output Specifics</a></li>
                 
             
                 <li class="toctree-l3"><a href="#what-format-of-videos-can-you-upload"> What format of videos can you upload?</a></li>
@@ -236,7 +236,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../../releasenotes/overview/">Changelog</a>
+        <a class="" href="../../changelog/overview/">Changelog</a>
         
     </li>
 <li>
@@ -323,18 +323,19 @@ When you are adding video to the Media Library, a small window will pop open to 
     </p>
 </div>
 
-<h2 id="encoding-specifics"><i class="fa fa-floppy-o" aria-hidden="true"></i> Encoding Specifics</h2>
-<p>Once you upload your source video, we will encode it to these different formats for adaptive streaming, and we will “Auto” select the right one for the user, based on their available bandwidth and/or device, dynamically during playback. Additionally, advanced users may use the “gear icon” ( <i class="fa fa-gear" aria-hidden="true"></i> ) on the video player to indicate their preferred format, and override the “Auto” setting.</p>
+<h2 id="encoding-output-specifics"><i class="fa fa-floppy-o" aria-hidden="true"></i> Encoding Output Specifics</h2>
+<p>Once you upload your source video, we will encode it to these different formats for adaptive streaming, and we will “Auto” select the right one for the user, based on your available bandwidth and/or device, dynamically during playback. Additionally, advanced users may use the "gear icon" ( <i class="fa fa-gear" aria-hidden="true"></i> ) on the video player to indicate their preferred format, and override the “Auto” setting.</p>
 <p>The width and height measurements noted below are used as the maximum values for the resize, preserving aspect ratio. So if you wanted to resize a 300x400 video into 100x100, the resulting video would be 75x100 pixels.</p>
 <div class="admonition note">
     <p class="first admonition-title">
-        Note
+        Note - Is Your Video High Definition?
     </p>
     <p class="last">
-When you are uploading your video, we ask you “Is Your Video High Definition?” And if you select “Yes” then we will utilize the top two HD encoding settings, as well as all of the others. If you select “No” we will simply not use those top two HD encoding settings.
+When you are uploading your video, we ask - “Is Your Video High Definition?” If you select “Yes” then we will utilize the 720p HD encoding settings, as well as all of the others. If you select “No” we will use 480p and below.
     </p>
 </div>
 
+<p><strong>HTTP Live Streaming (also known as HLS) / m3u8 - Output:</strong></p>
 <table>
 <thead>
 <tr>
@@ -368,6 +369,48 @@ When you are uploading your video, we ask you “Is Your Video High Definition?�
 <td align="left">240</td>
 <td align="left">200k</td>
 <td align="left">240p Low</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mp4 - Outputs:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Width</th>
+<th align="left">Height</th>
+<th align="left">Bitrate</th>
+<th align="left">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">768</td>
+<td align="left">432</td>
+<td align="left">120k</td>
+<td align="left">Mp4 - Mobile High</td>
+</tr>
+<tr>
+<td align="left">768</td>
+<td align="left">432</td>
+<td align="left">96k</td>
+<td align="left">Mp4 - Mobile Low</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Poster Image / JPG - Output:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Width</th>
+<th align="left">Height</th>
+<th align="left">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">768</td>
+<td align="left">432</td>
+<td align="left">Poster Image</td>
 </tr>
 </tbody>
 </table>
