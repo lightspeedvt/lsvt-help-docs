@@ -8,7 +8,7 @@
   
   
   
-  <title>Certifications - VT Help Docs</title>
+  <title>Sign In Page Management - VT Help Docs</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Certifications";
-    var mkdocs_page_input_path = "certifications/overview.md";
-    var mkdocs_page_url = "/certifications/overview/";
+    var mkdocs_page_name = "Sign In Page Management";
+    var mkdocs_page_input_path = "signin_management/overview.md";
+    var mkdocs_page_url = "/signin_management/overview/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -93,8 +93,25 @@
 <li>
           
             <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../../signin_management/overview/">Sign In Page Management</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Sign In Page Management</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#overview"> Overview</a></li>
+                
+                    <li><a class="toctree-l4" href="#basic-info"> Basic Info</a></li>
+                
+                    <li><a class="toctree-l4" href="#content"> Content</a></li>
+                
+                    <li><a class="toctree-l4" href="#styles"> Styles</a></li>
+                
+                    <li><a class="toctree-l4" href="#metadata"> Metadata</a></li>
+                
+                    <li><a class="toctree-l4" href="#retrieve-password-settings"> Retrieve Password Settings</a></li>
+                
+            
+            </ul>
         
     </li>
 <li>
@@ -170,17 +187,8 @@
 <li>
           
             <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Certifications</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#overview"> Overview:</a></li>
-                
-                    <li><a class="toctree-l4" href="#example-completed-certification">Example completed Certification</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../certifications/overview/">Certifications</a>
         
     </li>
 <li>
@@ -277,7 +285,7 @@
     
       
     
-    <li>Certifications</li>
+    <li>Sign In Page Management</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -287,97 +295,158 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="overview"><i class="fa fa-certificate" aria-hidden="true"></i> Overview:</h2>
-<p>Certifications can be created for a System, after which a System Module button that says “My Certification” will be available for each location within that System.</p>
-<p>Certifications are made up of a group of one or more courses, which can be privileged per content role. For example, you might have a “Sales Certification” for your Sales Associates and a “Management Certification” for your Managers. In either case, when a user clicks the “My Certification” button, they will see their designated Certification.</p>
-<p>Each “Certification” is a grouping of courses. There is no maximum number of courses that can be included in a certification.
-Once the courses that are in the certification are passed, the system will provide the user with a “certificate”, which they can print out.</p>
-<p>The “My Certification” system module button provides users with a progress report, indicating what courses still need to be finished to complete the certification. Users can link directly to those courses from this menu.</p>
-<p>Users may have multiple “Certifications”, which means that you can “certify” your users on different topics, such as “sales” and “management”, or any other topic your training covers.</p>
-<p>In the screenshot below, you will see an example of what a user might see after clicking “My Certifications.” The sample Certification contains three courses and is complete, which means the user has the option to “View/Print Certificate.”</p>
-<p><img alt="Image" src="../../img/cert1.png" /></p>
-<p>The printable certificate can be customized to your liking: </p>
-<ul>
-<li>Change the border color</li>
-<li>Add a company logo</li>
-<li>Add other artwork or branding</li>
-<li>Create a personalized message</li>
-</ul>
-<p>Here is the required information for each Certification:</p>
+                <h2 id="overview"><i class="fa fa-share" aria-hidden="true"></i> Overview</h2>
+<p>The following sections will demonstrate how to edit your sign in pages. At this time a LightSpeed VT employee will create your original </p>
+<p>image - select site</p>
+<h3 id="basic-info"><i class="fa fa-share" aria-hidden="true"></i> Basic Info</h3>
+<p>image - basic info - full</p>
 <ol>
-<li><strong>Certification Title</strong><ul>
-<li>Enter the name of the Certification that your end-users will see (Example: Sales Certification)</li>
+<li>
+<p>Sub Domain</p>
+<ul>
+<li>This is the domain where your users will login. This field is locked, if you would like to update it, please contact LSVT Client Care.</li>
 </ul>
 </li>
-<li><strong>Certification Start Date</strong><ul>
-<li>If this Certification will span a specific number of days, you can specify those dates here.</li>
+<li>
+<p>Account</p>
+<ul>
+<li>Your account is a home for your collection of Systems, and within those Systems your different themes. It is basically the Parent of the bunch. This tells us if your username is located within a system residing in this account, you will have access to this sign in page.</li>
 </ul>
 </li>
-<li><strong>Certification End Date</strong><ul>
-<li>This is the same as above - specify the end date that this Certification should be completed by.</li>
+<li>
+<p>Email Template Theme</p>
+<ul>
+<li>With this option, you can choose to change the theme of the "Retreive Password" email. If you have Multiple Systems with Multiple themes and sign in pages, this maybe be useful for you. Otherwise it will usually just be one default theme.</li>
 </ul>
 </li>
-<li><strong>Certification's Courses Order</strong><ul>
-<li>This is where you will list out the courses that make up this Certification. The order you list them in will be the order they appear to end users.</li>
+<li>
+<p>Name</p>
+<ul>
+<li>This is the name that will appear on the Title of the site (in the browser) and also in the admin area so you can easily identify it</li>
 </ul>
 </li>
-<li><strong>Certification Description</strong><ul>
-<li>This will be text that appears above the Certification if you need/want to describe it further.</li>
+<li>
+<p>Show Terms of Service</p>
+<ul>
+<li>This is optional if you'd like us to turn on a generic terms of service link. (typically the user has already agreed to the terms of service before they arrive at this point, so we included the option to hide it.)</li>
 </ul>
 </li>
-<li><strong>Content Role</strong><ul>
-<li>Here you can specify which content role(s) to make this Certification available to.</li>
+<li>
+<p>Show Privacy Policy</p>
+<ul>
+<li>This is similar to #5, it is an optional toggle.</li>
 </ul>
 </li>
-<li><strong>Priority</strong><ul>
-<li>This is the sort order of the Certifications, #1 will show first, #2 second, etc.</li>
+<li>
+<p>Show Social Media Sign In Integrations</p>
+<ul>
+<li>If you would like your users to be able to use Google, Facebook, Twitter, or LinkedIn credentials to sign in to LightSpeed, you should enable this option. As long as the email address on their social account matches the one entered in LightSpeed, they will be able to login with it.</li>
 </ul>
 </li>
-<li><strong>Additional Information</strong><ul>
-<li>This will be text that appears below the Certification if you need/want to add additional information here.</li>
+<li>
+<p>Active</p>
+<ul>
+<li>This is just an easy toggle to turn the page on or off</li>
 </ul>
 </li>
-<li><strong>Certification Complete Image</strong><ul>
-<li>This is a small thumbnail that appears on an end user's My Certification screen when they complete any certification. A default image appears if no image is specified.<br />
-<img alt="Image" src="../../img/certification_complete.png" /></li>
-</ul>
-</li>
-<li><strong>Certification Content: Active/Inactive</strong><ul>
-<li>This setting is for if you want to use the Certification feature, but not use a printable certificate. By setting this to 'No' only the top half of this admin area will be used.</li>
-</ul>
-</li>
-<li><strong>Border Style</strong><ul>
-<li>Choose one of 3 border styles.<br />
-<img alt="Image" src="../../img/cer_border_options.png" /></li>
-</ul>
-</li>
-<li><strong>Theme Color</strong><ul>
-<li>Specify what color the border should be, typically similar to your system colors.</li>
-</ul>
-</li>
-<li><strong>Left Image</strong><ul>
-<li>This is typically your company logo</li>
-</ul>
-</li>
-<li><strong>Right Image</strong><ul>
-<li>The default image is a 'certification' symbol, however it can be replaced with any artwork you choose.</li>
-</ul>
-</li>
-<li><strong>Signature File</strong><ul>
-<li>Scanned version of your signature. We recommend you take a large Sharpie marker, and sign a clean white piece of paper – then scan it and save it as JPG, this will return a nice signature to use.</li>
-</ul>
-</li>
-<li><strong>Signature Name</strong><ul>
-<li>A text version of your signature will appear below it. </li>
-</ul>
-</li>
-<li><strong>Description</strong><ul>
-<li>This is the text that lives right below the Date on the final certification. Typically you can use this as additional information on the certification. One example would be: Congratulations, for making the commitment to on-going personal development.</li>
+<li>
+<p>Details</p>
+<ul>
+<li>This will allow you to see who created the site and who was the last to update it.</li>
 </ul>
 </li>
 </ol>
-<h3 id="example-completed-certification">Example completed Certification</h3>
-<p><img alt="Image" src="../../img/cert2.png" /></p>
+<h3 id="content"><i class="fa fa-share" aria-hidden="true"></i> Content</h3>
+<h4 id="header">Header</h4>
+<ol>
+<li>Logo<ul>
+<li>Typically this will be the same logo we use when building your System.</li>
+</ul>
+</li>
+<li>Front Door Link<ul>
+<li>This is usually your front door / main marketing site for your System.</li>
+</ul>
+</li>
+</ol>
+<h4 id="page">Page</h4>
+<ol>
+<li>Background<ul>
+<li>Choose a background image, typically we will match this image to the one we use inside of your System.</li>
+</ul>
+</li>
+<li>Join Link<ul>
+<li>If you have a direct link to a "Join" or "Sign Up" page for your system you can enter that here.</li>
+</ul>
+</li>
+<li>Join Link Target<ul>
+<li>If you want to open the above link in a new window, or use the same window (we usually suggest a new window).</li>
+</ul>
+</li>
+<li>Join Link Name<ul>
+<li>The default Join Link name is "Join Now" - you can use this field to override that if you want to customize it.</li>
+</ul>
+</li>
+</ol>
+<h4 id="home">Home</h4>
+<ol>
+<li>Sign in Text<ul>
+<li>This text appears above the sign in area, you can customize it to how you see fit, a good default for this is something like, "Please enter your username and password below to sign in."</li>
+</ul>
+</li>
+</ol>
+<h4 id="help">Help</h4>
+<ol>
+<li>Support Message<ul>
+<li>Use this text to enter important information about your support hours or other information.</li>
+</ul>
+</li>
+<li>Support Page.<ul>
+<li>Here you can enter a link to your support site (or leave blank if you linked it in the above text)</li>
+</ul>
+</li>
+<li>Email<ul>
+<li>Enter your Support email address here.</li>
+</ul>
+</li>
+<li>Phone<ul>
+<li>Enter your Support phone number here.</li>
+</ul>
+</li>
+</ol>
+<h3 id="styles"><i class="fa fa-share" aria-hidden="true"></i> Styles</h3>
+<h4 id="main">Main</h4>
+<ol>
+<li>Header Background Color</li>
+<li>Form Color</li>
+<li>Text Hover Color</li>
+<li>Link Color</li>
+<li>Error Color</li>
+<li>Footer Color</li>
+</ol>
+<h4 id="form-fields">Form Fields</h4>
+<ol>
+<li>Background Color</li>
+<li>Text Color</li>
+<li>Error Text Color</li>
+</ol>
+<h4 id="form-buttons">Form Buttons</h4>
+<ol>
+<li>Background Color</li>
+<li>Text Color</li>
+</ol>
+<h3 id="metadata"><i class="fa fa-share" aria-hidden="true"></i> Metadata</h3>
+<p>image - metadata</p>
+<ol>
+<li>Keywords</li>
+<li>Description</li>
+</ol>
+<h3 id="retrieve-password-settings"><i class="fa fa-share" aria-hidden="true"></i> Retrieve Password Settings</h3>
+<ol>
+<li>From Email</li>
+<li>Email Subject</li>
+<li>Email Top Copy</li>
+<li>Email Bottom Copy</li>
+</ol>
               
             </div>
           </div>
@@ -385,10 +454,10 @@ Once the courses that are in the certification are passed, the system will provi
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../impersonate/overview/" class="btn btn-neutral float-right" title="The Impersonate Feature">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../location_settings/overview/" class="btn btn-neutral float-right" title="Locations">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../turning_on-off_content/overview/" class="btn btn-neutral" title="Activating/Deactivating Content"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../theme_settings/overview/" class="btn btn-neutral" title="Theme Settings"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -414,10 +483,10 @@ Once the courses that are in the certification are passed, the system will provi
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../turning_on-off_content/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../theme_settings/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../../impersonate/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../location_settings/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
