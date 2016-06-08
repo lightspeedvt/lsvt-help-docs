@@ -114,14 +114,6 @@
             
                 <li class="toctree-l3"><a href="#overview"> Overview</a></li>
                 
-                    <li><a class="toctree-l4" href="#super-users-id-2-and-3">Super Users: ID# 2 and 3</a></li>
-                
-                    <li><a class="toctree-l4" href="#managers-id-4-5-and-6">Managers:   ID# 4, 5 and 6</a></li>
-                
-                    <li><a class="toctree-l4" href="#users-id-7-8-and-9">Users:  ID# 7, 8 and 9</a></li>
-                
-                    <li><a class="toctree-l4" href="#limited-users-id-10-11-and-12">Limited Users:  ID# 10, 11 and 12</a></li>
-                
                     <li><a class="toctree-l4" href="#how-to-configure-access-levels"> How to Configure Access Levels</a></li>
                 
                     <li><a class="toctree-l4" href="#auto-populating-content-roles-to-access-levels"> Auto Populating Content Roles to Access Levels</a></li>
@@ -135,6 +127,13 @@
             <li>
     <li class="toctree-l1 ">
         <a class="" href="../../everything_privileges/overview/">Access Level Privilege Definitions</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../super_user_b_privileges/overview/">Super User B Privileges</a>
         
     </li>
 <li>
@@ -298,47 +297,93 @@
             <div class="section">
               
                 <h1 id="overview"><i class="fa fa-globe" aria-hidden="true"></i> Overview</h1>
-<p>Each user is assigned to one (and only one) Access Level, and this determines what basic “Overseer” privileges they have, or do not have.</p>
-<p>Each “System” currently has up to 11 access levels. Within the System, these Access Levels can be renamed, turned on/off, and select privileges toggled on/off to best suit your needs. </p>
-<p>The Access Levels have ID#’s 2 through 12 so that when you rename them, you can still see the ID# in some areas so you know which is which (Access Level #1 is reserved for internal LSVT use).</p>
-<p>The Access Levels are split into four sets:</p>
+<p>Each user is assigned to one (and only one) Access Level, and this determines what basic privileges they have, or do not have.</p>
+<p>Each “System” currently can utilize has up to 12 access levels (however Access Level 1 is reserved for LSVT use only). Within the System, these Access Levels can be renamed, turned on/off, and select privileges toggled on/off to best suit your needs.</p>
+<p>Below we will look at the basics of how to  "configure" these Access Levels in your System, and then in the next article we will go more in depth on each individual Access Level and which privilege and feature can see and do.</p>
+<p>The Access Levels have ID Numbers, so that when you rename them, you can still see the ID# in some areas so you know which is which.</p>
+<p><strong>SUPER USERS</strong><br />
+The Super User has access to the Super User Dashboard, and in short, that means they can have access to more than one Location.</p>
 <table>
 <thead>
 <tr>
-<th>Access Level #</th>
-<th></th>
+<th>ID#</th>
+<th>Default Access Level Name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>1</td>
+<td>Super User A</td>
+<td>This is reserved for LSVT only.</td>
+</tr>
+<tr>
 <td>2</td>
-<td>Top Admin</td>
+<td>Super User B</td>
+<td>This is what your internal team of "Top Admin" users will utilize.</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Overseer</td>
-</tr>
-<tr>
-<td>4-5-6</td>
-<td>Managers</td>
-</tr>
-<tr>
-<td>7-8-9-10-11-12</td>
-<td>Users</td>
+<td>Super User C</td>
+<td>This is commonly for Overseers that need reporting access to more than one Location, thus the "Super User Dashboard."</td>
 </tr>
 </tbody>
 </table>
-<h3 id="super-users-id-2-and-3"><strong>Super Users: ID# 2 and 3</strong><br /></h3>
-<p>The Super User has access to the Super User Dashboard, and in short, that means they can have access to more than one Location. Your internal team of “Top Admins” will always be the highest level, which is ID# 2.</p>
-<p>You will often rename Access Level #3 to a “Multi Location Manager” - so that these users can oversee and run reports on multiple Locations.</p>
-<h3 id="managers-id-4-5-and-6"><strong>Managers:   ID# 4, 5 and 6</strong><br /></h3>
-<p>The “Manager” has access to oversee Users that are at their Access Level and below. They can create users (if toggled the ability to do so) and they can run reports. The users they can create and reports that they can run are limited to their own Location.</p>
-<h3 id="users-id-7-8-and-9"><strong>Users:  ID# 7, 8 and 9</strong><br /></h3>
-<p>This Access Level is for standard users. There is often only the need to use one of these “User” Access Levels and turn the others off. They all have the same exact privileges (or lack thereof) in that they can only see their own reports, and not other users. This level does have access to the LightPad Message Center and can send messages to other users at their Location.</p>
-<p>However one reason why you may want to use all three of these Access Levels is if you have the need to “Auto-Populate” content to a user, based on their Access Level. In this case,  you may need more than one “User” Access Level to designate what you need.</p>
+<p><strong>OVERSEERS</strong><br />
+The Overseer has access to oversee Users at their own Location, that are at their Access Level and below. They can create users (if toggled the ability to do so) and they can run reports.</p>
+<table>
+<thead>
+<tr>
+<th>ID# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th>Default Access Level Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4, 5 &amp; 6</td>
+<td>Manager A, B &amp; C</td>
+<td>For the detailed grid of differences in these privileges, please see the HELP DOC called "Access Level Privilege Definitions"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>LEARNERS</strong><br />
+This Access Level is for standard users. There is often only the need to use one of these “User” Access Levels and turn the others off. They all have the same exact privileges (or lack thereof) in that they can only see their own reports, and not other users.</p>
+<table>
+<thead>
+<tr>
+<th>ID# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th>Default Access Level Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7, 8 &amp; 9</td>
+<td>User A, B &amp; C</td>
+<td>There is literally NO DIFFERENCE in these Access Level Privileges. This set of Access Levels is commonly used for "Employees" at a business as they can indeed see each other in the Message Center and send each other messages.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>LIMITED LEARNERS</strong></p>
+<table>
+<thead>
+<tr>
+<th>ID# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th>Default Access Level Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10, 11 &amp; 12</td>
+<td>Limited User A, B &amp; C</td>
+<td>There is literally NO DIFFERENCE in these Access Level Privileges either. This set of Access Levels is commonly used for "Individual Subscribers" as they CANNOT see each other in the Message Center and can only send messages to SUPPORT.</td>
+</tr>
+</tbody>
+</table>
+<p>However one reason why you may want to use all three of these Access Levels within the sets above is if you have the need to “Auto-Populate” content to a user, based on their Access Level. In this case, you may need more than one “User” Access Level to designate what you need.</p>
 <p>To learn more about how to use the “Auto Populate” Content Feature, see below.</p>
-<h3 id="limited-users-id-10-11-and-12"><strong>Limited Users:  ID# 10, 11 and 12</strong><br /></h3>
-<p>This Access Level is almost exactly the same as the  “User” set, with the exception that in the LightPad Message Center, this Access Level can only send a message to “Support” and not to other users at their Location.</p>
 <h2 id="how-to-configure-access-levels"><i class="fa fa-magic" aria-hidden="true"></i> How to Configure Access Levels</h2>
 <p>In the Super User Dashboard, go to the “400 - Application Administration” area, and look in the “401 - System Management” section for the button called “Manage Access Levels.”</p>
 <p><img alt="Image" src="../../img/manag-access-levels-button.png" /><br /></p>
