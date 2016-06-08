@@ -119,23 +119,9 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#overview"> Overview</a></li>
+                <li class="toctree-l3"><a href="#everything-privileges"> Everything Privileges</a></li>
                 
-                    <li><a class="toctree-l4" href="#super-users-id-2-and-3">Super Users: ID# 2 and 3</a></li>
-                
-                    <li><a class="toctree-l4" href="#managers-id-4-5-and-6">Managers:   ID# 4, 5 and 6</a></li>
-                
-                    <li><a class="toctree-l4" href="#users-id-7-8-and-9">Users:  ID# 7, 8 and 9</a></li>
-                
-                    <li><a class="toctree-l4" href="#limited-users-id-10-11-and-12">Limited Users:  ID# 10, 11 and 12</a></li>
-                
-                    <li><a class="toctree-l4" href="#how-to-configure-access-levels"> How to Configure Access Levels</a></li>
-                
-                    <li><a class="toctree-l4" href="#access-level-privileges"> Access Level Privileges</a></li>
-                
-                    <li><a class="toctree-l4" href="#file-vault-privileges-related-to-access-levels"> File Vault Privileges related to Access Levels</a></li>
-                
-                    <li><a class="toctree-l4" href="#auto-populating-content-roles-to-access-levels"> Auto Populating Content Roles to Access Levels</a></li>
+                    <li><a class="toctree-l4" href="#notes">Notes:</a></li>
                 
             
             </ul>
@@ -301,50 +287,12 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="overview"><i class="fa fa-globe" aria-hidden="true"></i> Overview</h1>
-<p>Each user is assigned to one (and only one) Access Level, and this determines what basic “Overseer” privileges they have, or do not have.</p>
-<p>Each “System” currently has up to 11 access levels. Within the System, these Access Levels can be renamed, turned on/off, and select privileges toggled on/off to best suit your needs. </p>
-<p>The Access Levels have ID#’s 2 through 12 so that when you rename them, you can still see the ID# in some areas so you know which is which (Access Level #1 is reserved for internal LSVT use).</p>
-<p>The Access Levels are split into four sets:</p>
-<h3 id="super-users-id-2-and-3"><strong>Super Users: ID# 2 and 3</strong><br /></h3>
-<p>The Super User has access to the Super User Dashboard, and in short, that means they can have access to more than one Location. Your internal team of “Top Admins” will always be the highest level, which is ID# 2.</p>
-<p>You will often rename Access Level #3 to a “Multi Location Manager” - so that these users can oversee and run reports on multiple Locations.</p>
-<h3 id="managers-id-4-5-and-6"><strong>Managers:   ID# 4, 5 and 6</strong><br /></h3>
-<p>The “Manager” has access to oversee Users that are at their Access Level and below. They can create users (if toggled the ability to do so) and they can run reports. The users they can create and reports that they can run are limited to their own Location.</p>
-<h3 id="users-id-7-8-and-9"><strong>Users:  ID# 7, 8 and 9</strong><br /></h3>
-<p>This Access Level is for standard users. There is often only the need to use one of these “User” Access Levels and turn the others off. They all have the same exact privileges (or lack thereof) in that they can only see their own reports, and not other users. This level does have access to the LightPad Message Center and can send messages to other users at their Location.</p>
-<p>However one reason why you may want to use all three of these Access Levels is if you have the need to “Auto-Populate” content to a user, based on their Access Level. In this case,  you may need more than one “User” Access Level to designate what you need.</p>
-<p>To learn more about how to use the “Auto Populate” Content Feature, see below.</p>
-<h3 id="limited-users-id-10-11-and-12"><strong>Limited Users:  ID# 10, 11 and 12</strong><br /></h3>
-<p>This Access Level is almost exactly the same as the  “User” set, with the exception that in the LightPad Message Center, this Access Level can only send a message to “Support” and not to other users at their Location.</p>
-<h2 id="how-to-configure-access-levels"><i class="fa fa-magic" aria-hidden="true"></i> How to Configure Access Levels</h2>
-<p>In the Super User Dashboard, go to the “400 - Application Administration” area, and look in the “401 - System Management” section for the button called “Manage Access Levels.”</p>
-<p><img alt="Image" src="../../img/manag-access-levels-button.png" /><br /></p>
-<p>If you have access to more than one System, you will first select the System you want to administrate the Access Levels for, and click “Get Access Levels.” From here you will see the list of Access Levels, and you can rename them for you needs and toggle a few privileges for each.</p>
-<p><img alt="Image" src="../../img/access-level-list.jpg" /><br /></p>
-<ul>
-<li>The privilege toggle switches next to each one are:<ul>
-<li>Visible: Simply set to “No” if you do not want to use certain Access Levels.</li>
-<li>Skip Video: If set to “Yes” then these users will be able to Fast Forward the videos, as well as see a “Skip” button on the right side of the video player.</li>
-<li>Show Answers: If set to “Yes” then these users will see the correct answers highlighted in green on the standard multiple choice test questions.</li>
-</ul>
-</li>
-</ul>
-<div class="admonition note">
-    <p class="first admonition-title">
-        Note
-    </p>
-    <p class="last">
-Access Level 13 is an extra Access Level reserved for “Anonymous Users” - which are set up for ESPs and other advanced content features. These Advanced content features will have Super User Admin tools in the near future.
-    </p>
-</div>
-
-<h2 id="access-level-privileges"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Access Level Privileges<br /></h2>
+                <h2 id="everything-privileges"><i class="fa fa-globe" aria-hidden="true"></i> Everything Privileges<br /></h2>
 <p>Below is a grid of the specific privileges that each Access Level has built in.</p>
 <table>
 <thead>
 <tr>
-<th>General Access</th>
+<th>Quick Links Menu</th>
 <th align="center">2</th>
 <th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
 <th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
@@ -373,54 +321,6 @@ Access Level 13 is an extra Access Level reserved for “Anonymous Users” - wh
 <td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 <td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
 </tr>
-<tr>
-<td>Send LightPad Messages</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Skip Training Videos</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Quick Links Menu</th>
-<th align="center">2</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;</th>
-<th align="center">7</th>
-<th align="center">8</th>
-<th align="center">9</th>
-<th align="center">10</th>
-<th align="center">11</th>
-<th align="center">12</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Quick Links Menu</td>
 <td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
@@ -639,67 +539,10 @@ Access Level 13 is an extra Access Level reserved for “Anonymous Users” - wh
 </tr>
 </tbody>
 </table>
-<h4 id="notes">Notes:</h4>
+<h3 id="notes">Notes:</h3>
 <p><span style="color:orange"><i class="fa fa-asterisk"></i></span> = If the associated “Yes/No” privilege toggle is set in the “Manage Access Levels” - it will decide this privilege.<br />
 <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> = This ability is able to be overridden on each user's profile, there is a Yes/No toggle for “Ability to Manage Users” that can be set per individual. If a user has the ability to “Manage Users” then they can only create/manage users at their Access Level and below.<br />
 <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> = If “teams Plus” feature is enabled, then Access Level 6 (Manager C) can only Oversee users that are on their “Team.”</p>
-<h2 id="file-vault-privileges-related-to-access-levels"><i class="fa fa-folder-open" aria-hidden="true"></i> File Vault Privileges related to Access Levels</h2>
-<p>If the File Vault is enabled, then there are some additional built in privileges that apply specifically to the File Vault, and they are noted below.</p>
-<table>
-<thead>
-<tr>
-<th>Access Level</th>
-<th align="center">2 &amp; 3</th>
-<th align="center">4, 5 &amp; 6</th>
-<th align="center">7-12</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Folder/File Create</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File Edit</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File Delete</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File View</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-</tr>
-<tr>
-<td>Folder/File Activation Status</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Optional - Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<p>For more information on the File Vault, click <a href="../../filevault/overview/">HERE</a>.</p>
-<h2 id="auto-populating-content-roles-to-access-levels"><i class="fa fa-users" aria-hidden="true"></i> Auto Populating Content Roles to Access Levels</h2>
-<p>First, make sure you activate this toggle under System Settings:</p>
-<p><img alt="Image" src="../../img/auto_populate_1.png" /><br /></p>
-<p>Next, navigate to "Manage Access Levels"</p>
-<p><img alt="Image" src="../../img/auto_populate_2.png" /><br /></p>
-<p>Third, you will now see a new column to add Content Role IDs to each Access Level.</p>
-<p><img alt="Image" src="../../img/auto_populate_3.png" /><br /></p>
-<p>If you know your Content Role ID, you can enter it next to the Access Level you wish to automatically populate the role with. If you want to automatically populate multiple roles to 1 access level, separate the Role IDs with a comma.</p>
-<p>If you do not know the role ID, navigate to "Content Containers" to look up the IDs, shown here:</p>
-<p><img alt="Image" src="../../img/auto_populate_4.png" /><br /></p>
-<p><img alt="Image" src="../../img/auto_populate_5.png" /><br /></p>
-<p>In this example, this means that every time a user is created as Access Level 5, Manager, they will automatically be given content role 1822, Management, and will have access to all of the courseware within that role.</p>
               
             </div>
           </div>
