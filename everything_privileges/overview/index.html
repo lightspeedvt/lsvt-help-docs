@@ -127,7 +127,8 @@
             
                 <li class="toctree-l3"><a href="#location-settings"> Location Settings</a></li>
                 
-                    <li><a class="toctree-l4" href="#notes">Notes:</a></li>
+            
+                <li class="toctree-l3"><a href="#file-vault-privileges-related-to-access-levels"> File Vault Privileges related to Access Levels</a></li>
                 
             
             </ul>
@@ -294,7 +295,9 @@
             <div class="section">
               
                 <h2 id="everything-privileges"><i class="fa fa-globe" aria-hidden="true"></i> Everything Privileges<br /></h2>
-<p>Below is a grid of the specific privileges that each Access Level has built in.</p>
+<p>A Super User is defined by being access level 2 or 3. An Overseer is defined as being access level 4, 5 or 6.</p>
+<p>The Super User Dashboard is only available for:<br />
++ Super Users - Access Levels 2 and 3<br /></p>
 <table>
 <thead>
 <tr>
@@ -411,6 +414,7 @@
 </tr>
 </tbody>
 </table>
+<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> = This ability is able to be overridden on each user's profile, there is a Yes/No toggle for “Ability to Manage Users” that can be set per individual. If a user has the ability to “Manage Users” then they can only create/manage users at their Access Level and below.<br /></p>
 <h2 id="location-settings"><i class="fa fa-globe" aria-hidden="true"></i> Location Settings</h2>
 <p>The Location Settings menu is only available for:<br />
 + Super Users - Access Levels 2 and 3<br />
@@ -463,8 +467,51 @@
 </tr>
 </tbody>
 </table>
-<h3 id="notes">Notes:</h3>
-<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> = This ability is able to be overridden on each user's profile, there is a Yes/No toggle for “Ability to Manage Users” that can be set per individual. If a user has the ability to “Manage Users” then they can only create/manage users at their Access Level and below.<br /></p>
+<h2 id="file-vault-privileges-related-to-access-levels"><i class="fa fa-folder-open" aria-hidden="true"></i> File Vault Privileges related to Access Levels</h2>
+<p>If the File Vault is enabled, then there are some additional built in privileges that apply specifically to the File Vault, and they are noted below.</p>
+<table>
+<thead>
+<tr>
+<th>Access Level</th>
+<th align="center">2 &amp; 3</th>
+<th align="center">4, 5 &amp; 6</th>
+<th align="center">7-12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Folder/File Create</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+<tr>
+<td>Folder/File Edit</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+<tr>
+<td>Folder/File Delete</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+<tr>
+<td>Folder/File View</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
+</tr>
+<tr>
+<td>Folder/File Activation Status</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Optional - Own Loc)</td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+</tbody>
+</table>
+<p>For more information on the File Vault, click <a href="../../filevault/overview/">HERE</a>.</p>
               
             </div>
           </div>

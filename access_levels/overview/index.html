@@ -124,10 +124,6 @@
                 
                     <li><a class="toctree-l4" href="#how-to-configure-access-levels"> How to Configure Access Levels</a></li>
                 
-                    <li><a class="toctree-l4" href="#access-level-privileges"> Access Level Privileges</a></li>
-                
-                    <li><a class="toctree-l4" href="#file-vault-privileges-related-to-access-levels"> File Vault Privileges related to Access Levels</a></li>
-                
                     <li><a class="toctree-l4" href="#auto-populating-content-roles-to-access-levels"> Auto Populating Content Roles to Access Levels</a></li>
                 
             
@@ -356,364 +352,47 @@
 </ul>
 </li>
 </ul>
-<div class="admonition note">
-    <p class="first admonition-title">
-        Note
-    </p>
-    <p class="last">
-Access Level 13 is an extra Access Level reserved for “Anonymous Users” - which are set up for ESPs and other advanced content features. These Advanced content features will have Super User Admin tools in the near future.
-    </p>
-</div>
+<!--
 
-<h2 id="access-level-privileges"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Access Level Privileges<br /></h2>
-<p>Below is a grid of the specific privileges that each Access Level has built in.</p>
-<table>
-<thead>
-<tr>
-<th>General Access</th>
-<th align="center">2</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;</th>
-<th align="center">7</th>
-<th align="center">8</th>
-<th align="center">9</th>
-<th align="center">10</th>
-<th align="center">11</th>
-<th align="center">12</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Super User Dashboard</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Send LightPad Messages</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Skip Training Videos</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Quick Links Menu</th>
-<th align="center">2</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;</th>
-<th align="center">7</th>
-<th align="center">8</th>
-<th align="center">9</th>
-<th align="center">10</th>
-<th align="center">11</th>
-<th align="center">12</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Quick Links Menu</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Location Report Cards</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td><i class="fa fa-chevron-circle-right"</i> Report Card Drill Down Info / Test Answers</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Location Usage Reports</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Watchdogs</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Certification Reports</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Manage (Create &amp; Edit) Teams</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td><i class="fa fa-chevron-circle-right"</i> View Teams and Teams' Reports</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Content Report</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Manage Users</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Location Settings</th>
-<th align="center">2</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</th>
-<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;</th>
-<th align="center">7</th>
-<th align="center">8</th>
-<th align="center">9</th>
-<th align="center">10</th>
-<th align="center">11</th>
-<th align="center">12</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Location Settings</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td><i class="fa fa-chevron-circle-right"</i> Location Name</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td><i class="fa fa-chevron-circle-right"</i> Main Menu Left/Right Area</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td><i class="fa fa-chevron-circle-right"</i> Main Menu Bulletin Board</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<h4 id="notes">Notes:</h4>
-<p><span style="color:orange"><i class="fa fa-asterisk"></i></span> = If the associated “Yes/No” privilege toggle is set in the “Manage Access Levels” - it will decide this privilege.<br />
+##<i class="fa fa-hand-o-right" aria-hidden="true"></i> Access Level Privileges<br />
+Below is a grid of the specific privileges that each Access Level has built in.
+
+| General Access | 2 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;| 7 | 8 | 9 | 10 | 11 | 12
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+Super User Dashboard | <span style="color:green"><i class="fa fa-check"></i></span> | <span style="color:green"><i class="fa fa-check"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Send LightPad Messages | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Skip Training Videos | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+
+
+| Quick Links Menu | 2 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;| 7 | 8 | 9 | 10 | 11 | 12
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+Quick Links Menu | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Location Report Cards | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+<i class="fa fa-chevron-circle-right"</i> Report Card Drill Down Info / Test Answers | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Location Usage Reports| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Watchdogs| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Certification Reports| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Manage (Create & Edit) Teams| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+<i class="fa fa-chevron-circle-right"</i> View Teams and Teams' Reports| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Content Report| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+Manage Users | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> | <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+
+| Location Settings | 2 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp;&nbsp;&nbsp;| 7 | 8 | 9 | 10 | 11 | 12
+|---------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+Location Settings| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+<i class="fa fa-chevron-circle-right"</i> Location Name| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+<i class="fa fa-chevron-circle-right"</i> Main Menu Left/Right Area| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+<i class="fa fa-chevron-circle-right"</i> Main Menu Bulletin Board| <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:green"><i class="fa fa-check"></i></span></i> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> | <span style="color:red"><i class="fa fa-times"></i></span> |
+
+
+
+####Notes:
+<span style="color:orange"><i class="fa fa-asterisk"></i></span> = If the associated “Yes/No” privilege toggle is set in the “Manage Access Levels” - it will decide this privilege.<br />
 <span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> = This ability is able to be overridden on each user's profile, there is a Yes/No toggle for “Ability to Manage Users” that can be set per individual. If a user has the ability to “Manage Users” then they can only create/manage users at their Access Level and below.<br />
-<span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> = If “teams Plus” feature is enabled, then Access Level 6 (Manager C) can only Oversee users that are on their “Team.”</p>
-<h2 id="file-vault-privileges-related-to-access-levels"><i class="fa fa-folder-open" aria-hidden="true"></i> File Vault Privileges related to Access Levels</h2>
-<p>If the File Vault is enabled, then there are some additional built in privileges that apply specifically to the File Vault, and they are noted below.</p>
-<table>
-<thead>
-<tr>
-<th>Access Level</th>
-<th align="center">2 &amp; 3</th>
-<th align="center">4, 5 &amp; 6</th>
-<th align="center">7-12</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Folder/File Create</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File Edit</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File Delete</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-<tr>
-<td>Folder/File View</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Own Loc)</td>
-</tr>
-<tr>
-<td>Folder/File Activation Status</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Any/All Locs)</td>
-<td align="center"><span style="color:green"><i class="fa fa-check"></i></span> (Optional - Own Loc)</td>
-<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
-</tr>
-</tbody>
-</table>
-<p>For more information on the File Vault, click <a href="../../filevault/overview/">HERE</a>.</p>
+<span style="color:orange"><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i></span> = If “teams Plus” feature is enabled, then Access Level 6 (Manager C) can only Oversee users that are on their “Team.”
+
+-->
+
 <h2 id="auto-populating-content-roles-to-access-levels"><i class="fa fa-users" aria-hidden="true"></i> Auto Populating Content Roles to Access Levels</h2>
 <p>First, make sure you activate this toggle under System Settings:</p>
 <p><img alt="Image" src="../../img/auto_populate_1.png" /><br /></p>
