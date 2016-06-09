@@ -1,0 +1,44 @@
+
+
+# <i class="fa fa-globe" aria-hidden="true"></i> Overview  
+
+All of the privileges listed below are things that can be toggled ON for Super User B (Admins).
+
+<div class="admonition note">
+    <p class="first admonition-title">
+        Note
+    </p>
+    <p class="last">
+Please note how each privilege is <strong>"Controlled By"</strong> one of three ways - as to efficiently control what "Systems" and "Locations" these Super Users can edit.
+    </p>
+</div>
+
+
+
+|Controlled by...  |    
+|--------------- | --------------- |
+ |System ID(s)  |  If one or more “System ID’s” are set for a user, then they have full access to ALL location in this System for that said privilege.|
+ |SU Location Access  |  A privilege controlled by this is limited to only the “Locations” that a Super User has “SU Location Privileges” to. <br><br>**NOTE** - when marked with an **“*” then this can be overridden by “ID#22”** - this is to create even more flexibility on what we want to choose to curtail a user by.|
+ |Account  |  This relates to "Content Management." There is nothing to specify in the "Super User B Privilege" are - how this works is the VT APP will know what "Location" the SU's "Primary Location" is, what "System" that Location is in, and what "Account" it's attached to - and the VT APP will give that user the ability to see the Content Containers that are mapped to SYSTEMS that are part of that Account.  |
+
+
+_**In the descriptions below - "you" refers to the Super User B you are setting privileges for.**_
+
+
+
+|ID#  |  Privilege Name  |  Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Notes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  Controlled By  |  Dashboard Area |
+|--------------- | --------------- | --------------- | --------------- | --------------- | -------- |
+ |34	| Help Docs	| Button in the SU Dashboard to the Help Docs |	| NA | LIVE|
+ |20 | Allow Privileges Updates to Other Super User B’s | If you have SU access to a location, you will see a list of all users in those locations to edit. This privilege is key, as it allows you to set the YES/NO toggles of all of the privileges YOU have access to - to other Super User B’s.	| **Example:** <br> if you have four privileges toggled to YES, then this toggle allows you to toggle those same four privileges to other Super User B’s that you have access to. | SU Location Access | LIVE|
+ |25 | Create New Locations | This will allow you to create a new location in a System where you currently have SU access to a location, and give you SU access to it. | You will need to have **"SU Location Access"** to the **"Template"** Locations in order to use them. <br><br> ALL locations that are created will go into a “queue” for the accounting department to “Approve” | SU Location Access* |LIVE|
+ |1 | Location Activation / Deactivation / Re-Activation | If you have SU access to the location, you can activate / deactivate it. | There is a log in place that notes WHO did it, WHAT they set the “Active Status” to, and WHEN they did it. | SU Location Access* | LIVE|
+ |13 | (Read Only) Access to Billing | In the Location Settings, you can see the READ ONLY billing settings. In the SU Dashboard 500 area, you can see Billing Reports - READ ONLY. | **THIS IS VERY IMPORTANT!** <br> - This is controlled by "SYSTEM ID's" - and this user ONLY can have System ID's that they OWN - ... NOT wherever their content is. <br> **BAIRAM and CHANNELE are the only employees who can grant this privilege until further notice!** | System ID's | LIVE|
+ |23 | Allow User Impersonate | If you have SU access to a Location, you can click the “impersonate” icon when viewing their profile, and impersonate that user. |  |  SU Location Access* | LIVE|
+ |2 | Move Users from One Location to Another | Under the 201 (Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and move them to a location you also have SU access to. | Their training data does move with the user, however, if their original location had a Course active that their new location does not - they will not see that course, or its results any longer. The data is not “gone” it is just not displayed now at the new Location since the new Location does not have that said Course on. <br><br>  **NOTE 2:** <br> If you move a user from a System that uses Content Containers to a System that does not (and vice versa), you will need to be sure the user can access the correct content after moving them. <br><br>**NOTE 3:** <br>The user MUST have access to "create/edit" users in order for this to work. | SU Location Access* | LIVE|
+ |32 | Modify Location User Cap | If you have SU access to the Location, you can modify the User Cap. There is a log in place that notes WHO did it, WHAT they set the “User Cap” to, and WHEN they did it. | If you set the User Cap lower than the current Active User count, it will not turn off any users. What it will do is not allow any NEW users to be created, and if the user count goes below the Cap, then it will allow them to create users up to the Cap again. | SU Location Access* | LIVE|
+ |27 | Manage Email “Unsubscribe” list | When the VT System sends out emails (examples are: Watch Dogs, LightPad Emails, Course Completions, Enrollment Links, etc.) we stay in compliance by adding the ability for an end user to click “Unsubscribe” to stop receiving emails. Sometimes they do this, then call and want to be added back in. What this feature does is allow you to submit an email, and we will remove it from the “unsubscribe” list, so that they can get emails again. If you are not sure if they are on the “Unsubscribe” list or not, it is harmless to do this just to be sure. | **NOTE:** <br> there is no “Controlled by” on this, as there isn’t anything to access, it is just a field where you enter in an email address to be removed from the “unsubscribe list.” | NA | LIVE|
+ |5 | Course ON/OFF at the LOCATION Level | If you have SU access to the location, you can turn courses on and off at that location. |  |  SU Location Access* | LIVE
+ |6 | Premier Content Access | This has two facets to it. One - Under the 201(Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and modify their premier content. You will also see a list of Premier Content Roles when viewing a User’s profile at the Location level.  |  Two - Under 402 (Content Containers), you will see the “Premier Content” tab, and you will be able to select a “System” for which you have SU access to a Locations within, you will see that list of all Locations that you can update the Premier Content at. As content roles may be set to Premier at one Location, but not Premier at another Location.  |  SU Location Access*  |  LIVE|
+ |33  |  Content Containers  |  |  A user with this access - can see ALL Content Containers tied to SYSTEMS under their ACCOUNT  |  SEE NOTES	 |
+ |3  |  Courseware Mgmt  |  |  A user can Manage ALL courses inside CONTAINERS they have access to.  |  SEE NOTES  |  
+ |10  |  Manage Certifications  |  You can create and administrate all aspects of the Certificates. Examples are: change the course lists, change the certificate graphics, change what Content Roles they are assigned to, turn them off.  |  |  System ID(s)  |  LIVE|

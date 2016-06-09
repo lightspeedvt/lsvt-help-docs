@@ -293,16 +293,45 @@
             <div class="section">
               
                 <h1 id="overview"><i class="fa fa-globe" aria-hidden="true"></i> Overview</h1>
-<p>All of the privileges listed below are things that can be toggled ON for Super User B (Admins).</p>
-<div class="admonition note">
+<p>All of the privileges listed below are things that can be toggled ON for individual Super User B users.</p>
+<!-- <div class="admonition note">
     <p class="first admonition-title">
         Note
     </p>
     <p class="last">
 Please note how each privilege is <strong>"Controlled By"</strong> one of three ways - as to efficiently control what "Systems" and "Locations" these Super Users can edit.
     </p>
-</div>
+</div> -->
 
+<p><em><strong>First - some explanations about the columns you see below.</strong></em></p>
+<table>
+<thead>
+<tr>
+<th>P-ID#...</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Priviledge ID Number</td>
+<td>These are the unique numbers that we reference them by. It is just to give each one a unique number for clarity, as the names of them start to sound similar at times. Sort of like how "W-2" is what the IRS calls your form about income from your job. Why not "W-1" right? Same thing here. And we apologize in advance that they don't go in sequential order. Some privileges are newer than others, some don't apply anymore and they have gone away, etc. Same story with the "W-1" form. I'm sure it went away at some point.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>SUD-A#...</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Super User Dashboard - Area Number</td>
+<td>In the Super User Dashboard, each "area" and button has a number on it, which is the "Super User Dashboard Area Number." This is because some of the reports and features sound similar and this is a quick way to identify them with a unique ID. So, if you know the privilege of feature you are wanting to use, you can find it there in the Super User Dashboard by number.</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
@@ -313,7 +342,7 @@ Please note how each privilege is <strong>"Controlled By"</strong> one of three 
 <tbody>
 <tr>
 <td>System ID(s)</td>
-<td>If one or more “System ID’s” are set for a user, then they have full access to ALL location in this System for that said privilege.</td>
+<td>If one or more “System ID’s” are set for a user, then they have full access to ALL locations in this System - for that said privilege.</td>
 </tr>
 <tr>
 <td>SU Location Access</td>
@@ -321,7 +350,7 @@ Please note how each privilege is <strong>"Controlled By"</strong> one of three 
 </tr>
 <tr>
 <td>Account</td>
-<td>This relates to "Content Management." There is nothing to specify in the "Super User B Privilege" are - how this works is the VT APP will know what "Location" the SU's "Primary Location" is, what "System" that Location is in, and what "Account" it's attached to - and the VT APP will give that user the ability to see the Content Containers that are mapped to SYSTEMS that are part of that Account.</td>
+<td>For some features, they are not "Location" specific (such as the Courseware Management tools), so these privileges reference the "Account" that the Super User B is a member of, and they then have access to everything for that specific feature that is tied to the "Account."</td>
 </tr>
 </tbody>
 </table>
@@ -329,12 +358,11 @@ Please note how each privilege is <strong>"Controlled By"</strong> one of three 
 <table>
 <thead>
 <tr>
-<th>ID#</th>
+<th>P-ID#</th>
 <th>Privilege Name</th>
 <th>Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-<th>Notes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
 <th>Controlled By</th>
-<th>Dashboard Area</th>
+<th>SUD-A#</th>
 </tr>
 </thead>
 <tbody>
@@ -342,113 +370,99 @@ Please note how each privilege is <strong>"Controlled By"</strong> one of three 
 <td>34</td>
 <td>Help Docs</td>
 <td>Button in the SU Dashboard to the Help Docs</td>
-<td></td>
 <td>NA</td>
-<td>LIVE</td>
+<td>203</td>
 </tr>
 <tr>
 <td>20</td>
 <td>Allow Privileges Updates to Other Super User B’s</td>
-<td>If you have SU access to a location, you will see a list of all users in those locations to edit. This privilege is key, as it allows you to set the YES/NO toggles of all of the privileges YOU have access to - to other Super User B’s.</td>
-<td><strong>Example:</strong> <br> if you have four privileges toggled to YES, then this toggle allows you to toggle those same four privileges to other Super User B’s that you have access to.</td>
+<td>Allows you to set the "Super User B - YES/NO" toggles of all of the privileges YOU have access to - for other Super User B’s.<br><br><strong>Example:</strong><br> If you have four of these privileges toggled to YES, then this toggle allows you to toggle those same four privileges to other Super User B’s that you have access to.</td>
 <td>SU Location Access</td>
-<td>LIVE</td>
+<td>201</td>
 </tr>
 <tr>
 <td>25</td>
 <td>Create New Locations</td>
-<td>This will allow you to create a new location in a System where you currently have SU access to a location, and give you SU access to it.</td>
-<td>You will need to have <strong>"SU Location Access"</strong> to the <strong>"Template"</strong> Locations in order to use them. <br><br> ALL locations that are created will go into a “queue” for the accounting department to “Approve”</td>
+<td>Allows you to create a new locations inside if your System. You will need to have <strong>"SU Location Access"</strong> to the <strong>"Template"</strong> Locations in order to use them.</td>
 <td>SU Location Access*</td>
-<td>LIVE</td>
+<td>102.2</td>
 </tr>
 <tr>
 <td>1</td>
 <td>Location Activation / Deactivation / Re-Activation</td>
-<td>If you have SU access to the location, you can activate / deactivate it.</td>
-<td>There is a log in place that notes WHO did it, WHAT they set the “Active Status” to, and WHEN they did it.</td>
-<td>SU Location Access*</td>
-<td>LIVE</td>
+<td>If you have SU access to the location, you can activate / deactivate it in the "Location Settings."</td>
+<td>SU Location Access</td>
+<td>102.1</td>
 </tr>
 <tr>
 <td>13</td>
 <td>(Read Only) Access to Billing</td>
-<td>In the Location Settings, you can see the READ ONLY billing settings. In the SU Dashboard 500 area, you can see Billing Reports - READ ONLY.</td>
-<td><strong>THIS IS VERY IMPORTANT!</strong> <br> - This is controlled by "SYSTEM ID's" - and this user ONLY can have System ID's that they OWN - ... NOT wherever their content is. <br> <strong>BAIRAM and CHANNELE are the only employees who can grant this privilege until further notice!</strong></td>
+<td>In the "Location Settings," you can see the READ ONLY billing information. In the SU Dashboard 500 area, you can see Billing Reports.</td>
 <td>System ID's</td>
-<td>LIVE</td>
+<td>503.1</td>
 </tr>
 <tr>
 <td>23</td>
 <td>Allow User Impersonate</td>
-<td>If you have SU access to a Location, you can click the “impersonate” icon when viewing their profile, and impersonate that user.</td>
-<td></td>
+<td>If you have SU access to a Location, you can click the “impersonate” icon when viewing a user's profile, and impersonate that user.</td>
 <td>SU Location Access*</td>
-<td>LIVE</td>
+<td>201</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Move Users from One Location to Another</td>
-<td>Under the 201 (Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and move them to a location you also have SU access to.</td>
-<td>Their training data does move with the user, however, if their original location had a Course active that their new location does not - they will not see that course, or its results any longer. The data is not “gone” it is just not displayed now at the new Location since the new Location does not have that said Course on. <br><br>  <strong>NOTE 2:</strong> <br> If you move a user from a System that uses Content Containers to a System that does not (and vice versa), you will need to be sure the user can access the correct content after moving them. <br><br><strong>NOTE 3:</strong> <br>The user MUST have access to "create/edit" users in order for this to work.</td>
-<td>SU Location Access*</td>
-<td>LIVE</td>
+<td>When viewing a user's profile, you'll see a tab to "Change Users Location." Their training data does move with the user. However, if their original location had a Course active that their new location does not - they will not see that course, or its results any longer. The data is not “gone” it is just not displayed now at the new Location since the new Location does not have that said Course on.</td>
+<td>SU Location Access</td>
+<td>201</td>
 </tr>
 <tr>
 <td>32</td>
 <td>Modify Location User Cap</td>
-<td>If you have SU access to the Location, you can modify the User Cap. There is a log in place that notes WHO did it, WHAT they set the “User Cap” to, and WHEN they did it.</td>
-<td>If you set the User Cap lower than the current Active User count, it will not turn off any users. What it will do is not allow any NEW users to be created, and if the user count goes below the Cap, then it will allow them to create users up to the Cap again.</td>
+<td>If you have SU access to the Location, you can modify the User Cap in the "Location Settings." If you set the User Cap lower than the current Active User count, it will not turn off any users. What it will do is not allow any NEW users to be created, and if the user count goes below the Cap, then it will allow them to create users up to the Cap again.</td>
 <td>SU Location Access*</td>
-<td>LIVE</td>
+<td>102.1</td>
 </tr>
 <tr>
 <td>27</td>
 <td>Manage Email “Unsubscribe” list</td>
 <td>When the VT System sends out emails (examples are: Watch Dogs, LightPad Emails, Course Completions, Enrollment Links, etc.) we stay in compliance by adding the ability for an end user to click “Unsubscribe” to stop receiving emails. Sometimes they do this, then call and want to be added back in. What this feature does is allow you to submit an email, and we will remove it from the “unsubscribe” list, so that they can get emails again. If you are not sure if they are on the “Unsubscribe” list or not, it is harmless to do this just to be sure.</td>
-<td><strong>NOTE:</strong> <br> there is no “Controlled by” on this, as there isn’t anything to access, it is just a field where you enter in an email address to be removed from the “unsubscribe list.”</td>
 <td>NA</td>
-<td>LIVE</td>
+<td>TBD</td>
 </tr>
 <tr>
 <td>5</td>
 <td>Course ON/OFF at the LOCATION Level</td>
-<td>If you have SU access to the location, you can turn courses on and off at that location.</td>
-<td></td>
+<td>If you have SU access to the location, you can turn courses on and off at that location in the "Location Settings."</td>
 <td>SU Location Access*</td>
-<td>LIVE</td>
+<td>102.1</td>
 </tr>
 <tr>
 <td>6</td>
 <td>Premier Content Access</td>
-<td>This has two facets to it. One - Under the 201(Manage All Users), if you have SU access to a location, you will see a list of users returned for those locations. You can click on any user to edit them, and modify their premier content. You will also see a list of Premier Content Roles when viewing a User’s profile at the Location level.</td>
-<td>Two - Under 402 (Content Containers), you will see the “Premier Content” tab, and you will be able to select a “System” for which you have SU access to a Locations within, you will see that list of all Locations that you can update the Premier Content at. As content roles may be set to Premier at one Location, but not Premier at another Location.</td>
-<td>SU Location Access*</td>
-<td>LIVE</td>
+<td>This has two facets to it. One - anywhere that yo uare editing a users profile, you can see their Premiere Content Roles that are available.<br><br>Two - Under 402 (Content Containers), you will see the “Premier Content” tab, and you will be able to select a “System” for which you have SU access to a Locations within, you will see that list of all Locations that you can update the Premier Content at. As content roles may be set to Premier at one Location, but not Premier at another Location.</td>
+<td>SU Location Access</td>
+<td>201 &amp; 402</td>
 </tr>
 <tr>
 <td>33</td>
 <td>Content Containers</td>
-<td></td>
 <td>A user with this access - can see ALL Content Containers tied to SYSTEMS under their ACCOUNT</td>
-<td>SEE NOTES</td>
-<td></td>
+<td>Account</td>
+<td>402.3</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Courseware Mgmt</td>
-<td></td>
-<td>A user can Manage ALL courses inside CONTAINERS they have access to.</td>
-<td>SEE NOTES</td>
-<td></td>
+<td>A user can Manage ALL courses inside their ACCOUNT's Content Containers.</td>
+<td>TBD</td>
+<td>402.1</td>
 </tr>
 <tr>
 <td>10</td>
 <td>Manage Certifications</td>
-<td>You can create and administrate all aspects of the Certificates. Examples are: change the course lists, change the certificate graphics, change what Content Roles they are assigned to, turn them off.</td>
-<td></td>
-<td>System ID(s)</td>
-<td>LIVE</td>
+<td>You can create and administrate all aspects of the Certifications.</td>
+<td>TBD</td>
+<td>406</td>
 </tr>
 </tbody>
 </table>
