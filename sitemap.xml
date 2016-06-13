@@ -59,7 +59,7 @@
 
     
     <url>
-     <loc>None/everything_privileges/overview/</loc>
+     <loc>None/access_level_privileges/overview/</loc>
      <lastmod>2016-06-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -107,7 +107,7 @@
 
     
     <url>
-     <loc>None/interactive_lessons/overview/</loc>
+     <loc>None/interactive_video/overview/</loc>
      <lastmod>2016-06-13</lastmod>
      <changefreq>daily</changefreq>
     </url>
