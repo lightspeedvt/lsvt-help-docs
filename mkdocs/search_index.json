@@ -737,23 +737,23 @@
         }, 
         {
             "location": "/sample_cw_assets/overview/", 
-            "text": "Overview:\n\n\nHere are some images and videos that you can use to make sample Courseware to get started on learning how to add your own content.\n\n\nCategory and Course Images\n\n\nClick on each image to Download it\n\n\n\n\n\n\n\n\nCategory Images (size 556 x 298 - which is a 16:9 ratio)\n\n\nCourse Images (size 348 x 260 - which is a 4:3 ratio)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo\n\n\n**\nClick on the Sample Video to Download it\n\n\n\n\n\n\n\n\nSample Video (HD MP4 file, that is 10BM, 1280x720 and is 1 min and 2 sec)\n\n\n\n\n\n\n\n\n\n\nimg src=\"\"", 
+            "text": "Overview\n\n\nHere are some images and videos that you can use to make sample Courseware to get started on learning how to add your own content.\n\n\nSample Category and Course Images\n\n\nClick on each image to Download it\n\n\n\n\n\n\n\n\n\nCategory Images (size 556 x 298 - which is a 16:9 ratio)\n\n\nCourse Images (size 348 x 260 - which is a 4:3 ratio)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSample Video\n\n\nClick on the Sample Video to Download it\n\n\n\n\n\n\n\n\nSample Video (HD MP4 file, that is 10BM, 1280x720 and is 1 min and 2 sec)", 
             "title": "Sample Courseware Assets"
         }, 
         {
             "location": "/sample_cw_assets/overview/#overview", 
             "text": "Here are some images and videos that you can use to make sample Courseware to get started on learning how to add your own content.", 
-            "title": " Overview:"
+            "title": " Overview"
         }, 
         {
-            "location": "/sample_cw_assets/overview/#category-and-course-images", 
+            "location": "/sample_cw_assets/overview/#sample-category-and-course-images", 
             "text": "", 
-            "title": "Category and Course Images"
+            "title": "Sample Category and Course Images"
         }, 
         {
-            "location": "/sample_cw_assets/overview/#video", 
-            "text": "**", 
-            "title": "Video"
+            "location": "/sample_cw_assets/overview/#sample-video", 
+            "text": "", 
+            "title": "Sample Video"
         }, 
         {
             "location": "/glossary/overview/", 
