@@ -35,6 +35,14 @@
 
     
     <url>
+     <loc>None/social_feature/overview/</loc>
+     <lastmod>2016-08-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>None/signin_management/overview/</loc>
      <lastmod>2016-08-19</lastmod>
      <changefreq>daily</changefreq>
