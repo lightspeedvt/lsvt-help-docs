@@ -101,6 +101,20 @@
                 <li class="toctree-l3"><a href="#adding-a-link-to-your-social-media-outlets"> Adding a link to your social media outlets</a></li>
                 
             
+                <li class="toctree-l3"><a href="#configuration"> Configuration</a></li>
+                
+                    <li><a class="toctree-l4" href="#social-media-metadata-options">Social Media Metadata options:</a></li>
+                
+                    <li><a class="toctree-l4" href="#notes">Notes:</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#landing-page"> Landing Page</a></li>
+                
+                    <li><a class="toctree-l4" href="#redirect-url-or-not">Redirect URL (Or not)</a></li>
+                
+                    <li><a class="toctree-l4" href="#call-to-action-fields">Call to Action Fields</a></li>
+                
+            
             </ul>
         
     </li>
@@ -300,18 +314,19 @@
             <div class="section">
               
                 <h1 id="adding-a-link-to-your-social-media-outlets"><i class="fa fa-globe" aria-hidden="true"></i> Adding a link to your social media outlets</h1>
-<p>The Social Media Bar, once activated, will appear on the left-side of the screen on all pages in the System. It is controlled by Access Level, and further controlled per Theme.</p>
-<p>Step 1: Activate the Social Media Bar under System Settings and select which access levels can view it.</p>
-<p>Step 2: Access the Theme Editor for the System/Theme you want to edit and select the "Social Media" tab on the left.</p>
-<p>Social Media Metadata options:</p>
-<p>Title: What the title of the message should be (typically your System or Company name).</p>
+<p>The Social Media Bar, once activated, will appear on the left-side of the screen on all pages in the System (if the screen size is too small, it will display the links at the bottom of the page, below any content) It is controlled by Access Level, and can be further controlled per System Theme.</p>
+<h1 id="configuration"><i class="fa fa-rocket" aria-hidden="true"></i> Configuration</h1>
+<p><strong>Step 1:</strong> Activate the Social Media Bar under System Settings and select which access levels can view it.</p>
+<p><strong>Step 2:</strong> Access the Theme Editor for the System/Theme you want to edit and select the "Social Media" tab on the left.</p>
+<h3 id="social-media-metadata-options">Social Media Metadata options:</h3>
+<p>Title: What the title of the message should be (Example: Your System or Company name)</p>
 <p>Description: A short sentence describing the link or System the user will be sharing.</p>
-<p>URL to Share: Typically the URL to the front door of your System where users can find out more information about you.</p>
-<p>Image URL (Minimum 200x200): This image is used by LinkedIn and Google Plus, but not Twitter or Facebook.</p>
+<p>URL to Share: Any URL you'd like to redirect the user to. (Example: the URL to the front door of your System where users can find out more information about you.)</p>
+<p>Image URL (Minimum 200x200): Enter a path to an Image you'd like to use. This image is used by LinkedIn and Google Plus, but not Twitter or Facebook.</p>
 <p>Twitter Message: This is an additional field where you can add @'s or #'s for your twitter message. (Please keep in mind Twitter's 140 character limit)</p>
 <p>Share Buttons to Display:</p>
 <p>Select which social sites to allow sharing to. Current options are: Facebook, LinkedIn, Google Plus, and Twitter.</p>
-<p>Notes:</p>
+<h3 id="notes">Notes:</h3>
 <ol>
 <li>
 <p>You will need to reset your session if you make any changes to this social media section. Log out and log back in again for the changes to show up.</p>
@@ -323,22 +338,28 @@
 <p>Facebook does not allow you to override the image of the page you are trying to share. So no matter what image you specify, it will always grab the image from the Facebook metadata from the destination URL.</p>
 </li>
 </ol>
-<p>Landing Page Section</p>
-<p>If you'd like to use a custom share landing page hosted by LightSpeed VT, you can toggle "User Custom Landing Page" to "Yes". If this setting is turned on, it will share a public page that can override the image issue on facebook as well as carry over all the social media values above.</p>
+<h1 id="landing-page"><i class="fa fa-plane" aria-hidden="true"></i> Landing Page</h1>
+<p>If you'd like to use our custom shareable landing page, you can toggle the "Use Custom Landing Page" option to "Yes". If this setting is turned on, it will create a sharable public page that you can customize. (Note: this page can override the thumbnail image issue on Facebook)</p>
 <p>Landing Page URL Format: Http://vt.lightspeedvt.com/share/?id=[themeid]</p>
-<p>Redirect URL</p>
-<p>If a user wants to override the metadata but still wants the use to go to a page hossted elsewhere, this will allow that. Leave blank if you don't want to redirect.</p>
-<p>Note: Using this redirect will show vt.lightspeedvt.com as the server. This can't be overridden. All other fields are honored.</p>
-<p>The last two fields (share page image url and html/video embed code) are if the user doesn't want to redirect to another page. the share page will display the title, description, and either an image or the html/video enteed. if they embed a video, the image is not displayed.</p>
-<p>the share page pulls the background color/image and font color of the theme ot use for the page.</p>
+<p><strong>Note:</strong> Your Theme ID is different than your System ID. Your Theme ID is displayed in parenthesis near the top of the page, under the Theme Selection drop-down.</p>
+<h3 id="redirect-url-or-not">Redirect URL (Or not)</h3>
+<p>If you would like to override the metadata but still want the use this page to go to a page hosted elsewhere, this will allow that. Leave blank if you don't want to redirect.</p>
+<p>The next two fields (share page image url and html/video embed code) are if you don't want to redirect to another page. The share page will display the title, description, and either an image or the html/video entered. If you embed a video, the image is not displayed.</p>
+<p><strong>Notes:</strong> </p>
+<ol>
+<li>
+<p>This share page will user your System Theme information to add the background image and other elements to the page. </p>
+</li>
+<li>
 <p>The share page is responsive and is mobile friendly.</p>
-<p>It will also show 'addthis ' buttons to share the page manually based on the social media values above.</p>
-<p>Call to Action Fields</p>
+</li>
+</ol>
+<h3 id="call-to-action-fields">Call to Action Fields</h3>
 <p>You can add a Call to Action button to your landing page if you wish. The following settings are available:</p>
-<p>Button Color: What color should this button be?
-Button Text: What should the text on the button say?
-Text Color: What color should the text be?
-URL: What URL should we take the user to when clicked?</p>
+<p>Button Color: What color should this button be?<br />
+Button Text: What should the text on the button say?<br />
+Text Color: What color should the text be?<br />
+URL: What URL should we take the user to when clicked?<br /></p>
               
             </div>
           </div>
