@@ -79,6 +79,13 @@
 <li>
           
             <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../signin_management/overview/">Sign In Page Management</a>
+        
+    </li>
+<li>
+          
+            <li>
     <li class="toctree-l1 current">
         <a class="current" href="./">System Settings</a>
         
@@ -138,13 +145,6 @@
             <li>
     <li class="toctree-l1 ">
         <a class="" href="../../social_feature/overview/">Social Feature Settings</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../../signin_management/overview/">Sign In Page Management</a>
         
     </li>
 <li>
@@ -339,11 +339,6 @@
 <p>When your “Account” is initially created, the LSVT Team prepares your “System” for you as part of the initial setup process. Your organization is a “System” within the VT Platform, and in a prior Help Doc, we looked at the “LSVT Hierarchy” and saw how the Systems, Themes, and Locations all work together - as they are all under the umbrella of a “System.”</p>
 <p>In this section, we will walk through the System settings so you understand what they are and how they work so that you can edit and administrate them as you need. </p>
 <p><strong>Note</strong>: Changing System Settings can affect all of your Themes, Locations and Users, so if you have questions - “Call Before You Dig.” - 1-800-HEY-LSVT (1-800-439-5788)</p>
-<!-- 
-![Image](/img/call-before-you-dig.png)
-
--->
-
 <p>To get to the System Settings, first go to the Super User Dashboard, then open up the subsection labeled “400 - Application Administration” and you will see the tool called “401 - System Management” as shown below.</p>
 <p><img alt="Image" src="../../img/system_settings.png" /><br /></p>
 <p>Once you select, this, you will be able to select which “System” to edit (or if you only have one, it will default to that one).</p>
@@ -360,14 +355,14 @@
 <ul>
 <li><strong>Content Role and Access Level Instructions</strong><ul>
 <li>Here you can customize the instructions that users/managers see on the front end when selecting Content Roles and Access Levels for users. Examples are:<br /><br /><ul>
+<li><strong>Access Levels:</strong> Specify below the Access Level desired for this user - the Access Levels determine if this user is a Manager that can view reports, or just a standard Employee. A user can be set to only one Access Level at a time.</li>
 <li><strong>Content Roles:</strong> Content Roles determine what content a user sees, you can set a user to as many content roles as desired.<br /><br /></li>
-<li><strong>Access Levels:</strong> Specify below the Access Level desired for this user - the Access Levels determine if this user is a Manager that can view reports, or just a standard Employee. A user can be set to only one Access Level at a time. </li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<p><img alt="Image" src="../../img/system_settings_content_containers.png" /><br /></p>
+<p><img alt="Image" src="../../img/content_containers.png" /><br /></p>
 <h2 id="system-feature-toggles"><i class="fa fa-check" aria-hidden="true"></i> System Feature Toggles</h2>
 <p>Below are the System settings and notes about how they work and what they do, and the default setting for each.</p>
 <ol>
@@ -411,7 +406,7 @@
 </ul>
 </li>
 <li><strong>TC Home Icon URL</strong><ul>
-<li>This will take you to a section of the new "Themer" where you can modify the "Categories" that a user sees upon entering the "Training Center. This is helpful if you want to customize the initial "view" of Categories, vs show "ALL" of them on that first view.</li>
+<li>This will take you to a section of the "Themer" where you can modify the "Categories" that a user sees upon entering the Training Center. This is helpful if you want to customize the initial view of Categories, vs. show ALL of them on that first view.</li>
 </ul>
 </li>
 <li><strong>TC Layout Column Count</strong> <ul>
@@ -419,7 +414,7 @@
 </ul>
 </li>
 <li><strong>Show Social Media Bar</strong><ul>
-<li>This will enable/disable sharable social media links that will appear on the left side of the screen (on all screens) - You here you can also limit who can see this bar by their access level. To Manage the data for the social links, please see this article here.</li>
+<li>This will enable/disable sharable social media links that will appear on the left side of the screen (on all screens) - Here you can also limit who can see this bar by their access level. For more information on this, please see <a href="http://helpdocs.lightspeedvt.com/social_feature/overview/" target="_self">this page</a>.</li>
 </ul>
 </li>
 <li><strong>Cell Phone Required</strong><ul>
@@ -427,7 +422,7 @@
 </ul>
 </li>
 </ol>
-<p><img alt="Image" src="../../img/system_settings_system_settings.png" /><br /></p>
+<p><img alt="Image" src="../../img/system_settings_toggles.png" /><br /></p>
 <h2 id="enrollment-updated-per-theme"><i class="fa fa-user" aria-hidden="true"></i> Enrollment (Updated Per Theme)</h2>
 <p>This feature allows Admins and Managers (who have the privilege to "Create Users") to easily enroll users at their location. </p>
 <ol>
@@ -628,9 +623,9 @@
 </ol>
 <p>Note: You will be given a chance to preview this email during the user creation process.</p>
 <h2 id="pass-back-url-settings"><i class="fa fa-spinner" aria-hidden="true"></i> Pass Back URL Settings</h2>
-<p>The pass back feature is an easy way to create a seamless experience for your users between LSVT and your application or to make easy to collect basic data about a user without the need to use our full ADMIN API.</p>
+<p>The pass back feature is an easy way to create a seamless experience for your users between LSVT and your application - or to make it easier to collect basic data about a user without the need to use our full ADMIN API.</p>
 <p>There are a fixed number of optional parameters, or data elements about a user that LSVT can pass back to you via URL parameters. This could be used to allow a user to be passed back to your site and/or application – possibly already signed in, or to simply create a user in your system with the extra data provided.</p>
-<p>We can quickly configure your system to pass these URL parameters of your choice, simply contact your project manager to get you in touch with System Config. Dept. to accomplish this.</p>
+<p>We can quickly configure your system to pass these URL parameters of your choice, simply contact Client Care via Phone Call or Email to accomplish this.</p>
 <p>Additional information on steps to configure this can be found on our Knowledge Base <a href="http://support.lightspeedvt.com/pass-back-feature/" target="_blank">HERE</a>. </p>
 <h2 id="system-images"><i class="fa fa-image" aria-hidden="true"></i> System Images</h2>
 <p>This feature allows you to set the default system images for all locations in your System.</p>
@@ -654,72 +649,8 @@
 <p>Hello Han Solo! Welcome to Rebel Command! Your username is: hsolo </p>
 <h2 id="main-menu-welcome-message-config"><i class="fa fa-quote-left" aria-hidden="true"></i> Main Menu Welcome Message Config</h2>
 <p>On this screen you can add different welcome videos based on the user's access level or content role.</p>
-<!-- Hiding this now - this needs to go into a "webservices" style page - we just moved this to the Webservices area.
-
-##<i class="fa fa-link" aria-hidden="true"></i> WebHooks Settings
-
-We have some Webhooks built in to the VT System that can be used to trigger events in real time. If you have another web application and wish to use Webhooks to send real time notifications to that other Web Application, you can go to the “System Settings” and add in your Endpoint URL’s, and indicate what events you want to listen to. There is also some Documentation for developers available on our API DOCS site that will describe the JSON data and parameters that will get sent to that other Web Application. <a href="http://apidocs.lightspeedvt.com" target="_blank">CLICK HERE</a> for the API DOCS about Webhooks.
-
-However, you can take advantage of some of the utilities we have built inside of the VT System leveraging Webhooks, with no programming needed. Below I’ll describe some of these thing - and SOON - we will have new Admin controls for you to manage these - but until then - please contact the Client Care Dept. to configure these for you. 
-
-------------------------------
-###Email Notifications
-
-Course or Chapter Completions
-When a user finishes Course  (or a Chapter), we can send them an email. You can use this to congratulate them on completing a Course, and encourage usage by telling them what to get started on next.
-
-What we need from you are:<br />
-Which Content: This can be a Course, or a Chapter, or a list of courses, and the email will go out once the user completes ALL of them.<br />
-From who: (A name)<br />
-Reply to Email address: (email address)<br />
-Subject Line of the email:<br />
-Text for the email body:<br />
-An example may be:<br />
-
-Dear %%firstname%%,<br />
-Great job on completing %%coursename%%.<br />
-Please contact us if you have any questions!<br />
-
-The available dynamic data to insert is:<br />
-
-%%courseid%%<br />
-%%coursename%%<br />
-%%datetimecompleted%%<br />
-%%email%%<br />
-%%firstname%%<br />
-%%lastname%%<br />
-%%locationid%%<br />
-%%locationname%%<br />
-%%phone1%%<br />
-%%phone2%%<br />
-%%userid%%<br />
-%%username%%<br />
-
-------------------------------
-###No Sign In
-
-We can send an email to users who have NOT signed in, for “X” number of days.
-
-This can help drive usage, if you send them an email that asks them why they have not signed in.
-
-------------------------
-###Email after “Start Date”
-
-We can send a user an email “X” number of days after they have started. This can be something like, “Hey, now that you have been a customer for 7 days, we just wanted to say THANKS!”
-
-------------------------
-###Email prior to “Expiration”
-
-We can send a user an email “X” number of days prior to their account expiring. This can be something like, “Hey, your account will expire in 7 days, be sure to renew!”
-
-------------------------
-###Update User Access
-This is a tool that you can use to update/change the content a user has (add or subtract Content Roles), based on what they complete. We can trigger it off of a Course completion, or a Chapter completion. We can do things like; when a User Completes Course A, it unlocks Course B (and you can show a “locked” version of Course B before it is unlocked). Another cool detail is that we can “Reset” their Main Menu Message video too. This can be used to tell them something different next time they sign in - something like; “Hey, I noticed you recently unlocked Course B… Nice work!”
-
--->
-
 <h2 id="notes-and-attachments"><i class="fa fa-file" aria-hidden="true"></i> Notes and Attachments</h2>
-<p>You can add any Notes or Attachments to the your System for any use - such as logging contract changes, etc.</p>
+<p>You can add any Notes or Attachments to your System for any use - such as logging contract changes, etc.</p>
               
             </div>
           </div>
@@ -730,7 +661,7 @@ This is a tool that you can use to update/change the content a user has (add or 
         <a href="../../theme_settings/overview/" class="btn btn-neutral float-right" title="Theme Settings">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../superusers/overview/" class="btn btn-neutral" title="Super Users"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../signin_management/overview/" class="btn btn-neutral" title="Sign In Page Management"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -756,7 +687,7 @@ This is a tool that you can use to update/change the content a user has (add or 
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../superusers/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../signin_management/overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../../theme_settings/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
