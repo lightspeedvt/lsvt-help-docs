@@ -114,10 +114,13 @@
             
                 <li class="toctree-l3"><a href="#creating-new-locations"> Creating New Locations</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#new-location-information"> New Location Information</a></li>
+                    <li><a class="toctree-l4" href="#new-location-information"> New Location Information</a></li>
                 
                     <li><a class="toctree-l4" href="#template-locations">Template Locations</a></li>
+                
+                    <li><a class="toctree-l4" href="#managing-location-settings">Managing Location Settings</a></li>
+                
+                    <li><a class="toctree-l4" href="#standard-views">Standard Views</a></li>
                 
             
             </ul>
@@ -315,37 +318,84 @@
 <p>To create a new location, navigate to the Super User Dashboard and select "Create New Location" under 102 - Location Management.</p>
 <p>This will allow you to create a new location in any System that you currently have Super User Access to. </p>
 <p><img alt="Image" src="../../img/102_location_mgmt.png" /></p>
-<h1 id="new-location-information"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> New Location Information</h1>
-<p><strong>Step 1.</strong> Select the “System” that you want to create this New Location within.</p>
-<p><strong>Step 2.</strong> Fill out the “New Location Information" - starting with which Template Location you want to ‘clone’ this new Location from (more about how Template Locations work is below).</p>
+<h2 id="new-location-information"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> New Location Information</h2>
+<h3 id="step-1"><strong>Step 1:</strong></h3>
+<p>Select the “System” that you want to create this New Location within.</p>
+<h3 id="step-2"><strong>Step 2:</strong></h3>
+<p>Fill out the “New Location Information" - starting with which Template Location you want to ‘clone’ this new Location from (more about how Template Locations work is below).</p>
 <p>Now you can fill out all of the other information about this Location. The fields with the orange dot indicate a required field. The image below is an example of this screen.</p>
+<p><a href="http://helpdocs.lightspeedvt.com/img/new_location_creation.png" target="_blank"></p>
 <p><img alt="Image" src="../../img/new_location_creation.png" /></p>
-<p><strong>Step 3.</strong> Fill out the Billing Information</p>
-<p>First you will indicate if it is “Bill per Location” or “Bill per User.”</p>
+<p></a></p>
+<h3 id="step-3"><strong>Step 3:</strong></h3>
+<p>Fill out the Billing Information. First select if this location is “Bill per Location” or “Bill per User.”</p>
+<p><a href="http://helpdocs.lightspeedvt.com/img/create-location-billing-info.png" target="_blank"></p>
 <p><img alt="Image" src="../../img/create-location-billing-info.png" /></p>
-<p>These fields below apply, whether it is being charged “By Location” or “By User.”</p>
-<ul>
-<li>Gross Set Up Fee - if you charged a one Time Set Up fee, put in the dollar amount here.</li>
-<li>Gross License Fee - this is the price is was sold for.</li>
-<li>License Frequency - this is how often the license fee is charged; in month(s). A monthly charge would be “1” and annual charge would be “12” (12 months), or leave it blank if it is a charge that is incurred once, and never again.</li>
-<li>Begin Bill Date: This is inserted for you with the “creation date” of this New Location. If you need this changed, please specify this in the “Billing Notes” filed at the bottom of this section. This will also be considered the Contract Start Date.</li>
-<li>Contract End Date - this is an optional field where you can indicate when this contract expires.</li>
-<li>Grace Period - this only applies when the “Auto Expire” Check box is indeed checked. The Grace Period allows you to give the Location a grace period to renew by. If you choose to Auto Expire a Location, it will expire on the Grace Period Date. Alternatively, if no Grace Period Date is entered, the Location will expire on the Contract End Date.</li>
-</ul>
+<p></a></p>
+<p>And then continue to fill in the rest of the fields. Whether you select “By Location” or “By User” all of the fields apply.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gross Set Up Fee</td>
+<td>If you charged a one time set up fee, put in the dollar amount here.</td>
+</tr>
+<tr>
+<td>Gross License Fee</td>
+<td>This is the price is was sold for.</td>
+</tr>
+<tr>
+<td>License Frequency</td>
+<td>This is how often the license fee is charged; in month(s). A monthly charge would be “1” and annual charge would be “12” (12 months), or leave it blank if it is a charge that is incurred once, and never again.</td>
+</tr>
+<tr>
+<td>Begin Bill Date</td>
+<td>This is inserted for you with the “creation date” of this New Location. If you need this changed, please specify this in the “Billing Notes” filed at the bottom of this section. This will also be considered the Contract Start Date.</td>
+</tr>
+<tr>
+<td>Contract End Date</td>
+<td>This is an optional field where you can indicate when this contract expires.</td>
+</tr>
+<tr>
+<td>Grace Period</td>
+<td>This only applies when the “Auto Expire” Check box is indeed checked. The Grace Period allows you to give the Location a grace period to renew by. If you choose to Auto Expire a Location, it will expire on the Grace Period Date. Alternatively, if no Grace Period Date is entered, the Location will expire on the Contract End Date.</td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
     <p class="first admonition-title">
         Note
     </p>
     <p class="last">
-If you intend for this Location to just renew in a ‘month to month’ format after the Contract End date, then simply do not check the “Auto Expire” check box, and it will not get automatically deactivated on that date and it will roll over to a ‘month to month’ status.
+If you intend for this Location to renew in a ‘month to month’ format after the Contract End date, then do not check the “Auto Expire” check box, so it will not get automatically deactivated on that date and it will roll over to a ‘month to month’ status.
     </p>
 </div>
 
-<ul>
-<li>Billing Notes - this is an open text field for you to note anything you would like the LSVT Accounting Dept. to know. These notes are only seen by you and the LSVT Accounting Dept.- they are not seen on the front end by your customers.</li>
-<li>Contract - this is where you will upload the contract for this New Location to be stored.</li>
-</ul>
-<p><strong>Step 4.</strong> - Location Notes - this is a simple optional open field that you can utilize to indicate any helpful ‘notes’  about this Location that you and your customers can see on the front end to better describe what the Location is being used for. You can also update this text  in the  “Location Settings” at any time.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Billing Notes</td>
+<td>This is an open text field for you to note anything you would like the LSVT Accounting Dept. to know. These notes are only seen by you and the LSVT Accounting Dept.- they are not seen on the front end by your customers.</td>
+</tr>
+<tr>
+<td>Contract</td>
+<td>This is where you will upload the contract for this New Location to be stored.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-4"><strong>Step 4:</strong></h3>
+<p>Location Notes - this is an optional open field that you can utilize to indicate any helpful ‘notes’ about this Location that you and your customers can see on the front end to better describe what the Location is being used for. You can also update this text in the  “Location Settings” at any time.</p>
 <p>When you are ready, click the “Create Location” button and this Location is ready to use right away.</p>
 <div class="admonition note">
     <p class="first admonition-title">
@@ -357,7 +407,6 @@ This newly created Location is ready to use right away, but it will also be sent
 </div>
 
 <h2 id="template-locations">Template Locations</h2>
-<p>Here is some additional information below about how ”Template Locations” work.</p>
 <p>When new Locations are created, we follow this process of cloning them from an existing “Template” Location so that the basic settings are all in place, and make it easier and faster for you as an Administrator to create new Locations. It also helps you ensure that it is created correctly. Below are a list of settings that are cloned in this process.</p>
 <ul>
 <li>The Theme - this process will place the new Location in the same System and use the same Theme as the Template Location.</li>
@@ -365,6 +414,248 @@ This newly created Location is ready to use right away, but it will also be sent
 <li>Super User List - all of the Super Users that have access to the Template Location will now also have access to this newly created Location.</li>
 <li>Main Menu messages - the Main Menu welcome message video, the Main Menu bulletin board message and the left and right images and messages will all be used.</li>
 </ul>
+<h2 id="managing-location-settings">Managing Location Settings</h2>
+<p>The available Location Settings will vary based on Access Level and Super User B Privileges. </p>
+<p>The Location Settings menu is only available for the following access levels:<br />
++ Super Users - Access Levels 2 and 3<br />
++ Overseers - Access Levels 4 and 5<br /></p>
+<table>
+<thead>
+<tr>
+<th>Location Settings</th>
+<th align="center">2</th>
+<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;</th>
+<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;</th>
+<th align="center">&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>View Location Settings</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+</tr>
+<tr>
+<td>General Information &amp; Settings</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:orange">Read Only</span></td>
+<td align="center"><span style="color:orange">Read Only</span></td>
+<td align="center"><span style="color:orange">Read Only</span></td>
+</tr>
+<tr>
+<td>Location Information (Address, Phone, etc.)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+</tr>
+<tr>
+<td>Main Menu Information (Bulletin Board Text)</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+<tr>
+<td>Main Menu Left/Right Region</td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:green"><i class="fa fa-check"></i></span></i></td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+<td align="center"><span style="color:red"><i class="fa fa-times"></i></span></td>
+</tr>
+</tbody>
+</table>
+<p>The Course Settings, Copy Courses and Billing tabs are visible based on Super User B Privileges. Read more about Super User B Privileges <a href="../../super_User_b_privileges/">HERE</a>.</p>
+<h3 id="basic-info-tab">Basic Info Tab</h3>
+<table>
+<thead>
+<tr>
+<th align="left">General Information</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Location ID</td>
+<td align="left">This is an auto generated ID, it is not editable.</td>
+</tr>
+<tr>
+<td align="left">Theme</td>
+<td align="left">This tells you what theme this location is assigned to.</td>
+</tr>
+<tr>
+<td align="left">Location Name:</td>
+<td align="left">This is the name of the location that will appear on reports.</td>
+</tr>
+<tr>
+<td align="left">Location Display Name</td>
+<td align="left">This is the name of the location that will appear to the users of this location. (This is optional)</td>
+</tr>
+<tr>
+<td align="left">Location Active</td>
+<td align="left">Turn this location ON or OFF: Yes/No (Access to this is controlled by <a href="../../super_User_b_privileges/">Super User B Privilege</a>, ID: 1 - "Location Activation / Deactivation / Re-Activation")</td>
+</tr>
+<tr>
+<td align="left">Assigned to System</td>
+<td align="left">This tells you which system this location is assigned to. Note: you may only have one System. (Access to this is controlled by <a href="../../super_User_b_privileges/">Super User B Privilege</a> ID: 2 - "Move Users from One Location to Another")</td>
+</tr>
+<tr>
+<td align="left">Rollout Date</td>
+<td align="left">This is optional. Here you can set the date this system "started" - this is different than the location creation date, as you could create a location early on to set it up, and then when the users officially "start" you could update this field.</td>
+</tr>
+<tr>
+<td align="left">Max # of Active Users</td>
+<td align="left">Here you can set how many active users this location has. (Access to this is controlled by <a href="../../super_user_b_privileges/">Super User B Privilege</a>, ID: 32 - "Modify Location User Cap")</td>
+</tr>
+<tr>
+<td align="left">Ghost Users</td>
+<td align="left">(only for location type: by location) - Ghost users are explained more in depth HERE.</td>
+</tr>
+<tr>
+<td align="left">Vendor Unique ID</td>
+<td align="left">Here you can add a custom ID to associate with this location. This field can be used as a filter on some reports.</td>
+</tr>
+<tr>
+<td align="left">Rep:</td>
+<td align="left">Here you can add a name of a Rep associated with this location. This field can be used as a filter on some reports.</td>
+</tr>
+<tr>
+<td align="left">Manufacturer</td>
+<td align="left">Here you can enter the name of a Manufacturer associated with this Location. This field can be used as a filter on some reports.</td>
+</tr>
+<tr>
+<td align="left">Main Menu Bulletin Board</td>
+<td align="left">Yes/No - If this is set to Yes, a Manager A (AL 4) can update this information. If set to No, only Super User admins can update this info.</td>
+</tr>
+<tr>
+<td align="left">Click Agreement Path</td>
+<td align="left">Here you can enter a URL to a Click Agreement. If this is filled in, the next time a user logs into this location a window will ask them to agree to the agreement before continuing on. If they decline, they will not be allowed access until they accept.</td>
+</tr>
+<tr>
+<td align="left">API Template Location?</td>
+<td align="left">This will set whether or not this location should be considered a Template location.</td>
+</tr>
+<tr>
+<td align="left">Created By</td>
+<td align="left">This will tell you who or what created this location.</td>
+</tr>
+<tr>
+<td align="left">Chargify Format</td>
+<td align="left">Chargify Format of this location</td>
+</tr>
+<tr>
+<td align="left">Chargify Message</td>
+<td align="left">Coming Soon</td>
+</tr>
+</tbody>
+</table>
+<h3 id="location-information"><strong>Location information</strong></h3>
+<p>This is contact information for the location.</p>
+<h3 id="main-menu-information"><strong>Main Menu Information</strong></h3>
+<p>In this section you can modify the text that appears on the main menu.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Main Menu Information</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Main Menu Bulletin Board Heading</td>
+<td align="left">This is the heading, the text is bold and slightly larger than the body.</td>
+</tr>
+<tr>
+<td align="left">Main Menu Bulletin Board Body</td>
+<td align="left">This is the body, it is smaller than the header text.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="main-menu-left-and-right-region"><strong>Main Menu Left and Right region</strong></h3>
+<p>This section allows you to set the left and right images and text for this location only. Updating this information will override the global settings found under System Management.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Main Menu Left and Right Region</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Choose a file to upload</td>
+<td align="left">The image size should be 174x130 and either be a .PNG or .JPG</td>
+</tr>
+<tr>
+<td align="left">Image Link (Optional)</td>
+<td align="left">You can add a link to the image, this may be used to link to a book for sale, or an upcoming webinar for example.</td>
+</tr>
+<tr>
+<td align="left">Text Area (Optional)</td>
+<td align="left">Here you can write a short message to welcome the user. You can also personalize it using some optional TOKENS</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example how to use the Tokens:</strong></p>
+<p>Hello %Fname% %Lname%! Welcome to %LocationName%! Your username is: %UserName%</p>
+<p>That would look like:</p>
+<p>Hello Han Solo! Welcome to Rebel Command! Your username is: hsolo </p>
+<h3 id="other-location-management-settings"><strong>Other Location Management Settings</strong></h3>
+<p>Various Super User B Privileges will grant you access to more available options. These will typically be available to your top Admin.</p>
+<h3 id="course-settings-copy-courses-with-super-user-b-privilege">Course Settings &amp; Copy Courses (With Super User B Privilege )</h3>
+<p>On the Course Settings tab, you can activate or deactivate content at the location, or export a list of content available at this location.</p>
+<p>On the Copy Courses tab, You can use this feature to copy the course settings from a different location onto the one you are currently in.</p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_setting_course_activation_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_setting_course_activation_sub.png" /></p>
+<p></a></p>
+<h3 id="billing-assigned-system-recent-activity-with-super-user-b-privilege">Billing, Assigned System &amp; Recent Activity (With Super User B Privilege)</h3>
+<p>The Billing tab will show you a read-only output of the billing setup for this location. You can also add an expiration date for the contract or add billing notes about the location.</p>
+<p>The Recent Activity tab will show you recent changes made to the location settings.</p>
+<p>The Assigned to System dropdown will allow you to move this location into another System (You will typically never need this.)</p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_billing_access_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_settings_billing_access_sub.png" /></p>
+<p></a></p>
+<h3 id="location-activation-super-user-b-privilege">Location Activation (Super User B Privilege)</h3>
+<p>With access to the Super User B Privilege for Location Activation, you will be able to activate or deactivate a location. This action is tracked in the "Recent Activity" tab as well.</p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_location_active_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_settings_location_active_sub.png" /></p>
+<p></a></p>
+<h3 id="user-cap-max-of-active-users-super-user-b-privilege">User Cap - Max # of Active Users (Super User B Privilege)</h3>
+<p>This privilege will allow you to modify the maximum number of active users allowed at this location.</p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_user_cap_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_settings_user_cap_sub.png" /></p>
+<p></a></p>
+<h3 id="ghost-users-super-user-b-privilege">Ghost Users (Super User B Privilege)</h3>
+<p>Ghost Users is a feature that will hide users at your location so that they no longer count against the Max # of Users limit. </p>
+<p>As an example, say you require "20 regular users and 1 admin" for a new location, but you do not want the admin to be counted toward the user limit - this feature will allow you to do that.</p>
+<p>Access to Ghost Users is only available at locations where the accounting format is set to "By Location - Application Model (Flat Fee)" OR "By Location - Generation Model (Rev Share)."</p>
+<p>To activate Ghost Users, select the "yes" toggle and then pick which access level should be a ghost user.</p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_ghost_users_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_settings_ghost_users_sub.png" /></p>
+<p></a></p>
+<h2 id="standard-views">Standard Views</h2>
+<h3 id="super-user-b-access-level-2-views">Super User B (Access Level 2) views:</h3>
+<p><strong>General View:</strong></p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_general_sub.png" target="_blank"></p>
+<p><img alt="General" src="../../img/location_settings_general_sub.png" /></p>
+<p></a></p>
+<p><strong>Location Information:</strong></p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_location_information.png" target="_blank"></p>
+<p><img alt="Loc_Info" src="../../img/location_settings_location_information.png" /></p>
+<p></a></p>
+<p><strong>Main Menu Information:</strong></p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_main_menu_info.png" target="_blank"></p>
+<p><img alt="MM_Info" src="../../img/location_settings_main_menu_info.png" /></p>
+<p></a></p>
+<p><strong>Main Menu Left and Right Region</strong></p>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_left-right_region.png" target="_blank"></p>
+<p><img alt="MM_Info" src="../../img/location_settings_left-right_region.png" /></p>
+<p></a></p>
+<h3 id="super-user-c-access-level-3-manager-a-and-manager-b-general-information-view">Super User C (Access Level 3), Manager A, and Manager B General Information view:</h3>
+<p><a href="http://helpdocs.lightspeedvt.com/location_settings/location_settings_general_suc-ma-mb.png" target="_blank"></p>
+<p><img alt="MM_Info" src="../../img/location_settings_general_suc-ma-mb.png" /></p>
+<p></a></p>
               
             </div>
           </div>
